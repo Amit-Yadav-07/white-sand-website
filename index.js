@@ -43,10 +43,8 @@ function CurrentUser(person) {
 
 
 setInterval(() => {
-
     CurrentUser(initialValue++);
     if (initialValue > reviews.length - 1) {
         initialValue = 0;
     }
-
 }, 3000)
