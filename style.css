@@ -360,9 +360,8 @@ p {
 
 /*** Footer Start ***/
 .footer {
-  background: var(--text-color);
-  background-color: #000;
   height: auto;
+  background-color: black;
 }
 
 .footer .footer-item {
