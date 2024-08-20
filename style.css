@@ -261,7 +261,6 @@ body {
     margin-top: 8rem;
   }
 
-
   .box img {
     object-fit: fill;
   }
@@ -279,11 +278,14 @@ body {
   border-radius: 5px;
 }
 
-.card-container {
+.review-card-container {
+  background-color: var(--main-color);
+}
+
+.review-card-container {
   height: auto;
   width: 100%;
-  /* background-color: var(--main-color); */
-  /* box-shadow: 2px 2px 10px rgb(22, 21, 21); */
+  background-color: var(--main-color);
   border-radius: 7px;
   display: flex;
   align-items: center;
@@ -360,6 +362,7 @@ p {
 .footer {
   background: var(--text-color);
   background-color: #000;
+  height: auto;
 }
 
 .footer .footer-item {
@@ -489,7 +492,8 @@ p {
 }
 
 .our-team-container {
-  /* background-color: var(--main-color); */
+  background-color: var(--main-color);
+  padding-bottom: 1rem;
 }
 
 .our-team-parent {
