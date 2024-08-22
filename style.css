@@ -237,11 +237,15 @@ body {
 .recent-img-shadow {
   position: relative;
   height: 100%;
-  width: 0%;
   background-color: rgba(0, 0, 0, 0.6);
   bottom: 100%;
-  /* transform: translateX(-100%); */
+  transform: translateX(-100%);
   transition: all 0.4s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-color);
+  flex-direction: column;
 }
 
 .box {
@@ -254,7 +258,8 @@ body {
 }
 
 .box:hover .recent-img-shadow {
-  width: 100%;
+  transform: translateX(0%);
+
 }
 
 .box:nth-of-type(2),
