@@ -23,7 +23,7 @@ $('.our-team-parent').slick({
             }
         },
         {
-            breakpoint: 800,
+            breakpoint: 950,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2
