@@ -34,6 +34,11 @@ html {
   height: 50px;
 }
 
+.nav-item .nav-link {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
 .nav-link:hover {
   color: var(--secondary-color);
 }
@@ -511,9 +516,9 @@ p {
   height: 400px;
 }
 
-.about-hero-parent-content mark {
+.about-hero-parent-content strong {
   background-color: transparent;
-  /* font-size: 2.5rem; */
+  font-size: 2.6rem;
   color: var(--text-color);
   font-weight: bold;
 }
@@ -669,4 +674,34 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.service-project-container {
+  margin: 2rem 0px;
+}
+
+.service-project-parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  height: auto;
+}
+
+.service-project-item {
+  overflow: hidden;
+  height: 250px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 0px var(--main-color);
+}
+
+.service-project-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s linear;
+  border-radius: 4px;
+}
+
+.service-project-item img:hover {
+  transform: scale(1.1);
 }

@@ -34,3 +34,90 @@ export let reviews = [
     },
 ];
 
+
+
+export const OurTeam = [
+    {
+        image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
+        name: 'Aditya pathak',
+        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
+        instagram: "",
+        facebook: '',
+        linkdin: ''
+    },
+    {
+        image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
+        name: 'Ankit kumar',
+        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
+        instagram: "",
+        facebook: '',
+        linkdin: ''
+    },
+    {
+        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
+        name: 'Divya singh',
+        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
+        instagram: "",
+        facebook: '',
+        linkdin: ''
+    },
+    {
+        image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
+        name: 'Amit Yadav',
+        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
+        instagram: "",
+        facebook: '',
+        linkdin: ''
+    },
+    {
+        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
+        name: 'vishakha',
+        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
+        instagram: "",
+        facebook: '',
+        linkdin: ''
+    },
+
+    {
+        image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
+        name: 'Subhanakar',
+        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
+        instagram: "",
+        facebook: '',
+        linkdin: ''
+    },
+]
+
+
+export const Slides = [
+    {
+        id: 1,
+        image: 'https://images.unsplash.com/photo-1551135049-8a33b5883817?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aHJ8ZW58MHx8MHx8fDA%3D',
+        heading: 'HR services',
+        para: 'Some representative placeholder content for the first slide.'
+    },
+    {
+        id: 2,
+        image: 'https://plus.unsplash.com/premium_photo-1661688164534-db78aaf825b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWNjb3VudGluZyUyMHNlcnZpY2VzfGVufDB8fDB8fHww',
+        heading: 'Accounting',
+        para: 'Some representative placeholder content for the first slide.'
+    },
+    {
+        id: 3,
+        image: 'https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D',
+        heading: 'Web development',
+        para: 'Some representative placeholder content for the first slide.'
+    },
+    {
+        id: 4,
+        image: 'https://images.unsplash.com/photo-1551135049-8a33b5883817?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aHJ8ZW58MHx8MHx8fDA%3D',
+        heading: 'Legal Adviser',
+        para: 'Some representative placeholder content for the first slide.'
+    },
+    {
+        id: 5,
+        image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNvY2lhbCUyMG1lZGlhJTIwbWFya2V0aW5nJTIwYWdlbmN5fGVufDB8fDB8fHww',
+        heading: 'Social Media Manager',
+        para: 'Some representative placeholder content for the first slide.'
+    },
+]

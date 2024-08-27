@@ -1,4 +1,25 @@
-import { reviews } from "./data.js";
+import { reviews, Slides } from "./data.js";
+
+// // Slides
+
+// const carouselInner = document.querySelector('.carousel-inner');
+// carouselInner.innerHTML = Slides.map((slide) => {
+//     const { image, heading, para, id } = slide
+//     return `<div class="carousel-item active" data-bs-interval="3000">
+//                     <img src=${image}
+//                         class="d-block w-100 carousel-img" alt=${para}>
+//                     <div class="carousel-caption d-md-block">
+//                         <h5>${heading}</h5>
+//                         <p>${para}</p>
+//                     </div>
+//                 </div>`
+// }).join('')
+
+
+
+
+
+// Clients
 
 const user_img = document.getElementById('user-img');
 const user_name = document.getElementById('user-name');
@@ -48,3 +69,5 @@ setInterval(() => {
         initialValue = 0;
     }
 }, 3000)
+
+

@@ -1,3 +1,32 @@
+import { OurTeam } from "./data.js";
+
+const ourTeamParent = document.querySelector('.our-team-parent');
+ourTeamParent.innerHTML = OurTeam.map((card) => {
+    const { image, name, disc, instagram, facebook, linkdin } = card;
+    return `<div class="card-container">
+                    <div class="card">
+                        <img src=${image}
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <strong class="card-title">${name}</strong>
+                            <p class="card-text text-start">${disc}</p>
+                            <a href="#" class="btn">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+
+                            <a href="#" class="btn">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href="#" class="btn">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>`
+})
+
+
 
 
 $('.our-team-parent').slick({
