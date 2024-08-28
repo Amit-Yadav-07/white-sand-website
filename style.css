@@ -20,6 +20,7 @@ html {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .header {
@@ -182,7 +183,6 @@ html {
   width: 100%;
   height: auto;
   background-color: rgba(30, 32, 30, 10);
-  /* background-color: rgb(30, 32, 30); */
 }
 
 .about-container h2 {
@@ -260,7 +260,7 @@ html {
   overflow: hidden;
   height: 250px;
   width: 100%;
-  box-shadow: 0px 0px 2px 0pc black;
+  box-shadow: 0px 0px 5px 0px var(--main-color);
   border-radius: 5px;
 }
 
@@ -291,7 +291,7 @@ html {
   }
 
   .box img {
-    object-fit: fill;
+    object-fit: cover;
   }
 }
 
@@ -490,7 +490,7 @@ p {
 
 .about-hero-parent {
   background-color: var(--main-color);
-  min-height: 90vh;
+  min-height: 85vh;
   height: auto;
   display: flex;
   align-items: center;
@@ -705,3 +705,20 @@ p {
 .service-project-item img:hover {
   transform: scale(1.1);
 }
+
+/* blog section */
+
+.blog-container {
+  height: 50vh;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-container h4 {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+

@@ -1,21 +1,11 @@
 import { reviews, Slides } from "./data.js";
+import { header } from ".//header.js";
+import { footer } from "./footer.js";
+console.log(footer);
 
-// // Slides
-
-// const carouselInner = document.querySelector('.carousel-inner');
-// carouselInner.innerHTML = Slides.map((slide) => {
-//     const { image, heading, para, id } = slide
-//     return `<div class="carousel-item active" data-bs-interval="3000">
-//                     <img src=${image}
-//                         class="d-block w-100 carousel-img" alt=${para}>
-//                     <div class="carousel-caption d-md-block">
-//                         <h5>${heading}</h5>
-//                         <p>${para}</p>
-//                     </div>
-//                 </div>`
-// }).join('')
-
-
+// header
+const Head = document.querySelector('.header');
+Head.innerHTML = header;
 
 
 
@@ -71,3 +61,8 @@ setInterval(() => {
 }, 3000)
 
 
+// footer
+
+console.log(footer);
+const foot = document.querySelector('#foot');
+foot.innerHTML = footer;

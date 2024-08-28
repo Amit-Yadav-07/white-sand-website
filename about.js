@@ -1,4 +1,10 @@
 import { OurTeam } from "./data.js";
+import { header } from "./header.js";
+import { footer } from "./footer.js";
+
+const Head = document.querySelector('.header');
+Head.innerHTML = header;
+
 
 const ourTeamParent = document.querySelector('.our-team-parent');
 ourTeamParent.innerHTML = OurTeam.map((card) => {
@@ -96,3 +102,7 @@ const updateCount = (element) => {
 items.forEach((counter) => {
     updateCount(counter)
 })
+
+
+const foot = document.querySelector('#foot');
+foot.innerHTML = footer
