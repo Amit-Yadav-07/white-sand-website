@@ -11,13 +11,16 @@ export const footer = `<div class="footer-container">
                                     </a>
 
                                     <div class="footer-btn d-flex">
-                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
+                                        <a class="btn btn-md-square rounded-circle me-3" target="_blank" href=" https://www.facebook.com/profile.php?id=61564436977440&mibextid=ZbWKwL
+"><i
                                                 class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
-                                                class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
+                                        <a class="btn btn-md-square rounded-circle me-3" target="_blank" href=" https://x.com/thewhitesand_"><i class="fa-brands fa-x-twitter"></i></a>
+                                        <a class="btn btn-md-square rounded-circle me-3" target="_blank" href=" https://www.instagram.com/thewhitesand___?igsh=M3gzNnpwdGd3bjJq
+
+"><i
                                                 class="fab fa-instagram"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-0" href="#"><i
+                                        <a class="btn btn-md-square rounded-circle me-0" target="_blank" href="https://www.linkedin.com/company/thewhitesand/
+"><i
                                                 class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
@@ -26,11 +29,11 @@ export const footer = `<div class="footer-container">
                             <div class="col-md-3 pt-lg-0 pt-2">
                                 <div class="footer-item">
                                     <h4 class="text-white mb-4">Useful Links</h4>
-                                    <a href="about.html" class="text-white"><i class="fas fa-angle-right me-2"></i>
+                                    <a href="about.html" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i>
                                         About Us</a>
-                                    <a href="service.html" class="text-white"><i class="fas fa-angle-right me-2"></i> Services</a>
-                                    <a href="blog.html" class="text-white"><i class="fas fa-angle-right me-2"></i> Blogs</a>
-                                    <a href="contact.html" class="text-white"><i class="fas fa-angle-right me-2"></i>
+                                    <a href="service.html" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i> Services</a>
+                                    <a href="blog.html" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i> Blogs</a>
+                                    <a href="contact.html" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i>
                                         Contact</a>
                                 </div>
                             </div>
@@ -121,4 +124,6 @@ export const footer = `<div class="footer-container">
                 </div>
             </div>
         </div>
-    </div>`
+        <div class='bg-black py-2 text-white text-center'><em>Copyright © The White Sand <span class='date text-white'></span>. All Rights Reserved</em></div>
+    </div>
+    `

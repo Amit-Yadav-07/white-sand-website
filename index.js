@@ -1,7 +1,7 @@
 import { reviews, Slides } from "./data.js";
 import { header } from ".//header.js";
 import { footer } from "./footer.js";
-console.log(footer);
+import { GetFullYear } from "./date.js";
 
 // header
 const Head = document.querySelector('.header');
@@ -62,7 +62,9 @@ setInterval(() => {
 
 
 // footer
-
-console.log(footer);
 const foot = document.querySelector('#foot');
 foot.innerHTML = footer;
+
+
+// date
+GetFullYear();

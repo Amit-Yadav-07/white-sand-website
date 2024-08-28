@@ -26,8 +26,7 @@ html {
 .header {
   width: 100%;
   background-color: #000;
-  position: sticky;
-  top: 0px;
+  position: fixed;
   z-index: 10;
 }
 
@@ -80,7 +79,7 @@ html {
 }
 
 .carousel-item {
-  height: 90vh;
+  height: 100vh;
 }
 
 .carousel-item img {
@@ -722,3 +721,34 @@ p {
   letter-spacing: 3px;
 }
 
+.blog-project-parent {
+  height: auto;
+  /* background-color: yellow; */
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-project-parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.blog-project-box {
+  border: 2px solid black;
+  height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.blog-project-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.7s linear;
+}
+
+.blog-project-box img:hover {
+  transform: scale(1.2);
+}

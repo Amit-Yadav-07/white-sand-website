@@ -45,7 +45,7 @@ export const header = `<nav class="navbar center navbar-expand-lg">
                     </ul>
 
                     <form class="d-flex" role="search">
-                        <a href="https://www.instagram.com/thewhitesand_?igsh=M3gzNnpwdGd3bjJq" class="btn btn-outline-light" target="_blank"  type="submit"><i
+                        <a href="https://www.instagram.com/thewhitesand___?igsh=M3gzNnpwdGd3bjJq" class="btn btn-outline-light" target="_blank"  type="submit"><i
                                 class="fa-brands fa-instagram"></i></a>
                         <a href=" https://www.facebook.com/profile.php?id=61564436977440&mibextid=ZbWKwL
 " class="btn btn-outline-light mx-2" target="_blank" type="submit"><i
@@ -54,6 +54,6 @@ export const header = `<nav class="navbar center navbar-expand-lg">
                     </form>
                 </div>
             </div>
-        </nav>`
-
+        </nav>
+        `
 
