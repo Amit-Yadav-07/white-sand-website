@@ -124,6 +124,6 @@ export const footer = `<div class="footer-container">
                 </div>
             </div>
         </div>
-        <div class='bg-black py-2 text-white text-center'><em>Copyright © The White Sand <span class='date text-white'></span>. All Rights Reserved</em></div>
+        <div class='copyright-section'><em>Copyright © The White Sand <span class='date'></span>. All Rights Reserved</em></div>
     </div>
     `

@@ -104,20 +104,56 @@ export const Slides = [
     },
     {
         id: 3,
-        image: 'https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D',
+        image: './images/9.png',
         heading: 'Web development',
         para: 'Some representative placeholder content for the first slide.'
     },
     {
         id: 4,
-        image: 'https://images.unsplash.com/photo-1551135049-8a33b5883817?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aHJ8ZW58MHx8MHx8fDA%3D',
+        image: './images/4.png',
         heading: 'Legal Adviser',
         para: 'Some representative placeholder content for the first slide.'
     },
     {
         id: 5,
-        image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNvY2lhbCUyMG1lZGlhJTIwbWFya2V0aW5nJTIwYWdlbmN5fGVufDB8fDB8fHww',
+        image: './images/18.png',
         heading: 'Social Media Manager',
         para: 'Some representative placeholder content for the first slide.'
     },
+]
+
+
+export const ourServices = [
+    {
+        icon: 'fa-servicestack',
+        heading: 'HR Service',
+        para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam fuga voluptatem perspiciatis,dicta.'
+    },
+    {
+        icon: 'fa-hashtag',
+        heading: 'social media Management',
+        para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam fuga voluptatem perspiciatis,dicta.'
+    },
+    {
+        icon: 'fa-code',
+        heading: 'web development',
+        para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam fuga voluptatem perspiciatis,dicta.'
+    },
+    {
+        icon: 'fa-file-invoice',
+        heading: 'Accounting',
+        para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam fuga voluptatem perspiciatis,dicta.'
+    },
+    {
+        icon: 'fa-scale-balanced',
+        heading: 'legal adviser',
+        para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam fuga voluptatem perspiciatis,dicta.'
+    }
+]
+
+
+const processSection = [
+    {
+        
+    }
 ]

@@ -66,7 +66,7 @@ $('.our-team-parent').slick({
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 650,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
