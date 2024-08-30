@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            /* Background color for the header */
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            /* Optional: Adds shadow for better visibility */
+            z-index: 1000;
+            /* Keeps the header on top of other content */
+        }
+
+        #content {
+            padding: 20px;
+            height: 2000px;
+            /* Added height for demonstration purposes */
+        }
+    </style>
+    <title>Sticky Header</title>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="content">
+        <!-- Your page content here -->
+        <h1>hello</h1>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const headerElement = document.getElementById('header');
+            // Load header content dynamically
+            headerElement.innerHTML = `
+    <header class="sticky-header">
+      <!-- Your header content here -->
+      <h1>Sticky Header</h1>
+    </header>
+  `;
+        });
+
+    </script>
+</body>
+
+</html>

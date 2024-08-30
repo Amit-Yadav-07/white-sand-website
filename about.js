@@ -3,8 +3,10 @@ import { header } from "./header.js";
 import { footer } from "./footer.js";
 import { GetFullYear } from "./date.js";
 
+
 const Head = document.querySelector('.header');
 Head.innerHTML = header;
+
 
 
 const ourTeamParent = document.querySelector('.our-team-parent');
@@ -77,9 +79,7 @@ $('.our-team-parent').slick({
 
 
 // number counter
-
 const items = [...document.querySelectorAll('.count-num')];
-
 
 const updateCount = (element) => {
     let value = parseInt(element.dataset.value);
@@ -103,6 +103,28 @@ const updateCount = (element) => {
 items.forEach((counter) => {
     updateCount(counter)
 })
+
+
+// Faq section
+
+// const faqs = document.querySelector('.accordion');
+// faqs.innerHTML = FAQ.map((faq) => {
+//     const { question, answer } = faq
+
+//     return `<div class="accordion-item my-1">
+//                         <h2 class="accordion-header">
+//                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
+//                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+//                                 ${question}
+//                             </button>
+//                         </h2>
+//                         <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+//                             <div class="accordion-body">
+//                                 <p class="text-start">${answer}</p>
+//                             </div>
+//                         </div>
+//                     </div>`
+// }).join('')
 
 
 const foot = document.querySelector('#foot');

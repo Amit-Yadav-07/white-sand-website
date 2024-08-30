@@ -92,33 +92,33 @@ export const OurTeam = [
 export const Slides = [
     {
         id: 1,
-        image: 'https://images.unsplash.com/photo-1551135049-8a33b5883817?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aHJ8ZW58MHx8MHx8fDA%3D',
+        image: './images/8.png',
         heading: 'HR services',
-        para: 'Some representative placeholder content for the first slide.'
+        para: 'Empower Your Workforce.Unleash Your Potential'
     },
     {
         id: 2,
-        image: 'https://plus.unsplash.com/premium_photo-1661688164534-db78aaf825b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWNjb3VudGluZyUyMHNlcnZpY2VzfGVufDB8fDB8fHww',
+        image: './images/18.png',
         heading: 'Accounting',
-        para: 'Some representative placeholder content for the first slide.'
+        para: 'Simplify Your Finances. Focus on What Matters'
     },
     {
         id: 3,
         image: './images/9.png',
         heading: 'Web development',
-        para: 'Some representative placeholder content for the first slide.'
+        para: 'Craft a Website that Converts. Attract Your Ideal Clients'
     },
     {
         id: 4,
         image: './images/4.png',
         heading: 'Legal Adviser',
-        para: 'Some representative placeholder content for the first slide.'
+        para: 'Navigate with Confidence. Mitigate Risk, Maximize Success'
     },
     {
         id: 5,
-        image: './images/18.png',
+        image: './images/8.png',
         heading: 'Social Media Manager',
-        para: 'Some representative placeholder content for the first slide.'
+        para: 'Grow Your Audience. create social awareness'
     },
 ]
 
@@ -127,33 +127,130 @@ export const ourServices = [
     {
         icon: 'fa-servicestack',
         heading: 'HR Service',
-        para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam fuga voluptatem perspiciatis,dicta.'
+        para: 'We offer comprehensive HR solutions that streamline workforce management, from recruitment and onboarding to performance management and compliance, ensuring your team is both efficient and engaged.'
     },
     {
         icon: 'fa-hashtag',
         heading: 'social media Management',
-        para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam fuga voluptatem perspiciatis,dicta.'
+        para: "In Social Media Marketing, our expert team develops and implements strategies that enhance brand's online presence.We create engaging content and targeted campaigns that drive growth and build meaningful connections with your audience."
     },
     {
         icon: 'fa-code',
         heading: 'web development',
-        para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam fuga voluptatem perspiciatis,dicta.'
+        para: "In Web Development, we specialize in crafting websites that are both visually stunning and functionally robust. From custom design and development to e-commerce solutions and ongoing maintenance, we build platforms that perform and impress."
     },
     {
         icon: 'fa-file-invoice',
         heading: 'Accounting',
-        para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam fuga voluptatem perspiciatis,dicta.'
+        para: "Our Accounting Services ensure that your financial records are meticulously maintained and analyzed. We provide insightful reporting that supports sound decision-making and maintains your financial health."
     },
     {
         icon: 'fa-scale-balanced',
         heading: 'legal adviser',
-        para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam fuga voluptatem perspiciatis,dicta.'
+        para: "For Legal Advisory, we offer expert guidance to help you navigate regulatory complexities and protect business with expert legal solutions."
     }
 ]
 
 
-const processSection = [
+export const processSection = [
+
     {
-        
-    }
+        icon: 'fa-lightbulb',
+        head: 'Analyze',
+        points: [
+            {
+                one: 'analyzing market trends',
+                two: 'Strategic Orientation',
+                three: 'business intelligence',
+                four: 'competitor analysis',
+            }
+        ]
+    },
+    {
+        icon: 'fa-envelope',
+        head: 'preparation',
+        points: [
+            {
+                one: 'Developing clear business strategy ',
+                two: 'deep market analysis ',
+                three: 'Potential financial solutions',
+            }
+        ]
+
+    },
+    {
+        icon: 'fa-sliders',
+        head: 'Implementation',
+        points: [
+            {
+                one: "It's time to put the plan into action !",
+                two: "budget management",
+                three: "Project assessment",
+                four: "unlocking unexplored markets "
+
+            }
+        ]
+
+    },
+
+    {
+        icon: 'fa-regular fa-circle-check',
+        head: 'Operation',
+        points: [
+            {
+                one: 'creating a systematic workflow',
+                two: 'Monitor progress',
+                three: 'Continuous evaluation',
+                four: 'Optimization'
+            }
+        ]
+
+    },
+
+
+
+]
+
+
+// export const FAQ = [
+//     {
+//         question: 'what is white sand ?',
+//         answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel blanditiis aliquam facere commodi unde. Voluptatibus explicabo dolorem commodi similique pariatur sequi suscipit obcaecati possimus facere minima debitis eum, vel cumque rerum. Nihil ipsam quod culpa praesentium. Fuga asperiores aliquid quos!'
+//     },
+//     {
+//         question: 'What we are doing ?',
+//         answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel blanditiis aliquam facere commodi unde. Voluptatibus explicabo dolorem commodi similique pariatur sequi suscipit obcaecati possimus facere minima debitis eum, vel cumque rerum. Nihil ipsam quod culpa praesentium. Fuga asperiores aliquid quos!'
+//     },
+//     {
+//         question: 'what we provide ?',
+//         answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel blanditiis aliquam facere commodi unde. Voluptatibus explicabo dolorem commodi similique pariatur sequi suscipit obcaecati possimus facere minima debitis eum, vel cumque rerum. Nihil ipsam quod culpa praesentium. Fuga asperiores aliquid quos!'
+//     },
+// ]
+
+
+export const blogItems = [
+    {
+        img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
+        disc: 'Web Ui Design'
+    },
+    {
+        img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
+        disc: 'Web Ui Design'
+    },
+    {
+        img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
+        disc: 'Web Ui Design'
+    },
+    {
+        img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
+        disc: 'Web Ui Design'
+    },
+    {
+        img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
+        disc: 'Web Ui Design'
+    },
+    {
+        img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
+        disc: 'Web Ui Design'
+    },
 ]

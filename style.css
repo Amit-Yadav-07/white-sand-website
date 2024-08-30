@@ -27,7 +27,7 @@ html {
   width: 100%;
   background-color: #000;
   position: sticky;
-  top: 0%;
+  top: 0px;
   z-index: 10;
 }
 
@@ -76,16 +76,17 @@ html {
 
 .carousel-container {
   height: auto;
-  border: 1px solid black;
 }
 
 .carousel-item {
   height: 100vh;
+  background-color: yellowgreen;
 }
 
 .carousel-item img {
   height: 100%;
   object-fit: cover;
+  /* filter: blur(2px); */
 }
 
 .slide {
@@ -154,7 +155,7 @@ html {
   box-shadow: 0px 0px 5px 0px var(--main-color);
 }
 
-.service-box span {
+.service-box > span {
   background-color: var(--main-color);
   color: var(--secondary-color);
   width: 45px;
@@ -167,7 +168,7 @@ html {
   box-shadow: 0px 0px 3px var(--secondary-color);
 }
 
-.service-box span i {
+.service-box > span i {
   font-size: 1.3rem;
 }
 
@@ -194,6 +195,15 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* goal section */
+.goal-parent {
+  height: auto;
+  border: 2px solid black;
+  padding-left: 2rem;
+  width: 80%;
+  margin: 0px auto;
 }
 
 .hero-about-img {
@@ -336,6 +346,12 @@ html {
   color: var(--text-color);
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.process-point {
+  list-style-type: disc;
+  margin-top: 0.5rem;
+  /* background-color: red; */
 }
 
 /* reviews start */
@@ -543,6 +559,10 @@ p {
   font-weight: bold;
 }
 
+.about-hero-parent-content span {
+  letter-spacing: 2px;
+}
+
 .about-img {
   height: 100%;
   width: 100%;
@@ -602,7 +622,7 @@ p {
 }
 
 .card-img-top {
-  height: 260px;
+  height: 250px;
   object-fit: cover;
 }
 
@@ -682,7 +702,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .faq-parent {
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -702,9 +722,24 @@ p {
 
 .service-project-parent {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
   height: auto;
+  width: 100%;
+  margin: 0px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .service-project-parent {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .service-project-parent {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .service-project-item {
@@ -730,7 +765,12 @@ p {
 
 .blog-container {
   height: 50vh;
-  background-color: var(--main-color);
+  background: rgb(103, 70, 54);
+  background: radial-gradient(
+    circle,
+    rgb(77, 51, 38) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   display: flex;
   justify-content: center;
   align-items: center;

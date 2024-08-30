@@ -83,7 +83,7 @@ export const footer = `<div class="footer-container">
 
                                             <div class="text-start">
                                                 <h4 class="text-white">Address</h4>
-                                                <em class="text-white">8,tilak Marg Dalibagh road,
+                                                <em class="text-white">8 , tilak Marg Dalibagh road,
                                                     Lucknow Uttar
                                                     pradesh 226001</em>
                                             </div>
