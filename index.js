@@ -62,24 +62,14 @@ serviceContainer.innerHTML = ourServices.map((service) => {
 process
 const processParent = document.querySelector('#process');
 processParent.innerHTML = processSection.map((process) => {
-    console.log(process);
+    // console.log(process);
     const { icon, points, head } = process
-
-    // process.points.map((point) => {
-    //     console.log(point);
-    //     return `<li>hello</li>`
-    // }).join('')
 
     return `  <div class="col-xl-3 col-sm-6 col-12 my-4">
                         <div class="process text-center">
                             <div class="process-icon"><i class="fa-solid fa-lightbulb"></i></div>
                             <strong>${head}</strong>
-                            <ul class="process-point">
-                                <li>hello</li>
-                                <li>hello</li>
-                                <li>hello</li>
-                                <li>hello</li>
-                            </ul>
+                            <p>Begin by pinpointing potential opportunities for growth. This involves analyzing market trends, customer needs, and competitor activities. The goal is to identify areas where your company can expand, whether through new products, services, or markets.</p>
                         </div>
                     </div>`
 }).join('')

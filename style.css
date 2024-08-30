@@ -80,17 +80,12 @@ html {
 
 .carousel-item {
   height: 100vh;
-  background-color: yellowgreen;
 }
 
 .carousel-item img {
   height: 100%;
   object-fit: cover;
-  /* filter: blur(2px); */
-}
-
-.slide {
-  position: relative;
+  filter: blur(2px);
 }
 
 .carousel-control-next,
@@ -107,6 +102,21 @@ html {
 }
 .carousel-control-next {
   right: 2%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 35%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.carousel-caption h5 {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
 }
 
 /* our services */
@@ -200,9 +210,8 @@ html {
 /* goal section */
 .goal-parent {
   height: auto;
-  border: 2px solid black;
   padding-left: 2rem;
-  width: 80%;
+  width: 100%;
   margin: 0px auto;
 }
 
