@@ -54,7 +54,7 @@ html {
 }
 
 .btn:hover {
-  background-color: #c37d75;
+  background-color: var(--text-color);
   color: var(--secondary-color);
 }
 
@@ -76,6 +76,7 @@ html {
 
 .carousel-container {
   height: auto;
+  position: relative;
 }
 
 .carousel-item {
@@ -92,9 +93,10 @@ html {
 .carousel-control-prev {
   background-color: var(--main-color);
   height: 50px;
-  width: auto;
+  width: 50px;
   position: absolute;
   top: 50%;
+  border-radius: 50%;
 }
 
 .carousel-control-prev {
@@ -106,12 +108,24 @@ html {
 
 .carousel-caption {
   position: absolute;
-  top: 35%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(195, 125, 117, 0.5);
   /* background-color: rgba(0, 0, 0, 0.5); */
+  width: 90%;
+  height: auto;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-caption {
+    width: 70%;
+  }
 }
 
 .carousel-caption h5 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   letter-spacing: 2px;
 }
 
@@ -719,7 +733,7 @@ p {
 
 .service-banner {
   height: 400px;
-  background-image: url('./images/Rectangle\ 2.png');
+  background-image: url('./images/Rectangle.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

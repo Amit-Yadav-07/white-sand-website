@@ -3,6 +3,7 @@ import { header } from "./header.js";
 import { footer } from "./footer.js";
 import { GetFullYear } from "./date.js";
 
+AOS.init();
 
 const Head = document.querySelector('.header');
 Head.innerHTML = header;
@@ -12,7 +13,7 @@ Head.innerHTML = header;
 const ourTeamParent = document.querySelector('.our-team-parent');
 ourTeamParent.innerHTML = OurTeam.map((card) => {
     const { image, name, disc, instagram, facebook, linkdin } = card;
-    return `<div class="card-container">
+    return `<div class="card-container" data-aos="fade-up" data-aos-duration="2000">
                     <div class="card">
                         <img src=${image}
                             class="card-img-top" alt="...">

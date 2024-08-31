@@ -125,29 +125,29 @@ export const Slides = [
 
 export const ourServices = [
     {
-        icon: 'fa-servicestack',
+        icon: 'fa-user-shield',
         heading: 'HR Service',
-        para: 'We offer comprehensive HR solutions that streamline workforce management, from recruitment and onboarding to performance management and compliance, ensuring your team is both efficient and engaged.'
+        para: "Human Resources management helps you unlock your employees' full potential.We offer comprehensive HR solutions, from recruitment and onboarding to performance management and legal compliance."
     },
     {
         icon: 'fa-hashtag',
         heading: 'social media Management',
-        para: "In Social Media Marketing, our expert team develops and implements strategies that enhance brand's online presence.We create engaging content and targeted campaigns that drive growth and build meaningful connections with your audience."
+        para: "White Sand takes your social media presence to the next level. We develop strategic social media campaigns that attract and engage target audiences."
     },
     {
         icon: 'fa-code',
         heading: 'web development',
-        para: "In Web Development, we specialize in crafting websites that are both visually stunning and functionally robust. From custom design and development to e-commerce solutions and ongoing maintenance, we build platforms that perform and impress."
+        para: "We create beautiful, user-friendly websites that drive results. We analyze your business goals and create a website that converts visitors into leads and customers."
     },
     {
         icon: 'fa-file-invoice',
         heading: 'Accounting',
-        para: "Our Accounting Services ensure that your financial records are meticulously maintained and analyzed. We provide insightful reporting that supports sound decision-making and maintains your financial health."
+        para: "The White Sand offers accounting solutions for your business to expand effortlessly. We handle bookkeeping, payroll, tax preparation, and financial reporting"
     },
     {
         icon: 'fa-scale-balanced',
         heading: 'legal adviser',
-        para: "For Legal Advisory, we offer expert guidance to help you navigate regulatory complexities and protect business with expert legal solutions."
+        para: "The expert legal guidance at The White Sand helps you navigate the complexities of business law. We specialize in employment law, intellectual property, and other legal matters, providing expert advice."
     }
 ]
 
@@ -155,55 +155,28 @@ export const ourServices = [
 export const processSection = [
 
     {
-        icon: 'fa-lightbulb',
+        icon: 'fa-magnifying-glass-chart',
         head: 'Analyze',
-        points: [
-            {
-                one: 'analyzing market trends',
-                two: 'Strategic Orientation',
-                three: 'business intelligence',
-                four: 'competitor analysis',
-            }
-        ]
+        points: 'Begin by pinpointing potential opportunities for growth. This involves analyzing market trends, customer needs, and competitor activities. The goal is to identify areas where your company can expand, whether through new products, services, or markets.'
+
     },
     {
-        icon: 'fa-envelope',
+        icon: 'fa-wrench',
         head: 'preparation',
-        points: [
-            {
-                one: 'Developing clear business strategy ',
-                two: 'deep market analysis ',
-                three: 'Potential financial solutions',
-            }
-        ]
+        points: "Begin by pinpointing potential opportunities for growth.This involves analyzing market trends, customer needs, and competitor activities.The goal is to identify areas where your company can expand, whether through new products, services, or markets."
 
     },
     {
         icon: 'fa-sliders',
         head: 'Implementation',
-        points: [
-            {
-                one: "It's time to put the plan into action !",
-                two: "budget management",
-                three: "Project assessment",
-                four: "unlocking unexplored markets "
-
-            }
-        ]
+        points: "Begin by pinpointing potential opportunities for growth.This involves analyzing market trends, customer needs, and competitor activities.The goal is to identify areas where your company can expand, whether through new products, services, or markets."
 
     },
 
     {
-        icon: 'fa-regular fa-circle-check',
+        icon: 'fa-hand-holding-heart',
         head: 'Operation',
-        points: [
-            {
-                one: 'creating a systematic workflow',
-                two: 'Monitor progress',
-                three: 'Continuous evaluation',
-                four: 'Optimization'
-            }
-        ]
+        points: "Begin by pinpointing potential opportunities for growth.This involves analyzing market trends, customer needs, and competitor activities.The goal is to identify areas where your company can expand, whether through new products, services, or markets."
 
     },
 
@@ -212,20 +185,28 @@ export const processSection = [
 ]
 
 
-// export const FAQ = [
-//     {
-//         question: 'what is white sand ?',
-//         answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel blanditiis aliquam facere commodi unde. Voluptatibus explicabo dolorem commodi similique pariatur sequi suscipit obcaecati possimus facere minima debitis eum, vel cumque rerum. Nihil ipsam quod culpa praesentium. Fuga asperiores aliquid quos!'
-//     },
-//     {
-//         question: 'What we are doing ?',
-//         answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel blanditiis aliquam facere commodi unde. Voluptatibus explicabo dolorem commodi similique pariatur sequi suscipit obcaecati possimus facere minima debitis eum, vel cumque rerum. Nihil ipsam quod culpa praesentium. Fuga asperiores aliquid quos!'
-//     },
-//     {
-//         question: 'what we provide ?',
-//         answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel blanditiis aliquam facere commodi unde. Voluptatibus explicabo dolorem commodi similique pariatur sequi suscipit obcaecati possimus facere minima debitis eum, vel cumque rerum. Nihil ipsam quod culpa praesentium. Fuga asperiores aliquid quos!'
-//     },
-// ]
+export const serviceDetails = [
+    {
+        heading: 'HR services',
+        para: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam asperiores explicabo inventore quasi ad nostrum. Impedit ullam fuga, possimus maiores sunt id. Enim porro quasi accusamus cupiditate ipsa'
+    },
+    {
+        heading: 'Accounting',
+        para: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam asperiores explicabo inventore quasi ad nostrum. Impedit ullam fuga, possimus maiores sunt id. Enim porro quasi accusamus cupiditate ipsa'
+    },
+    {
+        heading: 'Web development',
+        para: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam asperiores explicabo inventore quasi ad nostrum. Impedit ullam fuga, possimus maiores sunt id. Enim porro quasi accusamus cupiditate ipsa'
+    },
+    {
+        heading: 'Social media manager',
+        para: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam asperiores explicabo inventore quasi ad nostrum. Impedit ullam fuga, possimus maiores sunt id. Enim porro quasi accusamus cupiditate ipsa'
+    },
+    {
+        heading: 'Legal Adviser',
+        para: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam asperiores explicabo inventore quasi ad nostrum. Impedit ullam fuga, possimus maiores sunt id. Enim porro quasi accusamus cupiditate ipsa'
+    },
+]
 
 
 export const blogItems = [
@@ -252,5 +233,27 @@ export const blogItems = [
     {
         img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
         disc: 'Web Ui Design'
+    },
+]
+
+
+export const serviceProject = [
+    {
+        image: './images/Rectangle.png'
+    },
+    {
+        image: './images/Rectangle.png'
+    },
+    {
+        image: './images/Rectangle.png'
+    },
+    {
+        image: './images/Rectangle.png'
+    },
+    {
+        image: './images/Rectangle.png'
+    },
+    {
+        image: './images/Rectangle.png'
     },
 ]

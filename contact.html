@@ -19,6 +19,8 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>the white sand</title>
 </head>
@@ -38,7 +40,7 @@
     <div class="from-container mb-5 py-5">
         <div class="center">
             <div class="row">
-                <div class="col-md-5 col-12">
+                <div class="col-md-5 col-12" data-aos="fade-right" data-aos-duration="2000">
                     <div class="form-content pt-2">
                         <h2 class="display-5">Let's Talk</h2>
                         <em class="text-capitalize" style="font-size: 1.1rem; letter-spacing: 2px;">a one stop
@@ -70,7 +72,7 @@
                 </div>
 
                 <!-- from section start -->
-                <div class="col-md-7 col-12 py-2">
+                <div class="col-md-7 col-12 py-2" data-aos="fade-left" data-aos-duration="2000">
                     <form action="https://api.web3forms.com/submit" method="POST">
                         <input type="hidden" name="access_key" value="45fc8585-ec35-4976-abe2-b98e8289f6cd">
 
@@ -126,10 +128,11 @@
 
     <div class="map-container">
         <div class="center">
-            <div class="map-parent">
-                <iframe class="" width="100%" height="100%"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.707278815896!2d80.95600662366878!3d26.84926116281772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd10bb2cfab1%3A0x51f0ba3732ecf478!2sDalibagh%20Colony%2C%20Butler%20Colony%2C%20Lucknow%2C%20Uttar%20Pradesh%20226001!5e0!3m2!1sen!2sin!4v1724151195276!5m2!1sen!2sin"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-parent" data-aos="fade-up" data-aos-duration="2000">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.710722638524!2d80.95746757366881!3d26.849151662822393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd2ed292904b%3A0x5f2de19c960d620d!2sThe%20White%20Sand!5e0!3m2!1sen!2sin!4v1725092672101!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
@@ -141,7 +144,7 @@
     <footer id="foot"></footer>
     <!-- Footer End -->
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="./contact.js"></script>
 
 </body>

@@ -6,6 +6,8 @@ const foot = document.querySelector('#foot');
 Head.innerHTML = header;
 foot.innerHTML = footer;
 
+AOS.init()
+
 GetFullYear();
 
 
