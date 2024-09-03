@@ -117,7 +117,7 @@ export const Slides = [
     {
         id: 5,
         image: './images/8.png',
-        heading: 'Social Media Manager',
+        heading: 'Social Media Marketing',
         para: 'Grow Your Audience. create social awareness'
     },
 ]
@@ -155,28 +155,28 @@ export const ourServices = [
 export const processSection = [
 
     {
-        icon: 'fa-magnifying-glass-chart',
-        head: 'Analyze',
-        points: 'Begin by pinpointing potential opportunities for growth. This involves analyzing market trends, customer needs, and competitor activities. The goal is to identify areas where your company can expand, whether through new products, services, or markets.'
+        icon: 'fa-sliders',
+        head: 'Implementation',
+        points: "It's time to put the plan into action. We break into unexplored markets  and conduct  Project assessments for effective implementation."
 
     },
     {
         icon: 'fa-wrench',
-        head: 'preparation',
-        points: "Begin by pinpointing potential opportunities for growth.This involves analyzing market trends, customer needs, and competitor activities.The goal is to identify areas where your company can expand, whether through new products, services, or markets."
+        head: 'Preparation',
+        points: "Once the goal is identified it's time to prepare a strategic plan. This includes developing a clear business strategy performing deep market analysis and finding potential financial solutions."
 
     },
     {
-        icon: 'fa-sliders',
-        head: 'Implementation',
-        points: "Begin by pinpointing potential opportunities for growth.This involves analyzing market trends, customer needs, and competitor activities.The goal is to identify areas where your company can expand, whether through new products, services, or markets."
+        icon: 'fa-magnifying-glass-chart',
+        head: 'Analyze',
+        points: 'Ideas are the first step toward growth. We put all the effort into making your idea into reality. This involves analyzing market, and competitor activities and identifying areas where your company can expand.'
 
     },
 
     {
         icon: 'fa-hand-holding-heart',
-        head: 'Operation',
-        points: "Begin by pinpointing potential opportunities for growth.This involves analyzing market trends, customer needs, and competitor activities.The goal is to identify areas where your company can expand, whether through new products, services, or markets."
+        head: 'Execution',
+        points: "After implementation, we will focus on smooth operations for better results. We monitor progress, make adjustments, and ensure systematic workflow. Continuous evaluation is conducted for optimized growth."
 
     },
 
@@ -256,4 +256,33 @@ export const serviceProject = [
     {
         image: './images/Rectangle.png'
     },
+]
+
+
+export const Faqs = [
+
+    {
+        openid: 'collapseOne',
+        questions: "What is the white sand ?",
+        answers: "The White Sand is your partner in business growth. We offer comprehensive services,including Human Resources management, social media marketing, web development, accounting, and legal advising.As a business development company,we'll help you expand your reach, strengthen your brand, and unlock new opportunities in the competitive market."
+    },
+
+    {
+        openid: 'collapseTwo',
+        questions: "What services do you offer ?",
+        answers: "We offer comprehensive services including Human Resources services, social media marketing, web development, accounting,and legal advising.Check our Services section to learn more about our services."
+    },
+    {
+        openid: 'collapseThree',
+        questions: "How can business development help my business ?",
+        answers: "Business development is a process of elevating your business to new reach. It consists of a series of steps.It helps in: "
+    },
+
+    {
+        openid: 'collapseFive',
+        questions: "How does The White Sand ensure that its services are tailored to my specific business needs ?",
+        answers: "We thoroughly assess your business goals and challenges to develop a customized plan that addresses your unique requirements.We have a team of experts working 24/7 to monitor your goal."
+    },
+
+
 ]

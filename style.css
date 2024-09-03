@@ -8,11 +8,16 @@
 
 :root {
   --main-color: #1e201e;
-  --secondary-color: #f5f7f8;
+  --secondary-color: #f5f5f5;
   --section-margin: 3rem 0px;
   --text-color: #db9890;
 }
 /* #64ccc5 */
+
+.dark-mode {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
 
 body,
 html {
@@ -21,6 +26,8 @@ html {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
 }
 
 .header {
@@ -28,7 +35,7 @@ html {
   background-color: #000;
   position: sticky;
   top: 0px;
-  z-index: 10;
+  z-index: 20;
 }
 
 .logo-img {
@@ -131,6 +138,7 @@ html {
 
 .carousel-caption p {
   font-size: 1.5rem;
+  letter-spacing: 3px;
 }
 
 /* our services */
@@ -200,6 +208,19 @@ html {
   padding: 0px;
   text-align: start;
   letter-spacing: 1px;
+}
+
+.qoute {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.details-content {
+  display: inline-block;
+  margin-left: 1rem;
 }
 
 /* about section */
@@ -339,13 +360,12 @@ html {
 }
 
 .process {
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
-  box-shadow: 0px 0px 2px 0px black;
 }
 
 .process-icon {
@@ -392,13 +412,22 @@ html {
 .review-card-container {
   height: auto;
   width: 100%;
-  background-color: var(--main-color);
+  /* background-color: var(--main-color); */
+  background-color: white;
   border-radius: 7px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: var(--secondary-color);
+  color: var(--main-color);
   /* box-shadow: 0px 0px 3px 0px black; */
+}
+
+.review-box {
+  height: 60px;
+  width: 60px;
+  background-color: yellowgreen;
+  margin-top: 5rem;
+  border-radius: 50%;
 }
 
 figure {
@@ -721,6 +750,10 @@ p {
   width: 100%;
   margin: 0px auto;
   /* align-items: center; */
+}
+
+.accordion-item {
+  text-transform: capitalize;
 }
 
 @media screen and (min-width: 768px) {

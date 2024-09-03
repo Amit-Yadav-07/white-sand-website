@@ -30,13 +30,9 @@ export const header = `<nav class="navbar center navbar-expand-lg">
                                 <li><a class="dropdown-item" href="service.html">Accounting</a></li>
                                 <li><a class="dropdown-item" href="service.html">Legal Adviser</a></li>
                                 <li><a class="dropdown-item" href="service.html">Web development</a></li>
-                                <li><a class="dropdown-item" href="service.html">social media management</a></li>
+                                <li><a class="dropdown-item" href="service.html">social media Marketing</a></li>
                             </ul>
 
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
                         </li>
 
                         <li class="nav-item">

@@ -9,12 +9,6 @@ AOS.init();
 
 import { header } from "./header.js";
 Head.innerHTML = header;
-// const computedStyle = window.getComputedStyle(Head);
-// console.log(computedStyle.getPropertyValue('position'));
-// let newHeader = document.querySelector('.header')
-// newHeader.setAttribute('position', 'sticky');
-// newHeader.setAttribute('top', '0%');
-// console.log(window.getComputedStyle(newHeader).getPropertyValue('position'));
 
 
 // sliders 
