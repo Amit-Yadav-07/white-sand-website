@@ -23,6 +23,7 @@ AOS.init();
 serviceParent.innerHTML = serviceProject.map((serviceBox) => {
     return `<div class="service-project-item" data-aos="fade-up" data-aos-duration="2000">
                     <img src=${serviceBox.image} alt="">
+                    <strong class='bg-danger'>hello</strong>
                 </div>`
 }).join('')
 

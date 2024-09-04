@@ -34,6 +34,7 @@ export const footer = `<div class="footer-container">
                                     <a href="about.html" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i>
                                         About Us</a>
                                     <a href="service.html" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i> Services</a>
+                                    <a href="blog.html" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i>Blog</a>
                                     <a href="contact.html" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i>
                                         Contact</a>
                                 </div>

@@ -94,13 +94,13 @@ export const Slides = [
         id: 1,
         image: './images/8.png',
         heading: 'HR services',
-        para: 'Empower Your Workforce.Unleash Your Potential'
+        para: 'Empower Your Workforce Unleash Your Potential'
     },
     {
         id: 2,
         image: './images/18.png',
         heading: 'Accounting',
-        para: 'Simplify Your Finances. Focus on What Matters'
+        para: 'Simplify Your Finances Focus on What Matters'
     },
     {
         id: 3,
@@ -153,11 +153,10 @@ export const ourServices = [
 
 
 export const processSection = [
-
     {
-        icon: 'fa-sliders',
-        head: 'Implementation',
-        points: "It's time to put the plan into action. We break into unexplored markets  and conduct  Project assessments for effective implementation."
+        icon: 'fa-magnifying-glass-chart',
+        head: 'Analyze',
+        points: 'Ideas are the first step toward growth. We put all the effort into making your idea into reality. This involves analyzing market, competitor activities and identifying areas where your company can expand.'
 
     },
     {
@@ -166,10 +165,11 @@ export const processSection = [
         points: "Once the goal is identified it's time to prepare a strategic plan. This includes developing a clear business strategy performing deep market analysis and finding potential financial solutions."
 
     },
+
     {
-        icon: 'fa-magnifying-glass-chart',
-        head: 'Analyze',
-        points: 'Ideas are the first step toward growth. We put all the effort into making your idea into reality. This involves analyzing market, and competitor activities and identifying areas where your company can expand.'
+        icon: 'fa-sliders',
+        head: 'Implementation',
+        points: "It's time to put the plan into action. We break into unexplored markets  and conduct  Project assessments for effective implementation."
 
     },
 
@@ -211,7 +211,20 @@ export const serviceDetails = [
 
 export const blogItems = [
     {
-        img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
+        img: './images/our-squad-1.png',
+        disc: 'Our Squad'
+    },
+    {
+        img: './images/our-squad-3.png',
+        disc: 'Our Squad'
+    },
+    {
+        img: './images/our-squard-2.png',
+        disc: 'Our Squad'
+    },
+
+    {
+        img: './images/rg-lites.png',
         disc: 'Web Ui Design'
     },
     {
@@ -222,14 +235,17 @@ export const blogItems = [
         img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
         disc: 'Web Ui Design'
     },
+
     {
         img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
         disc: 'Web Ui Design'
     },
+
     {
         img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
         disc: 'Web Ui Design'
     },
+
     {
         img: 'https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww',
         disc: 'Web Ui Design'

@@ -52,21 +52,23 @@ serviceContainer.innerHTML = ourServices.map((service) => {
 }).join('')
 
 
-process
-const processParent = document.querySelector('#process');
-processParent.innerHTML = processSection.map((process) => {
-    // console.log(process);
-    const { icon, points, head } = process;
-    console.log(points);
+//process
+// const processParent = document.querySelector('#process');
+// processParent.innerHTML = processSection.map((process) => {
+//     // console.log(process);
+//     const { icon, points, head } = process;
+//     console.log(points);
 
-    return `  <div class="col-xl-3 col-sm-6 col-12 my-4" data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
-                        <div class="process text-center">
-                            <div class="process-icon"><i class="fa-solid ${icon}"></i></div>
-                            <strong>${head}</strong>
-                            <p>${points}</p>
-                        </div>
-                    </div>`
-}).join('')
+//     return `  
+// <div class="col-xl-3 col-sm-6 col-12 my-4" data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+// <div class="process text-center">
+//         <div class="process-icon"><i class="fa-solid ${icon}"></i></div>
+//         <strong>${head}</strong>
+//         <p>${points}</p>
+//     </di    v>
+// </div>
+//     `
+// }).join('')
 
 
 // review slides
@@ -126,3 +128,5 @@ foot.innerHTML = footer;
 
 // date
 GetFullYear();
+
+
