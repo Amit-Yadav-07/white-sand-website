@@ -65,7 +65,7 @@ serviceContainer.innerHTML = ourServices.map((service) => {
 //         <div class="process-icon"><i class="fa-solid ${icon}"></i></div>
 //         <strong>${head}</strong>
 //         <p>${points}</p>
-//     </di    v>
+//     </div>
 // </div>
 //     `
 // }).join('')

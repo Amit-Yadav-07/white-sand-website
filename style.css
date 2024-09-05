@@ -82,7 +82,7 @@ html {
 /* carousel slides */
 
 .carousel-container {
-  height: 450px;
+  height: auto;
   /* position: relative; */
 }
 
@@ -370,17 +370,18 @@ html {
 .process-parent {
   width: 100%;
   height: auto;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   display: grid;
   grid-template-columns: 1fr;
   padding: 1rem;
   place-items: center;
   gap: 1rem;
+  padding: 2rem 0px;
 }
 
 .process-why-section {
-  border: 2px solid black;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .process-boxes {
@@ -388,12 +389,12 @@ html {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 0.5rem;
+  gap: 2rem;
 }
 
 .process-box {
-  height: 180px;
-  border: 2px solid black;
+  height: auto;
+  /* border: 2px solid black; */
 }
 
 .process {
