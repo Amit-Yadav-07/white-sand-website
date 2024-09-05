@@ -224,7 +224,7 @@ export const blogItems = [
     },
 
     {
-        img: './images/rg-wlites.png',
+        img: './images/rg-lites.png',
         disc: 'Web Ui Design'
     },
     {
