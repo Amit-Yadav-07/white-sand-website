@@ -40,7 +40,7 @@ ourTeamParent.innerHTML = OurTeam.map((card) => {
 
 
 $('.our-team-parent').slick({
-    dots: true,
+    // dots: true,
     autoplaySpeed: 3000,
     // centerMode: true,
     // centerPadding: '80px',
