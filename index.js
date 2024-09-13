@@ -41,10 +41,10 @@ const text = slide.innerHTML = Slides.map((slide, index) => {
 
 const serviceContainer = document.querySelector('.service-box-container');
 serviceContainer.innerHTML = ourServices.map((service) => {
-    const { icon, heading, para } = service;
+    const { img, heading, para } = service;
     return `<a href="./service.html" class="text-decoration-none" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="service-box">
-                        <span><i class='fa-solid ${icon}'></i></span>
+                        <div class='' style="height:200px"><img class='h-100 w-100' src="${img}" alt='${heading}'/></div>
                         <h5>${heading}</h5>
                         <p>${para}</p>
                     </div>
