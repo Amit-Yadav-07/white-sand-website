@@ -26,10 +26,10 @@ export const header = `<nav class="navbar center navbar-expand-lg">
                             </a>
 
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="service.html">HR Services</a></li>
-                                <li><a class="dropdown-item" href="service.html">Accounting</a></li>
+                                <li><a class="dropdown-item" href="./service-pages/human_resource.html">HR Services</a></li>
+                                <li><a class="dropdown-item" href="./service-pages/accounting.html">Accounting</a></li>
                                 <li><a class="dropdown-item" href="service.html">Legal Adviser</a></li>
-                                <li><a class="dropdown-item" href="service.html">Web development</a></li>
+                                <li><a class="dropdown-item" href="./service-pages/web_developement.html">Web development</a></li>
                                 <li><a class="dropdown-item" href="service.html">social media Marketing</a></li>
                             </ul>
 

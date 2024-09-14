@@ -124,10 +124,11 @@ export const Slides = [
 
 
 export const ourServices = [
+
     {
-        img: './images/Online resume-cuate.svg',
-        heading: 'HR Service',
-        para: "Human Resources management helps you unlock your employees' full potential.We offer comprehensive HR solutions, from recruitment and onboarding to performance management and legal compliance."
+        img: './images/Investment data-amico.svg',
+        heading: 'Accounting',
+        para: "The White Sand offers accounting solutions for your business to expand effortlessly. We handle bookkeeping, payroll, tax preparation, and financial reporting"
     },
     {
         img: './images/Mobile Marketing-pana.svg',
@@ -140,9 +141,9 @@ export const ourServices = [
         para: "We create beautiful, user-friendly websites that drive results. We analyze your business goals and create a website that converts visitors into leads and customers."
     },
     {
-        img: './images/Investment data-amico.svg',
-        heading: 'Accounting',
-        para: "The White Sand offers accounting solutions for your business to expand effortlessly. We handle bookkeeping, payroll, tax preparation, and financial reporting"
+        img: './images/Online resume-cuate.svg',
+        heading: 'HR Service',
+        para: "Human Resources management helps you unlock your employees' full potential.We offer comprehensive HR solutions, from recruitment and onboarding to performance management and legal compliance."
     },
     {
         img: './images/Law firm-bro.svg',
