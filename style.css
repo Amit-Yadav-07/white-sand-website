@@ -165,10 +165,10 @@ html {
 .service-box-container {
   height: auto;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
-  justify-content: center;
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); */
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .service-box {
@@ -177,6 +177,7 @@ html {
   color: var(--main-color);
   min-height: 200px;
   height: auto;
+  margin: 0px 0.6rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -355,36 +356,26 @@ html {
   }
 
   .grid-1 {
-    background-color: blue;
     grid-column: 1/3;
     /* grid-row: 1/3; */
   }
 
   .grid-2 {
-    background-color: red;
     grid-column: 3/-1;
     /* grid-row: 1/2; */
-  
   }
 
   .grid-3 {
-    background-color: yellow;
     grid-column: 1/4;
     /* grid-row: 3/-1;
     height: auto; */
   }
 
   .grid-4 {
-    background-color: violet;
     grid-column: 4/-1;
     /* grid-row: 3/5;
     height: auto; */
   }
-
-  /* .box:nth-of-type(2),
-  .box:nth-of-type(4) {
-    margin-top: 8rem;
-  } */
 
   .box img {
     object-fit: fill;
@@ -393,7 +384,7 @@ html {
 
 @media screen and (min-width: 1350px) {
   .box {
-    height: 300px;
+    height: 440px;
   }
 }
 
@@ -976,3 +967,32 @@ p {
 /* .blog-img-parent img:hover {
   transform: scale(1.2);
 } */
+
+/* single pages */
+
+.accounting-container {
+  min-height: 80vh;
+  height: auto;
+}
+
+.accounting-img {
+  height: 60vh;
+  width: 80%;
+}
+
+.accounting-content {
+  /* background-color: yellowgreen; */
+}
+
+.accounting-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.underline {
+  height: 3px;
+  background-color: var(--text-color);
+  width: 150px;
+  border-radius: 10px;
+  margin: 0px auto;
+}

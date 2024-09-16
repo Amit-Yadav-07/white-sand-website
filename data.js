@@ -126,26 +126,31 @@ export const Slides = [
 export const ourServices = [
 
     {
+        anchor: './accounting.html',
         img: './images/Investment data-amico.svg',
         heading: 'Accounting',
         para: "The White Sand offers accounting solutions for your business to expand effortlessly. We handle bookkeeping, payroll, tax preparation, and financial reporting"
     },
     {
+        anchor: './social_media.html',
         img: './images/Mobile Marketing-pana.svg',
         heading: 'social media Management',
         para: "White Sand takes your social media presence to the next level. We develop strategic social media campaigns that attract and engage target audiences."
     },
     {
+        anchor: './web_developement.html',
         img: './images/Development-cuate.svg',
         heading: 'web development',
         para: "We create beautiful, user-friendly websites that drive results. We analyze your business goals and create a website that converts visitors into leads and customers."
     },
     {
+        anchor: './human_resource.html',
         img: './images/Online resume-cuate.svg',
         heading: 'HR Service',
         para: "Human Resources management helps you unlock your employees' full potential.We offer comprehensive HR solutions, from recruitment and onboarding to performance management and legal compliance."
     },
     {
+        anchor: './legal.html',
         img: './images/Law firm-bro.svg',
         heading: 'legal adviser',
         para: "The expert legal guidance at The White Sand helps you navigate the complexities of business law. We specialize in employment law, intellectual property, and other legal matters, providing expert advice."

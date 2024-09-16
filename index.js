@@ -41,8 +41,9 @@ const text = slide.innerHTML = Slides.map((slide, index) => {
 
 const serviceContainer = document.querySelector('.service-box-container');
 serviceContainer.innerHTML = ourServices.map((service) => {
-    const { img, heading, para } = service;
-    return `<a href="./service.html" class="text-decoration-none" data-aos="zoom-in" data-aos-duration="1500">
+    const { img, heading, para, anchor } = service;
+    // console.log(anchor);
+    return `<a href="${anchor}" class="text-decoration-none" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="service-box">
                         <div style="height:200px"><img class='h-100 w-100' src="${img}" alt='${heading}'/></div>
                         <h5>${heading}</h5>
@@ -50,6 +51,50 @@ serviceContainer.innerHTML = ourServices.map((service) => {
                     </div>
                 </a>`
 }).join('')
+
+
+// sclick
+
+
+$('.service-box-container').slick({
+    // dots: true,
+    autoplaySpeed: 3000,
+    // centerMode: true,
+    // centerPadding: '80px',
+    slidesToScroll: 1,
+    autoplay: true,
+    infinite: true,
+    speed: 100,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 950,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 650,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
+});
 
 
 //process
