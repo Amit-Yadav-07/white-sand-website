@@ -32,14 +32,17 @@
             <h2 class="text-center mt-5">Social Media Management</h2>
             <div class="underline"></div>
             <div class="row my-5">
-                <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" style="height: 400px;" data-aos="fade-right" data-aos-duration="1500">
+                <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" style="height: 400px;"
+                    data-aos="fade-right" data-aos-duration="1500">
                     <div class="accounting-img">
                         <img src="./Social media-rafiki.svg" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-duration="1500">
-                    <div class="accounting-content">
-                        <p class="text-start">Accounting serves as the foundation of financial management within an
+                <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" data-aos="fade-left"
+                    data-aos-duration="1500">
+                    <div class="single-content">
+                        <p class="text-start" style="font-size: 1.2rem;">Accounting serves as the foundation of
+                            financial management within an
                             organization. By
                             systematically recording,
                             summarizing, and analyzing financial transactions, accounting provides a comprehensive view
@@ -54,6 +57,135 @@
                     </div>
                 </div>
             </div>
+
+            <!-- ----------------------tabs start --------------------------------- -->
+
+            <section class="single-page-tabs">
+
+                <article class="about">
+                    <!-- btn container -->
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="btn-container col-md-4 col-12">
+                            <ul>
+                                <li class="num btn-active" data-id="Registration">Strategy Development</li>
+                                <li class="num" data-id="Community">Community Building</li>
+                                <li class="num" data-id="Content">Content Creation</li>
+                                <li class="num" data-id="Analysis">Social media Analysis</li>
+                                <li class="num" data-id="Optimization">Account Setup & Optimization</li>
+                                <li class="num" data-id="Hashtag">Hashtag strategies</li>
+                                <li class="num" data-id="Analytics">24/7 Reporting & Analytics</li>
+                            </ul>
+                        </div>
+
+                        <div class="information content-active col-md-8" id="Strategy">
+                            <!-- first -->
+                            <p>
+                                <strong>Strategy Development</strong> is the essential process of creating a
+                                comprehensive social media
+                                plan that outlines your goals,
+                                identifies your target audience, defines your content strategy, and establishes
+                                effective steps to achieve success on
+                                social media platforms. The White Sand identifies the most suitable platforms, content
+                                types, and posting frequencies to
+                                boost your company.
+
+                            </p>
+                            <!-- end-first -->
+                        </div>
+
+                        <!-- second -->
+                        <div class="information col-md-8 col-12" id="Community">
+                            <p>
+                                <strong>Community Building</strong> is The process of creating a vibrant online presence
+                                for your brand
+                                between a group of followers who
+                                not only engage with your content but also become enthusiastic advocates for your
+                                products or services. This is the
+                                power of community building in social media marketing. It's not just about numbers; it's
+                                about fostering genuine
+                                connections and creating a space where your audience feels valued and heard. The White
+                                sand will make sure to find the
+                                most vibrant community around your brand through engaging interactions with your
+                                followers.
+                            </p>
+                        </div>
+                        <!--end  second -->
+
+                        <!-- third -->
+                        <div class="information col-md-8 col-12" id="Content">
+                            <p>
+                                <strong>Content Creation</strong> is the cornerstone of effective social media
+                                marketing. It involves
+                                developing and sharing valuable
+                                content that resonates with your target audience, engages them, and drives them to take
+                                action. We'll design and brand
+                                eye-catching content that resonates with your audience.
+                            </p>
+                        </div>
+                        <!--end  third -->
+
+                        <!-- four -->
+                        <div class="information col-md-8 col-12" id="Analysis">
+                            <p>
+                                <strong>Social media Analysis</strong> is the process of evaluating social media
+                                presence, strategies,
+                                and performance. By analyzing the
+                                data collected from all the research of the latest trend and market via SWOT analysis we
+                                discover the opportunities for
+                                growth using social media strategy. We'll help you uncover opportunities to stand out
+                                from the competition and achieve
+                                social media dominance.
+                            </p>
+                        </div>
+                        <!--end  four -->
+
+                        <!-- five -->
+                        <div class="information col-md-8 col-12" id="Optimization">
+                            <p>
+                                <strong>Account Setup & Optimization</strong> is the process of creating and managing
+                                your social media
+                                profiles to ensure they are
+                                optimized for maximum visibility and engagement. With the right strategies we can choose
+                                the perfect platforms for the
+                                brand to craft compelling profiles that captivate viewers, there's a world of untapped
+                                potential waiting for you in the
+                                realm of social media marketing.
+                            </p>
+                        </div>
+                        <!--end  five -->
+
+                        <!-- six -->
+                        <div class="information col-md-8 col-12" id="Hashtag">
+                            <p>
+                                <strong>Hashtag strategies</strong> are keywords or phrases preceded by a pound sign (#)
+                                that are used to categorize and index content on
+                                social media platforms. A well-crafted hashtag strategy can significantly increase your
+                                content's visibility and reach.
+                                We employ through researched hashtags to increase your reach and visibility.
+                            </p>
+                        </div>
+                        <!--end six -->
+
+                        <!-- seven -->
+                        <div class="information col-md-8 col-12" id="Analytics">
+                            <p>
+                                <strong>24/7 Reporting & Analytics</strong> tools provide valuable insights into the
+                                audience, content performance, and campaign
+                                effectiveness. The experienced team at The White Sand makes sure to keep track and
+                                analyze key metrics, so you can
+                                optimize your social media strategy and achieve the best results.
+                            </p>
+                        </div>
+                        <!--end seven -->
+
+
+                    </div>
+                </article>
+            </section>
+
+            <!-- ----------------------tabs end --------------------------------- -->
+
+
         </div>
     </section>
 
@@ -64,7 +196,28 @@
     <script type="module" src="./dynmic-content.js"></script>
 
     <script>
-        AOS.init()
+        AOS.init();
+
+        // tabs 
+        const buttons = document.querySelectorAll('.btn');
+        const content_info = document.querySelectorAll('.information');
+        const about = document.querySelector('.about');
+
+        about.addEventListener('click', function (element) {
+            let id = element.target.dataset.id;
+            if (id) {
+                buttons.forEach((btn) => {
+                    btn.classList.remove('btn-active');
+                    element.target.classList.add('btn-active');
+                });
+                content_info.forEach((info) => {
+                    info.classList.remove('content-active')
+                });
+
+                let ele = document.getElementById(id);
+                ele.classList.add('content-active');
+            }
+        })
     </script>
 </body>
 

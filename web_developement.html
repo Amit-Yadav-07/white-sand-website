@@ -28,9 +28,9 @@
 <body>
     <header class="header"></header>
 
-    <section class="accounting-container">
+    <section class="single-container">
         <div class="center">
-            <h2 class="text-center mt-5">Web development</h2>
+            <h2 class="text-center mt-5">Web Development</h2>
             <div class="underline"></div>
             <div class="row my-5">
                 <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" style="height: 400px;"
@@ -39,10 +39,10 @@
                         <img src="./Programmer-bro.svg" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" data-aos="fade-left"
+                <div class="col-md-6 col-12  d-flex align-items-center justify-content-center" data-aos="fade-left"
                     data-aos-duration="1500">
                     <div class="accounting-content">
-                        <p class="text-start">Web development is the art of crafting functional and visually appealing
+                        <p class="text-start" style="font-size: 1.2rem;">Web development is the art of crafting functional and visually appealing
                             websites. It involves a
                             harmonious blend of
                             design, coding, content creation, and database management. For businesses seeking a strong
@@ -51,17 +51,87 @@
                             offerings,
                             and provide valuable
                             information to their customers.</p>
-                        <ul class="fw-bold">
-                            <li>User-friendly UI/UX</li>
-                            <li>Website maintenance</li>
-                            <li>Mobile friendly websites</li>
-                            <li>Content Management System (CMS)</li>
-                        </ul>
                     </div>
                 </div>
             </div>
+
+            <!-- ----------------------tabs start --------------------------------- -->
+
+            <section class="single-page-tabs">
+
+                <article class="about">
+                    <!-- btn container -->
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="btn-container col-md-5 col-12 offset-1">
+                            <ul>
+                                <li class="num btn-active" data-id="user-friendly">User-friendly</li>
+                                <li class="num" data-id="maintenance">Website maintenance</li>
+                                <li class="num" data-id="cms">content management system</li>
+                            </ul>
+                        </div>
+
+                        <div class="information content-active col-md-8 col-12" id="user-friendly">
+                            <!-- first -->
+                            <p>
+                                <strong>User-friendly UI/UX</strong> refers to the design of interfaces that are
+                                intuitive,
+                                easy to navigate, and efficient for users to
+                                interact with. It encompasses both User Interface (UI) design, which focuses on the
+                                visual
+                                elements and aesthetics, and
+                                User Experience (UX) design, which helps in the overall user journey and interaction
+                                with
+                                the product or service. Our
+                                team provides the best service for creating an efficient and trendy website.
+                            </p>
+                            <!-- end-first -->
+                        </div>
+
+                        <!-- second -->
+                        <div class="information col-md-5 col-12 offset-1" id="cms">
+                            <p>
+                                <strong>Content Management System Integration</strong> refers to the process of
+                                incorporating a CMS into a website or application.
+                                A CMS is a software that allows you to create, manage, and modify digital content on a
+                                website without needing extensive
+                                technical knowledge. We'll integrate a user-friendly CMS to empower you to easily manage
+                                and
+                                update your website
+                                content. This will give you greater control over your online presence and reduce the
+                                need
+                                for technical expertise.
+                            </p>
+                        </div>
+                        <!--end  second -->
+
+                        <!-- third -->
+                        <div class="information col-md-5 col-12 offset-1" id="maintenance">
+
+                            <p>
+                                <strong>Website maintenance</strong> is one of the most essential for the website to
+                                remain
+                                up-to-date, secure, and perform optimally.
+                                The process involves regular updates, content management, security monitoring,
+                                performance
+                                optimization, and backup and
+                                recovery. We offer ongoing maintenance plans to keep your website secure, up-to-date,
+                                and
+                                running smoothly. Our team
+                                will monitor your website for any issues, perform regular updates, and provide technical
+                                support when needed.
+                            </p>
+                        </div>
+                        <!--end  third -->
+                    </div>
+                </article>
+            </section>
+
+            <!-- ----------------------tabs end --------------------------------- -->
+
         </div>
     </section>
+
+
 
     <footer id="foot"></footer>
 
@@ -70,6 +140,28 @@
     <script type="module" src="./dynmic-content.js"></script>
     <script>
         AOS.init()
+
+
+        // tabs 
+        const buttons = document.querySelectorAll('.btn');
+        const content_info = document.querySelectorAll('.information');
+        const about = document.querySelector('.about');
+
+        about.addEventListener('click', function (element) {
+            let id = element.target.dataset.id;
+            if (id) {
+                buttons.forEach((btn) => {
+                    btn.classList.remove('btn-active');
+                    element.target.classList.add('btn-active');
+                });
+                content_info.forEach((info) => {
+                    info.classList.remove('content-active')
+                });
+
+                let ele = document.getElementById(id);
+                ele.classList.add('content-active');
+            }
+        })
     </script>
 </body>
 

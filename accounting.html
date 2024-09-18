@@ -28,19 +28,21 @@
 <body>
     <header class="header"></header>
 
-    <section class="accounting-container my-5">
+    <section class="single-container my-5">
         <div class="center">
             <h2 class="text-center">Accounting</h2>
             <div class="underline"></div>
             <div class="row">
-                <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" style="height: 400px;" data-aos="fade-right" data-aos-duration="1500">
+                <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" style="height: 400px;"
+                    data-aos="fade-right" data-aos-duration="1500">
                     <div class="accounting-img">
                         <img src="./Finance leaders-rafiki.svg" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-duration="1500">
+                <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" data-aos="fade-left"
+                    data-aos-duration="1500">
                     <div class="accounting-content">
-                        <p class="text-start">Accounting serves as the foundation of financial management within an
+                        <p class="text-start" style="font-size: 1.2rem;">Accounting serves as the foundation of financial management within an
                             organization. By
                             systematically recording,
                             summarizing, and analyzing financial transactions, accounting provides a comprehensive view
@@ -55,6 +57,91 @@
                     </div>
                 </div>
             </div>
+
+            <!-- ----------------------tabs start --------------------------------- -->
+
+            <section class="single-page-tabs">
+
+                <article class="about">
+                    <!-- btn container -->
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="btn-container col-md-4 col-12">
+                            <ul>
+                                <li class="num btn-active" data-id="Registration">GST Registration</li>
+                                <li class="num" data-id="Filing">ITR Filing</li>
+                                <li class="num" data-id="Bookkeeping">Bookkeeping</li>
+                                <li class="num" data-id="GST">GST Filing</li>
+                            </ul>
+                        </div>
+
+                        <div class="information content-active col-md-8 col-12" id="Registration">
+                            <!-- first -->
+                            <p>
+                                <strong>GST Registration</strong> Goods and Services Tax (GST) is a significant indirect
+                                tax imposed on the supply of goods and services
+                                within India. For businesses engaged in social media marketing, understanding GST
+                                compliance is crucial. GST
+                                Registration is a one-time process to enroll the business with the GST authorities.
+                            </p>
+                            <!-- end-first -->
+                        </div>
+
+                        <!-- second -->
+                        <div class="information col-md-8 col-12" id="Filing">
+                            <p>
+                                <strong>ITR Filing</strong> is the process of submitting your Income Tax Return (ITR) to
+                                the Indian
+                                Income Tax Department. The ITR filing
+                                is a mandatory requirement for businesses earning above the taxable income threshold.
+                                This filing helps determine your
+                                tax liability, claim deductions and exemptions, and ensure compliance with tax laws. Our
+                                experts will assist you in
+                                preparing and filing your Income Tax Returns (ITR) accurately and on time.
+                            </p>
+                        </div>
+                        <!--end  second -->
+
+                        <!-- third -->
+                        <div class="information col-md-8 col-12" id="Bookkeeping">
+                            <p>
+                                <strong>Bookkeeping</strong> is the foundation of every business's financial health. It
+                                involves the
+                                systematic recording,
+                                classification, and organization of your financial transactions. By maintaining accurate
+                                and up-to-date records, you
+                                gain valuable insights into your business's performance, track expenses, and prepare for
+                                tax season. Our experienced
+                                bookkeepers will maintain accurate and up-to-date financial records, ensuring
+                                transparency and efficiency.
+                            </p>
+                        </div>
+                        <!--end  third -->
+
+                        <!-- four -->
+                        <div class="information col-md-8 col-12" id="GST">
+                            <p>
+                                <strong>GST Filing</strong> is an ongoing process that involves submitting periodic
+                                returns, claiming
+                                ITC, and ensuring accurate
+                                record-keeping. Periodic GST returns must be filed, including GSTR-1, GSTR-3B, and
+                                GSTR-9. Businesses can claim an input
+                                tax credit (ITC) on GST paid on inputs and input services. Accurate record-keeping is
+                                crucial for GST compliance.
+                                Failure to comply can lead to penalties and interest. We help you navigate the
+                                complexities of GST registration and
+                                filing, ensuring compliance with all relevant regulations.
+                            </p>
+                        </div>
+                        <!--end  four -->
+
+
+                    </div>
+                </article>
+            </section>
+
+            <!-- ----------------------tabs end --------------------------------- -->
+
+
         </div>
     </section>
 
@@ -63,7 +150,28 @@
     <script type="module" src="./dynmic-content.js"></script>
 
     <script>
-        AOS.init()
+        AOS.init();
+
+        // tabs 
+        const buttons = document.querySelectorAll('.btn');
+        const content_info = document.querySelectorAll('.information');
+        const about = document.querySelector('.about');
+
+        about.addEventListener('click', function (element) {
+            let id = element.target.dataset.id;
+            if (id) {
+                buttons.forEach((btn) => {
+                    btn.classList.remove('btn-active');
+                    element.target.classList.add('btn-active');
+                });
+                content_info.forEach((info) => {
+                    info.classList.remove('content-active')
+                });
+
+                let ele = document.getElementById(id);
+                ele.classList.add('content-active');
+            }
+        })
     </script>
 </body>
 

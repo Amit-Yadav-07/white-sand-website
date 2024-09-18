@@ -29,7 +29,7 @@
 <body>
     <header class="header"></header>
 
-    <section class="accounting-container my-5">
+    <section class="single-container my-5">
         <div class="center">
             <h2 class="text-center mt-5">Human resource</h2>
             <div class="underline"></div>
@@ -43,7 +43,7 @@
                 <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" data-aos="fade-left"
                     data-aos-duration="1500">
                     <div class="accounting-content">
-                        <p class="text-start">The HR services term goes back to the 20th century. Back then it was just
+                        <p class="text-start" style="font-size: 1.2rem;">The HR services term goes back to the 20th century. Back then it was just
                             about personnel
                             administration and did not
                             include employment relationships, policies and compliance, and other services at the
@@ -56,6 +56,117 @@
                     </div>
                 </div>
             </div>
+
+            <!-- ----------------------tabs start --------------------------------- -->
+
+            <h4 class="my-2 p-2">Some heading Here</h4>
+            <section class="single-page-tabs">
+                <article class="about">
+                    <!-- btn container -->
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="btn-container col-md-4 col-12 p-4">
+                            <ul>
+                                <li class="num btn-active" data-id="Employee">Employee Onboarding</li>
+                                <li class="num" data-id="Compensation">Compensation and Benefits</li>
+                                <li class="num" data-id="Performance">Performance Management</li>
+                                <li class="num" data-id="Training">Training and Development</li>
+                                <li class="num" data-id="HR Policies">HR Policies and Compliance</li>
+                                <li class="num" data-id="Payroll">Payroll and HR Analytics</li>
+                                <li class="num" data-id="Talent">Talent Acquisition and Retention</li>
+                                <li class="num" data-id="HR Technology">HR Technology and Automation</li>
+                            </ul>
+                        </div>
+                        <!-- first tab end -->
+                        <div class="information content-active col-md-5 col-12 offset-1" id="Employee">
+                            <p>
+                                <strong>The Employee Onboarding</strong> process ensures new employees have a smooth
+                                transition into the company culture and are equipped
+                                with the necessary tools and information to succeed.
+                            </p>
+                        </div>
+                        <!-- first tab end -->
+
+                        <!-- second tab start -->
+                        <div class="information col-md-5 col-12 offset-1" id="Compensation">
+                            <p><strong>Compensation and Benefits</strong> include determining employee salaries, wages,
+                                and benefits
+                                packages, ensuring fair and
+                                competitive compensation.</p>
+
+                        </div>
+                        <!--second tab end -->
+
+                        <!-- third tab start -->
+                        <div class="information col-md-5 col-12 offset-1" id="Performance">
+                            <p>
+                                <strong>Performance Management</strong> involves setting performance expectations,
+                                providing feedback, and evaluating employee
+                                performance to drive productivity and achieve organizational goals.
+
+                            </p>
+                        </div>
+                        <!--third tab end-->
+
+                        <!-- four tab start -->
+                        <div class="information col-md-5 col-12 offset-1" id="Training">
+                            <p>
+                                <strong>Training and Development</strong> entails providing employees with the necessary
+                                skills and knowledge to enhance their
+                                performance and career growth.
+                            </p>
+                        </div>
+                        <!--four tab end-->
+
+                        <!-- five tab start -->
+                        <div class="information col-md-5 col-12 offset-1" id="HR Policies">
+                            <p>
+                                <strong>HR Policies and Compliance</strong> involves developing and implementing HR
+                                policies that comply
+                                with relevant labor laws and
+                                regulations.
+                            </p>
+                        </div>
+                        <!--five tab end-->
+
+                        <!-- six tab start -->
+                        <div class="information col-md-5 col-12 offset-1" id="Payroll">
+                            <p>
+                                <strong>Payroll and HR Analytics</strong> include processing payroll, managing employee
+                                records, and
+                                using data analytics to gain
+                                insights into the workforce.
+                            </p>
+                        </div>
+                        <!--six tab end-->
+
+                        <!-- seven tab start -->
+                        <div class="information col-md-5 col-12 offset-1" id="Talent">
+                            <p>
+                                <strong>Talent Acquisition and Retention</strong> involves attracting and retaining top
+                                talent through
+                                effective recruitment strategies
+                                and employee engagement initiatives.
+                            </p>
+                        </div>
+                        <!--seven tab end-->
+
+                        <!-- eight tab start -->
+                        <div class="information col-md-5 col-12 offset-1" id="HR Technology">
+                            <p>
+                                <strong>HR Technology and Automation</strong> Adapting HR technology and automation tools to streamline
+                                processes improves efficiency and
+                                enhances data-driven decision-making in a fast-moving world.
+                            </p>
+                        </div>
+                        <!--eight tab end-->
+
+                    </div>
+                </article>
+            </section>
+
+
+            <!-- ----------------------tabs end --------------------------------- -->
+
         </div>
     </section>
 
@@ -65,6 +176,27 @@
 
     <script>
         AOS.init()
+
+        // tabs 
+        const buttons = document.querySelectorAll('.num');
+        const content_info = document.querySelectorAll('.information');
+        const about = document.querySelector('.about');
+
+        about.addEventListener('mouseover', function (element) {
+            let id = element.target.dataset.id;
+            if (id) {
+                buttons.forEach((btn) => {
+                    btn.classList.remove('btn-active');
+                    element.target.classList.add('btn-active');
+                });
+                content_info.forEach((info) => {
+                    info.classList.remove('content-active')
+                });
+
+                let ele = document.getElementById(id);
+                ele.classList.add('content-active');
+            }
+        })
     </script>
 </body>
 
