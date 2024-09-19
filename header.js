@@ -50,7 +50,7 @@ export const header = `<nav class="navbar center navbar-expand-lg">
                         <a href=" https://www.facebook.com/profile.php?id=61564436977440&mibextid=ZbWKwL
 " class="btn btn-outline-light mx-2" target="_blank" type="submit"><i
                                 class="fa-brands fa-facebook"></i></a>
-                        <button class="btn btn-outline-light" type="submit">Brochure</button>
+                        <a href="./trifold_broucher_TWS.pdf" download class="btn btn-outline-light">Brochure</a>
                     </form>
                 </div>
             </div>
