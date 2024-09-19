@@ -41,7 +41,8 @@
                 <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" data-aos="fade-left"
                     data-aos-duration="1500">
                     <div class="accounting-content">
-                        <p class="text-start" style="font-size: 1.2rem;">The legal advisory services are designed to provide you with expert
+                        <p class="text-start" style="font-size: 1.2rem;">The legal advisory services are designed to
+                            provide you with expert
                             guidance and support on a
                             wide range of legal
                             matters, including contracts, intellectual property, employment law, and corporate
@@ -72,7 +73,7 @@
                             </ul>
                         </div>
 
-                        <div class="information content-active col-md-8 col-12" id="Consultation">
+                        <div class="information content-active col-md-6 col-12 offset-md-1 offset-0" id="Consultation">
                             <!-- first -->
                             <p>
                                 <strong>Legal Consultation</strong> Every business encounters legal challenges at some
@@ -86,7 +87,7 @@
                         </div>
 
                         <!-- second -->
-                        <div class="information col-md-8 col-12" id="Income">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="Income">
                             <p>
                                 <strong>Income Tax Law</strong> Here we focus on regulations and requirements related to
                                 income tax. Our
@@ -100,7 +101,7 @@
                         <!--end  second -->
 
                         <!-- third -->
-                        <div class="information col-md-8 col-12" id="Business">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="Business">
                             <p>
                                 <strong>Business Incorporation & Formation</strong> We can assist you with the formation
                                 of your
@@ -111,7 +112,7 @@
                         <!--end  third -->
 
                         <!-- four -->
-                        <div class="information col-md-8 col-12" id="Labor">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="Labor">
                             <p>
                                 <strong>Labor Law</strong> This law deals with the relationship between employers,
                                 employees, and trade
@@ -143,11 +144,11 @@
         AOS.init()
 
         // tabs 
-        const buttons = document.querySelectorAll('.btn');
+        const buttons = document.querySelectorAll('.num');
         const content_info = document.querySelectorAll('.information');
         const about = document.querySelector('.about');
 
-        about.addEventListener('click', function (element) {
+        about.addEventListener('mouseover', function (element) {
             let id = element.target.dataset.id;
             if (id) {
                 buttons.forEach((btn) => {

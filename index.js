@@ -53,7 +53,7 @@ serviceContainer.innerHTML = ourServices.map((service) => {
 }).join('')
 
 
-// sclick
+// slick
 
 
 $('.service-box-container').slick({
@@ -95,6 +95,33 @@ $('.service-box-container').slick({
         }
     ]
 });
+
+
+// number counter
+const items = [...document.querySelectorAll('.count-num')];
+
+const updateCount = (element) => {
+    let value = parseInt(element.dataset.value);
+    // let increment = Math.ceil(value / 1000);
+    let initialValue = 0;
+
+    let incrementCount = setInterval(() => {
+
+        initialValue += incrementCount
+
+        if (initialValue > value) {
+            element.textContent = `${value}+`
+            clearInterval(incrementCount);
+            return
+        }
+        element.textContent = `${initialValue}+`
+    }, 1)
+}
+
+
+items.forEach((counter) => {
+    updateCount(counter)
+})
 
 
 //process

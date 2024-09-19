@@ -42,7 +42,8 @@
                 <div class="col-md-6 col-12  d-flex align-items-center justify-content-center" data-aos="fade-left"
                     data-aos-duration="1500">
                     <div class="accounting-content">
-                        <p class="text-start" style="font-size: 1.2rem;">Web development is the art of crafting functional and visually appealing
+                        <p class="text-start" style="font-size: 1.2rem;">Web development is the art of crafting
+                            functional and visually appealing
                             websites. It involves a
                             harmonious blend of
                             design, coding, content creation, and database management. For businesses seeking a strong
@@ -62,7 +63,7 @@
                 <article class="about">
                     <!-- btn container -->
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="btn-container col-md-5 col-12 offset-1">
+                        <div class="btn-container col-md-4 col-12">
                             <ul>
                                 <li class="num btn-active" data-id="user-friendly">User-friendly</li>
                                 <li class="num" data-id="maintenance">Website maintenance</li>
@@ -70,7 +71,7 @@
                             </ul>
                         </div>
 
-                        <div class="information content-active col-md-8 col-12" id="user-friendly">
+                        <div class="information content-active col-md-6 col-12 offset-md-1 offset-0" id="user-friendly">
                             <!-- first -->
                             <p>
                                 <strong>User-friendly UI/UX</strong> refers to the design of interfaces that are
@@ -88,7 +89,7 @@
                         </div>
 
                         <!-- second -->
-                        <div class="information col-md-5 col-12 offset-1" id="cms">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="cms">
                             <p>
                                 <strong>Content Management System Integration</strong> refers to the process of
                                 incorporating a CMS into a website or application.
@@ -105,7 +106,7 @@
                         <!--end  second -->
 
                         <!-- third -->
-                        <div class="information col-md-5 col-12 offset-1" id="maintenance">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="maintenance">
 
                             <p>
                                 <strong>Website maintenance</strong> is one of the most essential for the website to
@@ -143,11 +144,11 @@
 
 
         // tabs 
-        const buttons = document.querySelectorAll('.btn');
+        const buttons = document.querySelectorAll('.num');
         const content_info = document.querySelectorAll('.information');
         const about = document.querySelector('.about');
 
-        about.addEventListener('click', function (element) {
+        about.addEventListener('mouseover', function (element) {
             let id = element.target.dataset.id;
             if (id) {
                 buttons.forEach((btn) => {

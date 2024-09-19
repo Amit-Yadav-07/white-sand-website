@@ -67,7 +67,7 @@
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="btn-container col-md-4 col-12">
                             <ul>
-                                <li class="num btn-active" data-id="Registration">Strategy Development</li>
+                                <li class="num btn-active" data-id="Strategy">Strategy Development</li>
                                 <li class="num" data-id="Community">Community Building</li>
                                 <li class="num" data-id="Content">Content Creation</li>
                                 <li class="num" data-id="Analysis">Social media Analysis</li>
@@ -77,7 +77,7 @@
                             </ul>
                         </div>
 
-                        <div class="information content-active col-md-8" id="Strategy">
+                        <div class="information content-active col-md-6 col-12 offset-md-1 offset-0" id="Strategy">
                             <!-- first -->
                             <p>
                                 <strong>Strategy Development</strong> is the essential process of creating a
@@ -94,7 +94,7 @@
                         </div>
 
                         <!-- second -->
-                        <div class="information col-md-8 col-12" id="Community">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="Community">
                             <p>
                                 <strong>Community Building</strong> is The process of creating a vibrant online presence
                                 for your brand
@@ -112,7 +112,7 @@
                         <!--end  second -->
 
                         <!-- third -->
-                        <div class="information col-md-8 col-12" id="Content">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="Content">
                             <p>
                                 <strong>Content Creation</strong> is the cornerstone of effective social media
                                 marketing. It involves
@@ -125,7 +125,7 @@
                         <!--end  third -->
 
                         <!-- four -->
-                        <div class="information col-md-8 col-12" id="Analysis">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="Analysis">
                             <p>
                                 <strong>Social media Analysis</strong> is the process of evaluating social media
                                 presence, strategies,
@@ -140,7 +140,7 @@
                         <!--end  four -->
 
                         <!-- five -->
-                        <div class="information col-md-8 col-12" id="Optimization">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="Optimization">
                             <p>
                                 <strong>Account Setup & Optimization</strong> is the process of creating and managing
                                 your social media
@@ -155,7 +155,7 @@
                         <!--end  five -->
 
                         <!-- six -->
-                        <div class="information col-md-8 col-12" id="Hashtag">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="Hashtag">
                             <p>
                                 <strong>Hashtag strategies</strong> are keywords or phrases preceded by a pound sign (#)
                                 that are used to categorize and index content on
@@ -167,7 +167,7 @@
                         <!--end six -->
 
                         <!-- seven -->
-                        <div class="information col-md-8 col-12" id="Analytics">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="Analytics">
                             <p>
                                 <strong>24/7 Reporting & Analytics</strong> tools provide valuable insights into the
                                 audience, content performance, and campaign
@@ -199,11 +199,11 @@
         AOS.init();
 
         // tabs 
-        const buttons = document.querySelectorAll('.btn');
+        const buttons = document.querySelectorAll('.num');
         const content_info = document.querySelectorAll('.information');
         const about = document.querySelector('.about');
 
-        about.addEventListener('click', function (element) {
+        about.addEventListener('mouseover', function (element) {
             let id = element.target.dataset.id;
             if (id) {
                 buttons.forEach((btn) => {

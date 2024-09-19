@@ -74,7 +74,7 @@
                             </ul>
                         </div>
 
-                        <div class="information content-active col-md-8 col-12" id="Registration">
+                        <div class="information content-active col-md-6 col-12 offset-md-1 offset-0" id="Registration">
                             <!-- first -->
                             <p>
                                 <strong>GST Registration</strong> Goods and Services Tax (GST) is a significant indirect
@@ -87,7 +87,7 @@
                         </div>
 
                         <!-- second -->
-                        <div class="information col-md-8 col-12" id="Filing">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="Filing">
                             <p>
                                 <strong>ITR Filing</strong> is the process of submitting your Income Tax Return (ITR) to
                                 the Indian
@@ -102,7 +102,7 @@
                         <!--end  second -->
 
                         <!-- third -->
-                        <div class="information col-md-8 col-12" id="Bookkeeping">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="Bookkeeping">
                             <p>
                                 <strong>Bookkeeping</strong> is the foundation of every business's financial health. It
                                 involves the
@@ -118,7 +118,7 @@
                         <!--end  third -->
 
                         <!-- four -->
-                        <div class="information col-md-8 col-12" id="GST">
+                        <div class="information col-md-6 col-12 offset-md-1 offset-0" id="GST">
                             <p>
                                 <strong>GST Filing</strong> is an ongoing process that involves submitting periodic
                                 returns, claiming
@@ -153,11 +153,11 @@
         AOS.init();
 
         // tabs 
-        const buttons = document.querySelectorAll('.btn');
+        const buttons = document.querySelectorAll('.num');
         const content_info = document.querySelectorAll('.information');
         const about = document.querySelector('.about');
 
-        about.addEventListener('click', function (element) {
+        about.addEventListener('mouseover', function (element) {
             let id = element.target.dataset.id;
             if (id) {
                 buttons.forEach((btn) => {
