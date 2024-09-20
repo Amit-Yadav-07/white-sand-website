@@ -104,9 +104,9 @@ export const Slides = [
     },
     {
         id: 3,
-        image: './images/9.png',
-        heading: 'Web development',
-        para: 'Craft a Website that Converts. Attract Your Ideal Clients'
+        image: './images/web-dev-banner.png',
+        // heading: 'Web development',
+        // para: 'Craft a Website that Converts. Attract Your Ideal Clients'
     },
     {
         id: 4,
@@ -129,7 +129,7 @@ export const ourServices = [
         anchor: './accounting.html',
         img: './images/Investment data-amico.svg',
         heading: 'Accounting',
-        para: "The White Sand offers accounting solutions for your business to expand effortlessly. We handle bookkeeping, payroll, tax preparation, and financial reporting"
+        para: "The expert legal guidance at The White Sand helps you navigate the complexities of business law. We specialize in employment law and other legal matters, providing expert advice."
     },
     {
         anchor: './social_media.html',
@@ -147,13 +147,13 @@ export const ourServices = [
         anchor: './human_resource.html',
         img: './images/Online resume-cuate.svg',
         heading: 'HR Service',
-        para: "Human Resources management helps you unlock your employees' full potential.We offer comprehensive HR solutions, from recruitment and onboarding to performance management and legal compliance."
+        para: "Unlock your employees' potential with HR solutions, including recruitment, onboarding, performance management, and legal compliance."
     },
     {
         anchor: './legal.html',
         img: './images/Law firm-bro.svg',
         heading: 'legal adviser',
-        para: "The expert legal guidance at The White Sand helps you navigate the complexities of business law. We specialize in employment law, intellectual property, and other legal matters, providing expert advice."
+        para: "The White Sand provides expert legal guidance in business and employment law, helping you navigate complex legal matters."
     }
 ]
 

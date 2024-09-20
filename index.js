@@ -20,19 +20,12 @@ const text = slide.innerHTML = Slides.map((slide, index) => {
         return `<div class="carousel-item active" data-bs-interval="3000">
                     <img src=${image}
                         class="d-block w-100 carousel-img" alt=${heading}>
-                    <div class="carousel-caption">
-                        <h5>${heading}</h5>
-                        <p>${para}</p>
-                    </div>
                 </div>`
     } else {
         return `<div class="carousel-item" data-bs-interval="3000">
                     <img src=${image}
                         class="d-block w-100 carousel-img" alt=${heading}>
-                    <div class="carousel-caption">
-                        <h5>${heading}</h5>
-                        <p>${para}</p>
-                    </div>
+                    
                 </div>`
     }
 }).join('')
@@ -45,7 +38,7 @@ serviceContainer.innerHTML = ourServices.map((service) => {
     // console.log(anchor);
     return `<a href="${anchor}" class="text-decoration-none" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="service-box">
-                        <div style="height:200px"><img class='h-100 w-100' src="${img}" alt='${heading}'/></div>
+                        <div style="height:170px"><img class='h-100 w-100' src="${img}" alt='${heading}'/></div>
                         <h5>${heading}</h5>
                         <p>${para}</p>
                     </div>
