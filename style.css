@@ -88,13 +88,13 @@ html {
 }
 
 .carousel-item {
-  height: 100vh;
+  height: 85vh;
   width: 100%;
 }
 
 .carousel-item img {
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
   /* filter: blur(2px); */
 }
 
