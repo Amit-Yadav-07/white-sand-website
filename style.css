@@ -84,12 +84,32 @@ html {
 
 .carousel-container {
   height: auto;
+}
 
+.carousel-content {
+  /* padding-left: 1rem; */
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-content h1 {
+  font-size: 3.2rem;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+
+.carousel-content em {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  letter-spacing: 4px;
+  font-weight: 400;
 }
 
 .carousel-item {
   height: 85vh;
+  /* height: auto; */
   width: 100%;
+  background-color: var(--main-color);
 }
 
 .carousel-item img {
@@ -141,6 +161,11 @@ html {
     width: 70%;
     left: 15%;
     bottom: 70%;
+  }
+
+  .carousel-content {
+    /* padding-left: 1rem; */
+    width: 45%;
   }
 
   .carousel-caption h5 {

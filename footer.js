@@ -41,31 +41,51 @@ export const footer = `<div class="footer-container">
                             </div>
 
                             <div class="col-md-5 pt-lg-0 pt-2">
-                                <div class="footer-item">
-                                    <h4 class="text-white mb-4">Newsletter</h4>
+                                
+                            <div class="footer-item">
+                                        <h4 class="mb-4 text-white">Instagram</h4>
+                                        <div class="row g-3">
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="./images/8.png" class="img-fluid w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="./images/8.png" class="img-fluid w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="./images/8.png" class="img-fluid w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="./images/8.png" class="img-fluid w-100"
+                                                        alt="">
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="./images/8.png" class="img-fluid w-100"
+                                                        alt="">
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="./images/8.png" class="img-fluid w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                    <div class="position-relative rounded-pill mb-4">
-                                        <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text"
-                                            placeholder="Enter your email">
-                                        <button type="button"
-                                            class="btn btn-primary rounded-pill position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                                    </div>
-                                    <div class="d-flex flex-shrink-0">
-                                        <div class="footer-btn">
-                                            <a href="#"
-                                                class="btn btn-lg-square rounded-circle position-relative wow tada"
-                                                data-wow-delay=".9s">
-                                                <i class="fa fa-phone-alt fa-2x"></i>
-                                            </a>
-                                        </div>
-                                        <div class="d-flex flex-column ms-3 flex-shrink-0">
-                                            <span>Call to Our Experts</span>
-                                            <a href="tel:+ 9511117798" class="text-decoration-none"><span
-                                                    class="text-white">Free:+91 9511117798
-                                                </span></a>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 

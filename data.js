@@ -92,31 +92,31 @@ export const OurTeam = [
 export const Slides = [
     {
         id: 1,
-        image: './images/8.png',
+        image: './Resume-amico.svg',
         heading: 'HR services',
         para: 'Empower Your Workforce Unleash Your Potential'
     },
     {
         id: 2,
-        image: './images/18.png',
+        image: './Finance-app-rafiki.svg',
         heading: 'Accounting',
         para: 'Simplify Your Finances Focus on What Matters'
     },
     {
         id: 3,
-        image: './images/web-dev-banner.png',
-        // heading: 'Web development',
-        // para: 'Craft a Website that Converts. Attract Your Ideal Clients'
+        image: './Development-pana.svg',
+        heading: 'Web development',
+        para: 'Craft a Website that Converts. Attract Your Ideal Clients'
     },
     {
         id: 4,
-        image: './images/4.png',
+        image: './Lawyer-rafiki.svg',
         heading: 'Legal Adviser',
-        para: 'Navigate with Confidence. Mitigate Risk, Maximize Success'
+        para: 'Navigate with Confidence.Mitigate Risk, Maximize Success'
     },
     {
         id: 5,
-        image: './images/8.png',
+        image: './WEBSITE_USE_SAMPLE-removebg-preview.png',
         heading: 'Social Media Marketing',
         para: 'Grow Your Audience. create social awareness'
     },
