@@ -319,7 +319,7 @@ html {
 
 .blob {
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  background-color: red;
+  background-color: var(--text-color);
 }
 
 .vision-img {
@@ -485,13 +485,13 @@ html {
 }
 
 .process {
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
-  height: 100%;
+  height: auto;
 }
 
 .process-icon {

@@ -116,7 +116,7 @@ export const Slides = [
     },
     {
         id: 5,
-        image: './WEBSITE_USE_SAMPLE-removebg-preview.png',
+        image: './images/Social-share-pana.svg',
         heading: 'Social Media Marketing',
         para: 'Grow Your Audience. create social awareness'
     },
