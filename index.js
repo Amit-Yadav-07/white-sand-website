@@ -18,27 +18,35 @@ const text = slide.innerHTML = Slides.map((slide, index) => {
     const { image, para, heading, id } = slide
     if (index == 0) {
         return `<div class="carousel-item active" data-bs-interval="3000">
-                    <div class="row d-flex justify-content-center align-items-center h-100">
-                        <div class="col-md-6 col-12 carousel-content">
-                            <h1 class=''>${heading}</h1>
-                            <em class=''>${para}</em>
+                    <div class="row carousel-parent">
+                        <div class="col-md-6 col-12">
+                            <div class='carousel-content-container'>
+                               <h1 class=''>${heading}</h1>
+                               <em class=''>${para}</em>
+                            </div>
                         </div>
 
-                        <div class="col-md-6 col-12 px-5 h-100">
-                            <img src=${image} class="d-block w-100 carousel-img pe-5" alt=${heading}>
+                        <div class="col-md-6 col-12">
+                            <div class='carousel-img-container'>
+                              <img src=${image} alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>`
     } else {
-        return `<div class="carousel-item bg-dark text-white" data-bs-interval="3000">
-                    <div class="row d-flex justify-content-center align-items-center h-100">
-                        <div class="col-md-6 col-12 carousel-content">
-                            <h1 class=''>${heading}</h1>
-                            <em class=''>${para}</em>
+        return `<div class="carousel-item" data-bs-interval="3000">
+                    <div class="row carousel-parent">
+                        <div class="col-md-6 col-12">
+                            <div class='carousel-content-container'>
+                               <h1 class=''>${heading}</h1>
+                               <em class=''>${para}</em>
+                            </div>
                         </div>
 
-                        <div class="col-md-6 col-12 px-5 h-100">
-                            <img src=${image} class="d-block w-100 carousel-img pe-5" alt=${heading}>
+                        <div class="col-md-6 col-12">
+                            <div class='carousel-img-container'>
+                              <img src=${image} alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>`
