@@ -19,7 +19,7 @@ const text = slide.innerHTML = Slides.map((slide, index) => {
     if (index == 0) {
         return `<div class="carousel-item active" data-bs-interval="3000">
                     <div class="row carousel-parent">
-                        <div class="col-md-6 col-12">
+                        <div class="col-md-6 col-12 my-3">
                             <div class='carousel-content-container'>
                                <h1 class=''>${heading}</h1>
                                <em class=''>${para}</em>
@@ -36,7 +36,7 @@ const text = slide.innerHTML = Slides.map((slide, index) => {
     } else {
         return `<div class="carousel-item" data-bs-interval="3000">
                     <div class="row carousel-parent">
-                        <div class="col-md-6 col-12">
+                        <div class="col-md-6 col-12 my-3">
                             <div class='carousel-content-container'>
                                <h1 class=''>${heading}</h1>
                                <em class=''>${para}</em>
