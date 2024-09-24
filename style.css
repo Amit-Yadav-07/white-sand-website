@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
 
 * {
   margin: 0;
@@ -470,6 +471,7 @@ html {
 @media screen and (min-width: 1350px) {
   .box {
     height: 410px;
+    box-shadow: none;
   }
 
   .recent-parent {
@@ -478,6 +480,7 @@ html {
 
   .recent-img {
     object-fit: contain;
+    border: none;
   }
 }
 
@@ -999,18 +1002,56 @@ p {
 
 /* blog section */
 
-.blog-container {
-  height: 70vh;
-  background: rgb(103, 70, 54);
-  background: radial-gradient(
-    circle,
-    rgb(77, 51, 38) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.services-container {
+  min-height: 90vh;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgb(245, 229, 211);
+  padding: 2rem;
+  place-items: center;
+  text-align: center;
 }
+
+.diffrent-font {
+  font-family: 'Playwrite DE Grund', cursive;
+  font-optical-sizing: auto;
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+.services-img {
+  margin: 2rem 0px;
+}
+
+.services-content h3 {
+  font-size: 2rem;
+  line-height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-img {
+    margin: 0rem 0px;
+  }
+
+  .services-content h3 {
+    font-size: 2.5rem;
+  }
+
+  .diffrent-font {
+    font-size: 3rem;
+  }
+}
+
+/* .service-img {
+  height: 100%;
+  width: 100%;
+
+} */
 
 .blog-container h4 {
   color: var(--secondary-color);
