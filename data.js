@@ -54,14 +54,6 @@ export const OurTeam = [
         linkdin: ''
     },
     {
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
-        name: 'Divya singh',
-        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
-        instagram: "",
-        facebook: '',
-        linkdin: ''
-    },
-    {
         image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
         name: 'Amit Yadav',
         disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
@@ -77,10 +69,27 @@ export const OurTeam = [
         facebook: '',
         linkdin: ''
     },
+    {
+        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
+        name: 'Divya singh',
+        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
+        instagram: "",
+        facebook: '',
+        linkdin: ''
+    },
 
     {
         image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
         name: 'Subhanakar',
+        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
+        instagram: "",
+        facebook: '',
+        linkdin: ''
+    },
+
+    {
+        image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
+        name: 'Priyanka',
         disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
         instagram: "",
         facebook: '',
