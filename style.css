@@ -475,6 +475,10 @@ html {
   .recent-parent {
     width: 70%;
   }
+
+  .recent-img {
+    object-fit: contain;
+  }
 }
 
 .process-parent {
@@ -996,7 +1000,7 @@ p {
 /* blog section */
 
 .blog-container {
-  height: 50vh;
+  height: 70vh;
   background: rgb(103, 70, 54);
   background: radial-gradient(
     circle,
