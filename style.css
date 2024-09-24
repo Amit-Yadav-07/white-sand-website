@@ -1111,8 +1111,16 @@ p {
 }
 
 .accounting-img {
-  height: 60vh;
+  /* border: 2px solid black; */
+  height: 400px;
+}
+
+
+.accounting-img img {
+  height: 100%;
   width: 100%;
+  /* object-fit: fill */
+;
 }
 
 .accounting-content {
