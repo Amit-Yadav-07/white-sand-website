@@ -1003,11 +1003,12 @@ p {
 /* blog section */
 
 .services-container {
-  min-height: 90vh;
+  min-height: 70vh;
   height: auto;
   display: grid;
   grid-template-columns: 1fr;
-  background-color: rgb(245, 229, 211);
+  /* background-color: rgb(245, 229, 211); */
+  background-color: white;
   padding: 2rem;
   place-items: center;
   text-align: center;
@@ -1018,10 +1019,17 @@ p {
   font-optical-sizing: auto;
   font-size: 2rem;
   color: var(--text-color);
+  /* filter: drop-shadow(3px 0px 1px red ); */
 }
 
 .services-img {
   margin: 2rem 0px;
+  height: 80vh;
+}
+
+.services-img img {
+  height: 100%;
+  width: 100%;
 }
 
 .services-content h3 {
@@ -1112,19 +1120,16 @@ p {
 
 .accounting-img {
   /* border: 2px solid black; */
-  height: 400px;
+  height: 350px;
 }
-
 
 .accounting-img img {
   height: 100%;
   width: 100%;
-  /* object-fit: fill */
-;
+  object-fit: contain;
 }
 
 .accounting-content {
-  /* background-color: yellowgreen; */
 }
 
 .accounting-content::first-letter {
