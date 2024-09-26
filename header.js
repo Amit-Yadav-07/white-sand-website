@@ -1,7 +1,7 @@
 export const header = `<nav class="navbar center navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="./images/logo.png" alt="" class="logo-img">
+                    <img src="./images/whitesand-logo-black.png" alt="" class="logo-img">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,15 +12,15 @@ export const header = `<nav class="navbar center navbar-expand-lg">
                     <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
 
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link text-dark" aria-current="page" href="index.html">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="about.html" class="nav-link">About us</a>
+                            <a href="about.html" class="nav-link text-dark">About us</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 services
                             </a>
@@ -36,11 +36,11 @@ export const header = `<nav class="navbar center navbar-expand-lg">
                         </li>
 
                         <li class="nav-item">
-                            <a href="blog.html" class="nav-link">Blog</a>
+                            <a href="blog.html" class="nav-link text-dark">Blog</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact us</a>
+                            <a href="contact.html" class="nav-link text-dark">Contact us</a>
                         </li>
                     </ul>
 
