@@ -58,6 +58,10 @@ html {
   color: var(--secondary-color);
 }
 
+.navbar-toggler{
+  background-color: var(--text-color);
+}
+
 .btn {
   background-color: var(--text-color);
   color: var(--secondary-color);
@@ -664,15 +668,20 @@ p {
 
 /*** Footer Start ***/
 .footer-container {
-  background-color: #000;
+  background-color: white;
+  color: var(--main-color);
+  /* box-shadow: 0px 0px 10px 0px var(--text-color); */
+  border-top: 2px solid var(--text-color);
 }
 .footer {
   height: auto;
+  /* border: 1px solid black; */
 }
 
 .footer .footer-item {
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
 
 .footer .footer-item a {
@@ -700,6 +709,11 @@ p {
 
 .footer-icon {
   background-color: var(--text-color);
+}
+
+.footer-instagram img{
+  box-shadow: 0px 0px 10px 0px black;
+  border-radius: 5px;
 }
 
 .footer .footer-item .footer-instagram:hover .footer-search-icon {
