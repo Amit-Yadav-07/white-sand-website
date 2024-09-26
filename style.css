@@ -1085,12 +1085,13 @@ p {
 
 .services-img {
   margin: 2rem 0px;
-  height: 80vh;
+  height: auto;
 }
 
 .services-img img {
   height: 100%;
   width: 100%;
+  object-fit: contain;
 }
 
 .services-content h3 {
@@ -1105,6 +1106,7 @@ p {
 
   .services-img {
     margin: 0rem 0px;
+    height: 80vh;
   }
 
   .services-content h3 {
