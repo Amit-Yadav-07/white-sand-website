@@ -1180,9 +1180,9 @@ p {
 }
 
 .accounting-img {
-  /* border: 2px solid black; */
-  height: 400px;
-  filter: drop-shadow(2px 0px 5px black);
+  /* height: auto; */
+  /* filter: drop-shadow(2px 0px 5px black); */
+  /* background-color: yellowgreen; */
 }
 
 .accounting-img img {
