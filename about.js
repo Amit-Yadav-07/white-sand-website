@@ -14,7 +14,7 @@ const ourTeamParent = document.querySelector('.our-team-parent');
 ourTeamParent.innerHTML = OurTeam.map((card) => {
     const { image, name, disc, instagram, facebook, linkdin } = card;
     return `<div class="card-container" data-aos="fade-up" data-aos-duration="2000">
-                    <div class="card">
+                    <div class="card test">
                         <img src=${image}
                             class="card-img-top" alt="...">
                         <div class="card-body">
