@@ -435,7 +435,6 @@ html {
 
 .rotate {
   transform: rotate(-5deg);
-  background-color: yellowgreen;
   height: 100%;
   border-radius: 10px;
 }
