@@ -2,7 +2,7 @@ export const footer = `<div class="footer-container">
         <div class="center">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="mt-lg-5 footer">
+                    <div class="mt-lg-5 footer mb-lg-0 mb-3">
                         <div class="row g-5">
                             <div class="col-md-4 pt-lg-0 pt-2">
                                 <div class="footer-item text-center">
@@ -92,7 +92,7 @@ export const footer = `<div class="footer-container">
                     </div>
                     <!-- --------------------------------------------------- -->
 
-                    <div class="h-25 d-flex align-items-center justify-content-center my-lg-5 p-4 mt-md-0 mt-5 rounded-5 shadow-lg">
+                    <div class=" d-flex align-items-center justify-content-center my-lg-5 p-4 mt-md-0 mb-4 mt-5 rounded-5 shadow-lg">
                         <div class="row">
                             <div class="col-12">
                                 <div class="row">

@@ -236,8 +236,8 @@ html {
   background-color: var(--secondary-color);
   background-image: url('./images/WHITE\ SAND\ bg.png');
   color: var(--main-color);
-  height: 400px;
-  /* height: auto; */
+  /* min-height: 430px; */
+  height: auto;
   margin: 0px 0.6rem;
   display: flex;
   flex-direction: column;
