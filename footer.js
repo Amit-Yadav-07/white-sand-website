@@ -5,21 +5,21 @@ export const footer = `<div class="footer-container">
                     <div class="mt-lg-5 footer">
                         <div class="row g-5">
                             <div class="col-md-4 pt-lg-0 pt-2">
-                                <div class="footer-item">
+                                <div class="footer-item text-center">
                                     <a href="index.html" class="p-0 mb-4">
-                                        <img src="/images/whitesand-logo-black.png" alt="Logo" style="height: 100px;">
+                                        <img src="/images/whitesand-logo-black.png" alt="Logo" style="height: 130px;">
                                     </a>
 
-                                    <div class="footer-btn d-flex">
-                                        <a class="btn btn-md-square rounded-circle me-3" target="_blank" href=" https://www.facebook.com/profile.php?id=61564436977440&mibextid=ZbWKwL
+                                    <div class="footer-btn">
+                                        <a class="btn btn-md-square contact-facebook px-3" target="_blank" href=" https://www.facebook.com/profile.php?id=61564436977440&mibextid=ZbWKwL
 "><i
                                                 class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-3" target="_blank" href=" https://x.com/thewhitesand_"><i class="fa-brands fa-x-twitter"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-3" target="_blank" href=" https://www.instagram.com/thewhitesand___?igsh=M3gzNnpwdGd3bjJq
+                                        <a class="btn btn-md-square text-dark" target="_blank" href=" https://x.com/thewhitesand_"><i class="fa-brands fa-x-twitter"></i></a>
+                                        <a class="btn btn-md-square contact-instagram" target="_blank" href=" https://www.instagram.com/thewhitesand___?igsh=M3gzNnpwdGd3bjJq
 
 "><i
                                                 class="fab fa-instagram"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-0" target="_blank" href="https://www.linkedin.com/company/thewhitesand/
+                                        <a class="btn btn-md-square contact-linkdin" target="_blank" href="https://www.linkedin.com/company/thewhitesand/
 "><i
                                                 class="fab fa-linkedin-in"></i></a>
                                     </div>
@@ -92,7 +92,7 @@ export const footer = `<div class="footer-container">
                     </div>
                     <!-- --------------------------------------------------- -->
 
-                    <div class="h-auto my-lg-5 my-4">
+                    <div class="h-25 d-flex align-items-center justify-content-center my-lg-5 p-4 mt-md-0 mt-5 rounded-5 shadow-lg">
                         <div class="row">
                             <div class="col-12">
                                 <div class="row">
