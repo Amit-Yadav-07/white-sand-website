@@ -119,7 +119,7 @@ html {
   /* color: red; */
   /* position: relative;
   top: 20%; */
-  margin-bottom: 5rem;
+  margin-bottom: 0rem;
   font-family: 'Abril Fatface', serif;
   font-weight: 400;
   text-align: center;
@@ -177,6 +177,9 @@ html {
     background-image: url('./home-banner-img.png');
     /* background-position: 100%;
     background-size: cover; */
+  }
+  .banner-content {
+    margin-bottom: 5rem;
   }
 }
 
@@ -691,9 +694,17 @@ p {
   background-color: var(--text-color);
 }
 
+.footer-instagram{
+  height: 100px;
+  background-color: red;
+}
+
 .footer-instagram img {
   box-shadow: 0px 0px 10px 0px black;
   border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .footer .footer-item .footer-instagram:hover .footer-search-icon {
