@@ -36,7 +36,7 @@ export const header = `<nav class="navbar center navbar-expand-lg">
                         </li>
 
                         <li class="nav-item">
-                            <a href="blog.html" class="nav-link text-dark">Blog</a>
+                            <a href="blog.html" class="nav-link text-dark">Portfolio</a>
                         </li>
 
                         <li class="nav-item">

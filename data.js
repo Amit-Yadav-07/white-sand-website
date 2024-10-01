@@ -107,9 +107,9 @@ export const Slides = [
     },
     {
         id: 2,
-        image: './Finance-app-rafiki.svg',
-        heading: 'Accounting',
-        para: 'Simplify Your Finances Focus on What Matters'
+        image: './images/Social-share-pana.svg',
+        heading: 'Social Media Marketing',
+        para: 'Grow Your Audience. create social awareness'
     },
     {
         id: 3,
@@ -119,48 +119,50 @@ export const Slides = [
     },
     {
         id: 4,
+        image: './Finance-app-rafiki.svg',
+        heading: 'Accounting',
+        para: 'Simplify Your Finances Focus on What Matters'
+    },
+    {
+        id: 5,
         image: './Lawyer-rafiki.svg',
         heading: 'Legal Adviser',
         para: 'Navigate with Confidence.Mitigate Risk, Maximize Success'
     },
-    {
-        id: 5,
-        image: './images/Social-share-pana.svg',
-        heading: 'Social Media Marketing',
-        para: 'Grow Your Audience. create social awareness'
-    },
+
 ]
 
 
 export const ourServices = [
 
     {
-        anchor: './accounting.html',
-        img: './images/Investment data-amico.svg',
-        heading: 'Accounting',
-        para: "The expert legal guidance at The White Sand helps you navigate the complexities of business law. We specialize in employment law and other legal matters, providing expert advice."
+        anchor: './human_resource.html',
+        img: './images/HR_WEBSITE_SERVICES_ELEMENTS.png',
+        heading: 'HR Service',
+        para: "Unlock your employees' potential with HR solutions, including recruitment, onboarding, performance management, and legal compliance."
     },
     {
         anchor: './social_media.html',
-        img: './images/Mobile Marketing-pana.svg',
+        img: './images/social_SERVICES_ELEMENT.png',
         heading: 'social media Management',
         para: "White Sand takes your social media presence to the next level. We develop strategic social media campaigns that attract and engage target audiences."
     },
     {
         anchor: './web_developement.html',
-        img: './images/Development-cuate.svg',
+        img: './images/web_SERVICES_ELEMENT.png',
         heading: 'web development',
         para: "We create beautiful, user-friendly websites that drive results. We analyze your business goals and create a website that converts visitors into leads and customers."
     },
+
     {
-        anchor: './human_resource.html',
-        img: './images/Online resume-cuate.svg',
-        heading: 'HR Service',
-        para: "Unlock your employees' potential with HR solutions, including recruitment, onboarding, performance management, and legal compliance."
+        anchor: './accounting.html',
+        img: './images/Accounting_WEBSITE_SERVICES_ELEMENTS.png',
+        heading: 'Accounting',
+        para: "The expert legal guidance at The White Sand helps you navigate the complexities of business law. We specialize in employment law and other legal matters, providing expert advice."
     },
     {
         anchor: './legal.html',
-        img: './images/Law firm-bro.svg',
+        img: './images/legal_SERVICES_element.png',
         heading: 'legal adviser',
         para: "The White Sand provides expert legal guidance in business and employment law, helping you navigate complex legal matters."
     }

@@ -12,46 +12,46 @@ Head.innerHTML = header;
 
 
 // sliders 
-const slide = document.querySelector('.carousel-inner');
+// const slide = document.querySelector('.carousel-inner');
 
-const text = slide.innerHTML = Slides.map((slide, index) => {
-    const { image, para, heading, id } = slide
-    if (index == 0) {
-        return `<div class="carousel-item active" data-bs-interval="3000">
-                    <div class="row carousel-parent">
-                        <div class="col-md-6 col-12 my-3">
-                            <div class='carousel-content-container'>
-                               <h1 class=''>${heading}</h1>
-                               <em class=''>${para}</em>
-                            </div>
-                        </div>
+// const text = slide.innerHTML = Slides.map((slide, index) => {
+//     const { image, para, heading, id } = slide
+//     if (index == 0) {
+//         return `<div class="carousel-item active" data-bs-interval="3000">
+//                     <div class="row carousel-parent">
+//                         <div class="col-md-6 col-12 my-3">
+//                             <div class='carousel-content-container'>
+//                                <h1 class=''>${heading}</h1>
+//                                <em class=''>${para}</em>
+//                             </div>
+//                         </div>
 
-                        <div class="col-md-6 col-12">
-                            <div class='carousel-img-container'>
-                              <img src=${image} alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>`
-    } else {
-        return `<div class="carousel-item" data-bs-interval="3000">
-                    <div class="row carousel-parent">
-                        <div class="col-md-6 col-12 my-3">
-                            <div class='carousel-content-container'>
-                               <h1 class=''>${heading}</h1>
-                               <em class=''>${para}</em>
-                            </div>
-                        </div>
+//                         <div class="col-md-6 col-12">
+//                             <div class='carousel-img-container'>
+//                               <img src=${image} alt="" />
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>`
+//     } else {
+//         return `<div class="carousel-item" data-bs-interval="3000">
+//                     <div class="row carousel-parent">
+//                         <div class="col-md-6 col-12 my-3">
+//                             <div class='carousel-content-container'>
+//                                <h1 class=''>${heading}</h1>
+//                                <em class=''>${para}</em>
+//                             </div>
+//                         </div>
 
-                        <div class="col-md-6 col-12">
-                            <div class='carousel-img-container'>
-                              <img src=${image} alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>`
-    }
-}).join('')
+//                         <div class="col-md-6 col-12">
+//                             <div class='carousel-img-container'>
+//                               <img src=${image} alt="" />
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>`
+//     }
+// }).join('')
 
 // ourService
 
@@ -61,7 +61,7 @@ serviceContainer.innerHTML = ourServices.map((service) => {
     // console.log(anchor);
     return `<a href="${anchor}" class="text-decoration-none" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="service-box">
-                        <div style="height:170px"><img class='h-100 w-100' src="${img}" alt='${heading}'/></div>
+                        <div style="height:180px";><img class='h-100 w-100' src="${img}" alt='${heading}' style="object-fit:contain";/></div>
                         <h5>${heading}</h5>
                         <p>${para}</p>
                     </div>
