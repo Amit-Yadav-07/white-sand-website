@@ -45,12 +45,12 @@ export const header = `<nav class="navbar center navbar-expand-lg">
                     </ul>
 
                     <form class="d-flex" role="search">
-                        <a href="https://www.instagram.com/thewhitesand___?igsh=M3gzNnpwdGd3bjJq" class="btn btn-outline-light" target="_blank"  type="submit"><i
-                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/thewhitesand___?igsh=M3gzNnpwdGd3bjJq" class="contact-instagram" target="_blank"  type="submit"><i
+                                class="fa-brands fa-instagram fa-2x"></i></a>
                         <a href=" https://www.facebook.com/profile.php?id=61564436977440&mibextid=ZbWKwL
-" class="btn btn-outline-light mx-2" target="_blank" type="submit"><i
-                                class="fa-brands fa-facebook"></i></a>
-                        <a href="./trifold_broucher_TWS.pdf" download class="btn btn-outline-light">Brochure</a>
+" class="contact-facebook mx-3" target="_blank" type="submit"><i
+                                class="fa-brands fa-facebook fa-2x"></i></a>
+                        <a href="./trifold_broucher_TWS.pdf" download class="btn">Brochure</a>
                     </form>
                 </div>
             </div>

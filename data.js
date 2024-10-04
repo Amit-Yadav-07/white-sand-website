@@ -2,35 +2,35 @@ export let reviews = [
 
     {
         id: 1,
-        name: 'Anna Johnson',
-        designation: 'Programmer',
+        name: 'Oxford electronics',
+        designation: 'web development',
         img: 'https://cdn.pixabay.com/photo/2017/08/30/12/45/girl-2696947_1280.jpg',
-        about: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry"
+        about: "The team at The White Sand is incredibly supportive and very talented. They guided us through the entire process, making it easy to implement new strategies. Highly recommend it!"
 
     },
 
     {
         id: 2,
-        name: 'Peter Jones',
-        designation: 'UI-UX designer',
+        name: 'Our Squad Group',
+        designation: 'Social media marketing',
         img: 'https://cdn.pixabay.com/photo/2017/12/17/08/12/girl-3023831_1280.jpg',
-        about: "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal."
+        about: "Thanks to The White Sand, we’ve expanded our client base significantly. Their marketing techniques and graphic designs are spot on, allowing us to target the right audience effectively. If you are looking for a company that will help you grow then The White Sand is your go to partner."
     },
 
     {
         id: 3,
-        name: 'Bill Anderson',
-        designation: 'The Boss',
-        img: 'https://cdn.pixabay.com/photo/2015/07/20/13/01/man-852770_1280.jpg',
-        about: "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag."
+        name: 'Versatile Chikankari',
+        designation: 'Social media marketing',
+        img: './images/kargari_ logo_green.png',
+        about: "Our partnership with The White Sand has been a game-changer. Their team has provided proactive support to grow my business and has helped us with other business related issues too. I would highly recommend them."
     },
 
     {
         id: 4,
-        name: 'Susan Smith',
-        designation: 'Developer',
+        name: 'shaurya enterprises',
+        designation: 'HR service',
         img: 'https://cdn.pixabay.com/photo/2016/11/18/14/08/jetty-1834801_1280.jpg',
-        about: "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic."
+        about: "The White Sand offers great HR and social media marketing services. For my company, they delivered exceptional strategies and impactful campaigns. I am very pleased with the results."
     },
 ];
 

@@ -38,7 +38,7 @@ html {
 .header {
   width: 100%;
   background-color: #fcf8ef;
-  color: var(--main-color);
+  /color: var(--main-color);
   position: sticky;
   top: 0px;
   z-index: 20;
@@ -199,12 +199,12 @@ html {
 }
 
 .service-box {
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
   background-image: url('./images/WHITE\ SAND\ bg.png');
   color: var(--main-color);
-  /* min-height: 430px; */
+  min-height: 430px;
   height: auto;
-  margin: 0px 0.6rem;
+  margin: 0px 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -581,10 +581,10 @@ html {
 }
 
 figure {
-  height: 110px;
+  height: 100px;
   width: 100px;
   border-radius: 50%;
-  background: var(--text-color);
+  /* background: var(--text-color); */
   margin: 0px 0px;
 }
 
@@ -592,7 +592,27 @@ figure > img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  transform: translateX(-10px);
+  object-fit: fill;
+  transform: translateX(-13px);
+}
+
+.fa-angle-left,
+.fa-angle-right {
+  margin: 0px 10px;
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+
+.fa-quote-right {
+  transform: translate(-60px, 60px);
+  background: var(--text-color);
+  z-index: 5;
+  font-size: 1.3rem;
+  padding: 5px;
+  border-radius: 50%;
 }
 
 #user-name {
@@ -619,25 +639,6 @@ p {
   width: 80%;
 }
 
-.fa-angle-left,
-.fa-angle-right {
-  margin: 0px 10px;
-  color: var(--text-color);
-  cursor: pointer;
-  padding: 5px;
-  border-radius: 20px;
-  font-size: 1.5rem;
-}
-
-.fa-quote-right {
-  transform: translate(-60px, 60px);
-  background: var(--text-color);
-  z-index: 5;
-  font-size: 1.3rem;
-  padding: 5px;
-  border-radius: 50%;
-}
-
 @media screen and (min-width: 768px) {
   .container {
     height: 100vh;
@@ -647,7 +648,7 @@ p {
 
 /*** Footer Start ***/
 .footer-container {
-  background-color: white;
+  /* background-color: white; */
   background-image: url('./footerbg.png'), linear-gradient(#fcf8ef, #fcf8ef);
   background-size: cover;
   background-repeat: no-repeat;
@@ -694,9 +695,9 @@ p {
   background-color: var(--text-color);
 }
 
-.footer-instagram{
+.footer-instagram {
   height: 100px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .footer-instagram img {
@@ -704,7 +705,7 @@ p {
   border-radius: 5px;
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .footer .footer-item .footer-instagram:hover .footer-search-icon {
@@ -752,13 +753,19 @@ p {
   height: 100vh;
   width: 100%;
   background-color: white;
-  background-image: url('./images/about-us-banner-2png.png');
+  background-image: url('./images/about-banner-img.png'),
+    linear-gradient(#fcf8ef, #fcf8ef);
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
+
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
-  object-fit: contain;
-  text-align: center;
+  /* object-fit: cover; */
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-page-hero-container h2 {
@@ -766,11 +773,20 @@ p {
   font-weight: 300;
   color: #0077b5;
   padding-top: 1.5rem;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   text-transform: capitalize;
+  text-align: center;
+  /* font-family: 'Abril Fatface', serif; */
 }
 
-.about-hero-parent {
+.about-page-hero-container p {
+  color: black;
+  font-size: 1.3rem;
+  margin-bottom: -0.5rem;
+  font-family: 'Playwrite DE Grund', cursive;
+}
+
+.a .about-hero-parent {
   /* background-color: var(--secondary-color); */
   /* background-image: url('./images/about-us-banner.png');
   background-position: center;
@@ -895,10 +911,6 @@ p {
   position: relative;
 }
 
-.test:nth-of-type(2n) {
-  background-color: red;
-}
-
 .card-container {
   padding: 0px 0.5rem;
   height: auto;
@@ -931,12 +943,17 @@ p {
 
 .slick-prev::before {
   position: absolute;
-  left: 100%;
+  left: 90%;
 }
 
 .slick-next::before {
   position: absolute;
-  right: 100%;
+  right: 90%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: var(--main-color) !important;
 }
 
 /* form section */
@@ -966,15 +983,6 @@ p {
 
 .contact-linkdin i {
   color: #0077b5;
-}
-
-.gredient {
-  background-image: linear-gradient(to right, #0077b5, #db9890);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 3rem;
-  font-weight: 900;
 }
 
 .form-content {
