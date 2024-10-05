@@ -11,15 +11,15 @@ export const footer = `<div class="footer-container">
                                     </a>
 
                                     <div class="footer-btn">
-                                        <a class="btn btn-md-square contact-facebook px-3" target="_blank" href=" https://www.facebook.com/profile.php?id=61564436977440&mibextid=ZbWKwL
+                                        <a class="btn btn-md-square contact-facebook shadow-lg px-3" target="_blank" href=" https://www.facebook.com/profile.php?id=61564436977440&mibextid=ZbWKwL
 "><i
                                                 class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-md-square text-dark" target="_blank" href=" https://x.com/thewhitesand_"><i class="fa-brands fa-x-twitter"></i></a>
-                                        <a class="btn btn-md-square contact-instagram" target="_blank" href=" https://www.instagram.com/thewhitesand___?igsh=M3gzNnpwdGd3bjJq
+                                        <a class="btn btn-md-square text-dark shadow-lg" target="_blank" href=" https://x.com/thewhitesand_"><i class="fa-brands fa-x-twitter"></i></a>
+                                        <a class="btn btn-md-square contact-instagram shadow-lg" target="_blank" href=" https://www.instagram.com/thewhitesand___?igsh=M3gzNnpwdGd3bjJq
 
 "><i
                                                 class="fab fa-instagram"></i></a>
-                                        <a class="btn btn-md-square contact-linkdin" target="_blank" href="https://www.linkedin.com/company/thewhitesand/
+                                        <a class="btn btn-md-square contact-linkdin shadow-lg" target="_blank" href="https://www.linkedin.com/company/thewhitesand/
 "><i
                                                 class="fab fa-linkedin-in"></i></a>
                                     </div>
@@ -112,7 +112,7 @@ export const footer = `<div class="footer-container">
                                         </div>
                                     </div>
 
-                                    <div class=" col-lg-6 col-xl-4 my-lg-0 my-2">
+                                    <div class="col-lg-6 col-xl-4 my-lg-0 my-2">
                                         <div class="d-flex">
                                             <div
                                                 class="btn-xl-square footer-icon text-dark rounded p-3 me-4 align-self-start">

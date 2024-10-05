@@ -103,7 +103,7 @@ html {
   min-height: 100vh;
   height: auto;
   width: 100%;
-  /* background-image: url('./banner_page_phone_screen_img.png'); */
+  background-image: url('./images/banner-home.png');
   background-color: #fcf8ef;
   background-position: center;
   background-size: cover;
@@ -173,11 +173,9 @@ html {
 }
 
 @media screen and (min-width: 960px) {
-  .banner-container {
+  /* .banner-container {
     background-image: url('./home-banner-img.png');
-    /* background-position: 100%;
-    background-size: cover; */
-  }
+  } */
   .banner-content {
     margin-bottom: 5rem;
   }
@@ -289,15 +287,6 @@ html {
   margin: 0px auto;
 }
 
-/* blob */
-
-/* .blob {
-  -webkit-mask-repeat: no-repeat;
-}
-
-.test {
-  -webkit-mask-image: url('data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMjQuNywtMjkuMUMzMC41LC0yNC42LDMyLjYsLTE1LjQsMzQuMiwtNi4xQzM1LjgsMy4yLDM2LjksMTIuNiwzMy40LDE5LjlDMzAsMjcuMywyMS45LDMyLjYsMTMuOCwzMy43QzUuNywzNC45LC0yLjQsMzEuOSwtMTAuMiwyOC44Qy0xOCwyNS43LC0yNS41LDIyLjQsLTMxLjgsMTYuMUMtMzguMSw5LjksLTQzLjIsMC43LC00MS4yLC02LjZDLTM5LjIsLTE0LC0zMCwtMTkuNCwtMjEuOSwtMjMuNUMtMTMuOSwtMjcuNiwtNi45LC0zMC40LDEuMywtMzJDOS41LC0zMy41LDE4LjksLTMzLjcsMjQuNywtMjkuMVoiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwIDUwKSIgc3Ryb2tlLXdpZHRoPSIwIiBzdHlsZT0idHJhbnNpdGlvbjogMC4zczsiPjwvcGF0aD4KICAgICAgICAgICAgICA8L3N2Zz4=');
-} */
 
 .vision-img {
   height: 330px;
@@ -649,7 +638,7 @@ p {
 /*** Footer Start ***/
 .footer-container {
   /* background-color: white; */
-  background-image: url('./footerbg.png'), linear-gradient(#fcf8ef, #fcf8ef);
+  background-image: url('./footerbg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -750,18 +739,13 @@ p {
 /* about-page css */
 
 .about-page-hero-container {
-  height: 100vh;
+  height: 600px;
   width: 100%;
-  background-color: white;
-  background-image: url('./images/about-banner-img.png'),
-    linear-gradient(#fcf8ef, #fcf8ef);
+  background-color: #fcf8ef;
+  background-image: url('./images/about-banner-img.png');
   background-position: center;
   background-size: cover;
-
-  /* background-attachment: fixed; */
   background-repeat: no-repeat;
-  /* object-fit: cover; */
-  /* text-align: center; */
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -769,9 +753,10 @@ p {
 }
 
 .about-page-hero-container h2 {
-  font-size: 2.7rem;
-  font-weight: 300;
-  color: #0077b5;
+  font-size: 2.5rem;
+  font-weight: 200;
+  /* color: #0077b5; */
+  color: var(--main-color);
   padding-top: 1.5rem;
   letter-spacing: 2px;
   text-transform: capitalize;
@@ -779,11 +764,32 @@ p {
   /* font-family: 'Abril Fatface', serif; */
 }
 
+.about-page-hero-container h2::first-letter {
+  font-size: 3rem;
+}
+
+.about-page-hero-container span {
+  font-size: 3rem;
+  font-weight: 200;
+  color: var(--main-color);
+}
+
+.about-page-hero-container span:nth-last-child(2) {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
 .about-page-hero-container p {
   color: black;
   font-size: 1.3rem;
-  margin-bottom: -0.5rem;
+  margin-bottom: -1rem;
   font-family: 'Playwrite DE Grund', cursive;
+}
+
+@media screen and (min-width: 768px) {
+  .about-page-hero-container p {
+    margin-bottom: 0rem;
+  }
 }
 
 .a .about-hero-parent {
@@ -912,13 +918,16 @@ p {
 }
 
 .card-container {
-  padding: 0px 0.5rem;
+  padding: 0px 1.3rem;
+  /* background-color: yellowgreen; */
   height: auto;
 }
 
 .card-img-top {
   height: 250px;
   object-fit: cover;
+  background-color: white;
+  padding: 0.5rem;
 }
 
 .card-body {
@@ -1208,6 +1217,10 @@ p {
 /* .blog-img-parent img:hover {
   transform: scale(1.2);
 } */
+
+.recent-container h2{
+color: red;
+}
 
 /* single pages */
 
