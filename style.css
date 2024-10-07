@@ -103,7 +103,7 @@ html {
   min-height: 100vh;
   height: auto;
   width: 100%;
-  background-image: url('./images/banner-home.png');
+  background-image: url('./images/home-banner-img.png');
   background-color: #fcf8ef;
   background-position: center;
   background-size: cover;
@@ -286,7 +286,6 @@ html {
   width: 100%;
   margin: 0px auto;
 }
-
 
 .vision-img {
   height: 330px;
@@ -638,7 +637,7 @@ p {
 /*** Footer Start ***/
 .footer-container {
   /* background-color: white; */
-  background-image: url('./footerbg.png');
+  background-image: url('./images/footer-bg-img.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -924,11 +923,12 @@ p {
 }
 
 .card-img-top {
-  height: 250px;
+  height: 300px;
   object-fit: cover;
   background-color: white;
   padding: 0.5rem;
 }
+
 
 .card-body {
   padding: 1rem;
@@ -1218,8 +1218,8 @@ p {
   transform: scale(1.2);
 } */
 
-.recent-container h2{
-color: red;
+.recent-container h2 {
+  color: red;
 }
 
 /* single pages */

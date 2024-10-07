@@ -62,7 +62,7 @@ export const OurTeam = [
         linkdin: ''
     },
     {
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
+        image: './IMG_20240919_141204040_HDR.jpg',
         name: 'vishakha',
         disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
         instagram: "",
@@ -88,7 +88,7 @@ export const OurTeam = [
     },
 
     {
-        image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
+        image: './IMG_20240305_150621.jpg',
         name: 'Priyanka',
         disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
         instagram: "",
@@ -137,32 +137,32 @@ export const ourServices = [
 
     {
         anchor: './human_resource.html',
-        img: './images/HR_WEBSITE_SERVICES_ELEMENTS.png',
+        img: './images/service-hr-img.png',
         heading: 'HR Service',
         para: "Unlock your employees' potential with HR solutions, including recruitment, onboarding, performance management, and legal compliance."
     },
     {
         anchor: './social_media.html',
-        img: './images/social_SERVICES_ELEMENT.png',
+        img: './images/service-social-img.png',
         heading: 'social media Management',
         para: "White Sand takes your social media presence to the next level. We develop strategic social media campaigns that attract and engage target audiences."
     },
     {
         anchor: './web_developement.html',
-        img: './images/web_SERVICES_ELEMENT.png',
+        img: './images/service-web-img.png',
         heading: 'web development',
         para: "We create beautiful, user-friendly websites that drive results. We analyze your business goals and create a website that converts visitors into leads and customers."
     },
 
     {
         anchor: './accounting.html',
-        img: './images/Accounting_WEBSITE_SERVICES_ELEMENTS.png',
+        img: './images/service-account-img.png',
         heading: 'Accounting',
         para: "The expert legal guidance at The White Sand helps you navigate the complexities of business law. We specialize in employment law and other legal matters, providing expert advice."
     },
     {
         anchor: './legal.html',
-        img: './images/legal_SERVICES_element.png',
+        img: './images/service-legal-img.png',
         heading: 'legal adviser',
         para: "The White Sand provides expert legal guidance in business and employment law, helping you navigate complex legal matters."
     }
@@ -297,7 +297,7 @@ export const Faqs = [
     {
         openid: 'collapseOne',
         questions: "What is the white sand ?",
-        answers: "The White Sand is your partner in business growth. We offer comprehensive services,including Human Resources management, social media marketing, web development, accounting, and legal advising.As a business development company,we'll help you expand your reach, strengthen your brand, and unlock new opportunities in the competitive market."
+        answers: "The White Sand is a business devlopment company. We offer comprehensive services,including Human Resources management, social media marketing, web development, accounting, and legal advising. We help you expand your reach, strengthen your brand, and grow your business."
     },
 
     {

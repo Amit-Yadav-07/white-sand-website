@@ -53,7 +53,7 @@ export const footer = `<div class="footer-container">
                                             </div>
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="./images/footer-img-4.png" class="img-fluid w-100"
+                                                    <img src="./images/footer-img-3.png" class="img-fluid w-100"
                                                         alt="">
                                                 </div>
                                             </div>

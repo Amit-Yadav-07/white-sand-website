@@ -1,7 +1,7 @@
 export const header = `<nav class="navbar center navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="./images/whitesand-logo-black.png" alt="" class="logo-img">
+                    <img src="./images/logo-img.png" alt="" class="logo-img">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
