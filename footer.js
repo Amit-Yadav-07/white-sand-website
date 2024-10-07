@@ -47,7 +47,7 @@ export const footer = `<div class="footer-container">
                                         <div class="row g-3">
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="./oxford-footer-img.png" class="img-fluid w-100"
+                                                    <img src="./images/our-squard-footer-3.png" class="img-fluid w-100"
                                                         alt="">
                                                 </div>
                                             </div>
@@ -65,21 +65,21 @@ export const footer = `<div class="footer-container">
                                             </div>
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="./images/footer-img-2.png" class="img-fluid w-100"
+                                                    <img src="./images/footer-img-4.png" class="img-fluid w-100"
                                                         alt="">
                                                     
                                                 </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="./lanscape gride_website_portfolio.png" class="img-fluid w-100"
+                                                    <img src="" class="img-fluid w-100"
                                                         alt="">
                                                     
                                                 </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="./images/footer-img-3.png" class="img-fluid w-100"
+                                                    <img src="" class="img-fluid w-100"
                                                         alt="">
                                                 </div>
                                             </div>
