@@ -40,12 +40,12 @@ export const OurTeam = [
     {
         image: './images/team-pics/aditya-pathak.png',
         name: 'Aditya pathak',
-        designation: 'CEO',
+        designation: 'Founder',
     },
     {
         image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
         name: 'Divya singh',
-        designation: 'Manager',
+        designation: 'Managing director',
 
     },
     {
@@ -70,7 +70,7 @@ export const OurTeam = [
     {
         image: './images/team-pics/shubhankar.png',
         name: 'Subhanakar shukla',
-        designation: 'Social Media Marketing',
+        designation: 'Social Media Manager',
 
     },
 ]

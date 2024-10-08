@@ -16,9 +16,9 @@ ourTeamParent.innerHTML = OurTeam.map((card) => {
     return `<div class="card-container" data-aos="fade-up" data-aos-duration="2000">
                     <div class="card">
                         <img src=${image}
-                            class="card-img-top" alt="...">
+                            class="card-img-top" alt=${name}>
                         <div class="card-body">
-                            <h5 class="card-title text-center font-bold">${name}</h5>
+                            <h5 class="card-title text-center font-bold text-capitalize">${name}</h5>
                             <h6 class="card-text text-center">${designation}</h6>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ faqs.innerHTML = Faqs.map((faq) => {
 
     return `<div class="accordion-item my-2" data-aos="fade-up" data-aos-duration="2000">
                             <h2 class="accordion-header">
-                                <button class="accordion-button text-capitalize" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button text-capitalize bg-light" type="button" data-bs-toggle="collapse"
                                     data-bs-target=#${openid} aria-expanded="true" aria-controls=${openid}>
                                       ${questions}
                                 </button>
