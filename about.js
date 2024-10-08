@@ -1,4 +1,4 @@
-import { OurTeam } from "./data.js";
+import { OurTeam, Faqs } from "./data.js";
 import { header } from "./header.js";
 import { footer } from "./footer.js";
 import { GetFullYear } from "./date.js";
@@ -12,25 +12,14 @@ Head.innerHTML = header;
 
 const ourTeamParent = document.querySelector('.our-team-parent');
 ourTeamParent.innerHTML = OurTeam.map((card) => {
-    const { image, name, disc, instagram, facebook, linkdin } = card;
+    const { image, name, designation, } = card;
     return `<div class="card-container" data-aos="fade-up" data-aos-duration="2000">
                     <div class="card">
                         <img src=${image}
                             class="card-img-top" alt="...">
                         <div class="card-body">
-                            <strong class="card-title">${name}</strong>
-                            <p class="card-text text-start">${disc}</p>
-                            <a href="#" class="btn">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-
-                            <a href="#" class="btn">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-
-                            <a href="#" class="btn">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
+                            <h5 class="card-title text-center font-bold">${name}</h5>
+                            <h6 class="card-text text-center">${designation}</h6>
                         </div>
                     </div>
                 </div>`
@@ -84,24 +73,26 @@ $('.our-team-parent').slick({
 
 // Faq section
 
-// const faqs = document.querySelector('.accordion');
-// faqs.innerHTML = FAQ.map((faq) => {
-//     const { question, answer } = faq
+const faqs = document.querySelector('.accordion');
+faqs.innerHTML = Faqs.map((faq) => {
+    const {openid, questions, answers } = faq
+    console.log();
 
-//     return `<div class="accordion-item my-1">
-//                         <h2 class="accordion-header">
-//                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-//                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-//                                 ${question}
-//                             </button>
-//                         </h2>
-//                         <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-//                             <div class="accordion-body">
-//                                 <p class="text-start">${answer}</p>
-//                             </div>
-//                         </div>
-//                     </div>`
-// }).join('')
+    return `<div class="accordion-item my-2" data-aos="fade-up" data-aos-duration="2000">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button text-capitalize" type="button" data-bs-toggle="collapse"
+                                    data-bs-target=#${openid} aria-expanded="true" aria-controls=${openid}>
+                                      ${questions}
+                                </button>
+                            </h2>
+                            <div id=${openid} class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-start">${answers}</p>
+                                </div>
+                            </div>
+                        </div>
+    `
+}).join('')
 
 
 const foot = document.querySelector('#foot');

@@ -38,62 +38,40 @@ export let reviews = [
 
 export const OurTeam = [
     {
-        image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
+        image: './images/team-pics/aditya-pathak.png',
         name: 'Aditya pathak',
-        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
-        instagram: "",
-        facebook: '',
-        linkdin: ''
-    },
-    {
-        image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
-        name: 'Ankit kumar',
-        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
-        instagram: "",
-        facebook: '',
-        linkdin: ''
-    },
-    {
-        image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
-        name: 'Amit Yadav',
-        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
-        instagram: "",
-        facebook: '',
-        linkdin: ''
-    },
-    {
-        image: './IMG_20240919_141204040_HDR.jpg',
-        name: 'vishakha',
-        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
-        instagram: "",
-        facebook: '',
-        linkdin: ''
+        designation: 'CEO',
     },
     {
         image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
         name: 'Divya singh',
-        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
-        instagram: "",
-        facebook: '',
-        linkdin: ''
+        designation: 'Manager',
+
+    },
+    {
+        image: './images/team-pics/Amit-Yadav.png',
+        name: 'Amit Yadav',
+        designation: 'Web Developer',
+
+    },
+    {
+        image: './images/team-pics/vishakhapahariya-2.png',
+        name: 'vishakha pahariya',
+        designation: 'Graphic Designer',
+
     },
 
     {
-        image: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg&uid=R76003528&ga=GA1.1.1971352132.1678984323&semt=ais_hybrid',
-        name: 'Subhanakar',
-        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
-        instagram: "",
-        facebook: '',
-        linkdin: ''
-    },
+        image: './images/team-pics/priyanka.png',
+        name: 'Priyanka rajbhar',
+        designation: 'Content Writer',
 
+    },
     {
-        image: './IMG_20240305_150621.jpg',
-        name: 'Priyanka',
-        disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab?',
-        instagram: "",
-        facebook: '',
-        linkdin: ''
+        image: './images/team-pics/shubhankar.png',
+        name: 'Subhanakar shukla',
+        designation: 'Social Media Marketing',
+
     },
 ]
 
@@ -297,24 +275,35 @@ export const Faqs = [
     {
         openid: 'collapseOne',
         questions: "What is the white sand ?",
-        answers: "The White Sand is a business devlopment company. We offer comprehensive services,including Human Resources management, social media marketing, web development, accounting, and legal advising. We help you expand your reach, strengthen your brand, and grow your business."
+        answers: "The White Sand is a business development company. We offer comprehensive services , including Human Resources management, social media marketing, web development, accounting, and legal advising. We help you expand your reach, strengthen your brand, and unlock new opportunities in the market."
     },
 
     {
         openid: 'collapseTwo',
-        questions: "What services do you offer ?",
-        answers: "We offer comprehensive services including Human Resources services, social media marketing, web development, accounting,and legal advising.Check our Services section to learn more about our services."
+        questions: "What services do We offer ?",
+        answers: "We offer comprehensive services including Human Resources services, social media marketing, web development, accounting , and legal advising.Check our Services section to learn more about our services."
     },
     {
         openid: 'collapseThree',
-        questions: "How can business development help my business ?",
-        answers: "Business development is a process of elevating your business to new reach. It consists of a series of steps.It helps in: "
+        questions: " What HR services do We offer ?",
+        answers: "We offer recruitment, onboarding, performance management, payroll, compliance, and many other services.Please look into our HR services on the website."
     },
 
     {
+        openid: 'collapseFour',
+        questions: "What types of websites do We specialize in ?",
+        answers: "We specialize in landing pages, corporate, portfolio, and e-commerce websites. We create responsive, user- friendly websites designed for optimal performance and a seamless user experience."
+    },
+    {
         openid: 'collapseFive',
-        questions: "How does The White Sand ensure that its services are tailored to my specific business needs ?",
-        answers: "We thoroughly assess your business goals and challenges to develop a customized plan that addresses your unique requirements.We have a team of experts working 24/7 to monitor your goal."
+        questions: "What legal services do We offer ?",
+        answers: " We offer contract drafting, Legal Consultation, Income Tax Law, Business Incorporation & Formation and Labor law."
+    },
+
+    {
+        openid: 'collapseSix',
+        questions: "How can social media marketing help my business grow ?",
+        answers: " Social media marketing can increase brand awareness, drive website traffic, generate leads, and foster customer engagement."
     },
 
 

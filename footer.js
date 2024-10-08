@@ -72,14 +72,14 @@ export const footer = `<div class="footer-container">
                                             </div>
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="" class="img-fluid w-100"
+                                                    <img src="./images/oxford-footer-img-2.png" class="img-fluid w-100"
                                                         alt="">
                                                     
                                                 </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="" class="img-fluid w-100"
+                                                    <img src="./images/footer-img-5.png" class="img-fluid w-100"
                                                         alt="">
                                                 </div>
                                             </div>
