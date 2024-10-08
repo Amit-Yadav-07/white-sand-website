@@ -742,7 +742,8 @@ p {
 /* about-page css */
 
 .about-page-hero-container {
-  height: 100vh;
+  min-height: 600px;
+  height: auto;
   width: 100%;
   background-color: #fcf8ef;
   background-image: url('./images/about-banner-img.png');
@@ -784,7 +785,7 @@ p {
 
 .about-page-hero-container p {
   color: black;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: -1rem;
   font-family: 'Playwrite DE Grund', cursive;
 }
