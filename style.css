@@ -578,19 +578,20 @@ position: relative;
 }
 
 figure {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  /* border-radius: 50%; */
   /* background: var(--text-color); */
   margin: 0px 0px;
+  /* background-color: red; */
+  /* padding: 2px; */
 }
 
 figure > img {
   height: 100%;
   width: 100%;
-  border-radius: 50%;
-  object-fit: fill;
-  transform: translateX(-13px);
+  /* border-radius: 50%; */
+  object-fit: contain;
 }
 
 .fa-angle-left,
@@ -603,14 +604,14 @@ figure > img {
   font-size: 1.5rem;
 }
 
-.fa-quote-right {
+/* .fa-quote-right {
   transform: translate(-60px, 60px);
   background: var(--text-color);
   z-index: 5;
   font-size: 1.3rem;
   padding: 5px;
   border-radius: 50%;
-}
+} */
 
 #user-name {
   font-size: 1.4rem;
@@ -723,9 +724,9 @@ p {
 }
 
 .copyright-section {
-  background-color: black;
+  background-color: #FCF8EF;
   letter-spacing: 2px;
-  color: var(--secondary-color);
+  color: var(--main-color);
   text-align: center;
   padding: 0.5rem;
   text-transform: uppercase;
@@ -1139,7 +1140,7 @@ p {
 }
 
 .services-content h3 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 60px;
 }
 

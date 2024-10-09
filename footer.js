@@ -148,6 +148,6 @@ export const footer = `<div class="footer-container">
                 </div>
             </div>
         </div>
-        <div class='copyright-section'><em>Copyright © The White Sand <span class='date'></span>. All Rights Reserved</em></div>
+        <div class='copyright-section'><em>Copyright © The White Sand <span class='date text-dark'></span>. All Rights Reserved</em></div>
     </div>
     `

@@ -43,8 +43,8 @@
             <h2 class="text-center mt-5">Human resource</h2>
             <div class="underline"></div>
             <div class="row my-5">
-                <div class="col-md-6 col-12 d-flex align-items-center justify-content-center"
-                    data-aos="fade-right" data-aos-duration="1500">
+                <div class="col-md-6 col-12 d-flex align-items-center justify-content-center" data-aos="fade-right"
+                    data-aos-duration="1500">
                     <div class="accounting-img">
                         <img src="./images/HR-img-2.png" alt="">
                     </div>
@@ -185,13 +185,16 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="./dynmic-content.js"></script>
 
-    <script>
+    <script type="module">
+
+
         AOS.init()
 
         // tabs 
         const buttons = document.querySelectorAll('.num');
         const content_info = document.querySelectorAll('.information');
         const about = document.querySelector('.about');
+
 
         about.addEventListener('click', function (element) {
             let id = element.target.dataset.id;
@@ -208,6 +211,10 @@
                 ele.classList.add('content-active');
             }
         })
+
+        import { GetFullYear } from './date.js';
+        GetFullYear();
+
     </script>
 </body>
 

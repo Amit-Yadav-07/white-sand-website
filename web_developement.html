@@ -148,9 +148,9 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="./dynmic-content.js"></script>
-    <script>
-        AOS.init()
 
+    <script type="module">
+        AOS.init()
 
         // tabs 
         const buttons = document.querySelectorAll('.num');
@@ -172,6 +172,10 @@
                 ele.classList.add('content-active');
             }
         })
+
+        import { GetFullYear } from './date.js';
+        GetFullYear();
+
     </script>
 </body>
 

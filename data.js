@@ -3,8 +3,8 @@ export let reviews = [
     {
         id: 1,
         name: 'Oxford electronics',
-        designation: 'web development',
-        img: 'https://cdn.pixabay.com/photo/2017/08/30/12/45/girl-2696947_1280.jpg',
+        designation: 'Social media marketing',
+        img: './oxford logo (1).png',
         about: "The team at The White Sand is incredibly supportive and very talented. They guided us through the entire process, making it easy to implement new strategies. Highly recommend it!"
 
     },
@@ -13,7 +13,7 @@ export let reviews = [
         id: 2,
         name: 'Our Squad Group',
         designation: 'Social media marketing',
-        img: 'https://cdn.pixabay.com/photo/2017/12/17/08/12/girl-3023831_1280.jpg',
+        img: './squad LOGO.png',
         about: "Thanks to The White Sand, we’ve expanded our client base significantly. Their marketing techniques and graphic designs are spot on, allowing us to target the right audience effectively. If you are looking for a company that will help you grow then The White Sand is your go to partner."
     },
 
@@ -21,17 +21,17 @@ export let reviews = [
         id: 3,
         name: 'Versatile Chikankari',
         designation: 'Social media marketing',
-        img: './images/kargari_ logo_green.png',
+        img: './kargari_ logo green (1).png',
         about: "Our partnership with The White Sand has been a game-changer. Their team has provided proactive support to grow my business and has helped us with other business related issues too. I would highly recommend them."
     },
 
-    {
-        id: 4,
-        name: 'shaurya enterprises',
-        designation: 'HR service',
-        img: 'https://cdn.pixabay.com/photo/2016/11/18/14/08/jetty-1834801_1280.jpg',
-        about: "The White Sand offers great HR and social media marketing services. For my company, they delivered exceptional strategies and impactful campaigns. I am very pleased with the results."
-    },
+    // {
+    //     id: 4,
+    //     name: 'shaurya enterprises',
+    //     designation: 'HR service',
+    //     img: 'https://cdn.pixabay.com/photo/2016/11/18/14/08/jetty-1834801_1280.jpg',
+    //     about: "The White Sand offers great HR and social media marketing services. For my company, they delivered exceptional strategies and impactful campaigns. I am very pleased with the results."
+    // },
 ];
 
 
