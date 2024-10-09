@@ -6,11 +6,13 @@ export const footer = `<div class="footer-container">
                         <div class="row g-5">
                             <div class="col-md-4 pt-lg-0 pt-2">
                                 <div class="footer-item text-center">
-                                    <a href="index.html" class="p-0 mb-4">
-                                        <img src="/images/whitesand-logo-black.png" alt="Logo" style="height: 130px;">
-                                    </a>
+                                    <div class='ms-md-0 ms-5 p-1'>
+                                       <a href="index.html" class="p-0 mb-4 ">
+                                         <img src="/images/whitesand-logo-black.png" alt="Logo" style="height: 130px;">
+                                       </a>
+                                    </div>
 
-                                    <div class="footer-btn">
+                                    <div class="footer-btn ms-md-0 ms-5 p-1">
                                         <a class="btn btn-md-square contact-facebook shadow-lg px-3" target="_blank" href=" https://www.facebook.com/profile.php?id=61564436977440&mibextid=ZbWKwL
 "><i
                                                 class="fab fa-facebook-f"></i></a>
@@ -59,7 +61,7 @@ export const footer = `<div class="footer-container">
                                             </div>
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="./oxford-footer-img-2.png" class="img-fluid w-100"
+                                                    <img src="./images/oxford-footer-img.png" class="img-fluid w-100"
                                                         alt="">
                                                 </div>
                                             </div>

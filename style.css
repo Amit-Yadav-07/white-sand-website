@@ -114,15 +114,13 @@ position: relative;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .banner-content {
-  /* color: red; */
-  /* position: relative;
-  top: 20%; */
   margin-bottom: 0rem;
   font-family: 'Abril Fatface', serif;
   font-weight: 400;
@@ -135,6 +133,7 @@ position: relative;
   padding: 0rem 0.5rem;
 }
 
+
 .banner-container h2 {
   font-size: 2.5rem;
 }
@@ -145,11 +144,20 @@ position: relative;
   font-weight: 700;
 }
 
+/* .banner-content a {
+  margin-top: 3rem;
+} */
+
 .banner-points {
-  position: absolute;
-  width: 90%;
-  left: 6%;
-  bottom: -12%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: auto;
+}
+
+.banner-points-items {
+  display: flex;
+  align-items: center;
 }
 
 .banner-points i {
@@ -161,7 +169,11 @@ position: relative;
   font-size: 1.2rem;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
+  .banner-container {
+    justify-content: space-evenly;
+  }
+
   .banner-content {
     margin-bottom: 5rem;
   }
@@ -177,12 +189,14 @@ position: relative;
     font-size: 3rem;
   }
 
+  .banner-content a {
+    margin-top: 3rem;
+  }
+
   .banner-points {
-  position: absolute;
-  width: 90%;
-  left: 6%;
-  bottom: -7%;
-}
+    width: 80%;
+    flex-direction: row;
+  }
 }
 
 /* our services */
@@ -807,7 +821,6 @@ p {
   color: var(--secondary-color);
 }
 
-
 .about-hero-parent-content {
   display: flex;
   align-items: center;
@@ -997,6 +1010,7 @@ p {
 
 .form-content h2::first-letter {
   color: var(--text-color);
+  font-size: 3rem;
 }
 
 .contact-media {
