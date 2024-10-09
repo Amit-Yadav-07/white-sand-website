@@ -43,16 +43,14 @@ export const OurTeam = [
         designation: 'Founder',
     },
     {
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
+        image: './images/team-pics/divya-singh.png',
         name: 'Divya singh',
         designation: 'Managing director',
-
     },
     {
         image: './images/team-pics/Amit-Yadav.png',
         name: 'Amit Yadav',
         designation: 'Web Developer',
-
     },
     {
         image: './images/team-pics/vishakhapahariya-2.png',

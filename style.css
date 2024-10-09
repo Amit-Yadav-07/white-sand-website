@@ -104,8 +104,8 @@ position: relative;
 }
 
 .banner-container {
-  min-height: 100vh;
-  height: auto;
+  height: 90vh;
+  /* height: auto; */
   width: 100%;
   background-image: url('./images/home-banner-img.png');
   background-color: #fcf8ef;
@@ -114,7 +114,7 @@ position: relative;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
   position: relative;
@@ -138,15 +138,14 @@ position: relative;
   font-size: 2.5rem;
 }
 
-.banner-container p {
+.banner-container strong {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
 }
 
-/* .banner-content a {
-  margin-top: 3rem;
-} */
 
 .banner-points {
   display: flex;
@@ -174,10 +173,6 @@ position: relative;
     justify-content: space-evenly;
   }
 
-  .banner-content {
-    margin-bottom: 5rem;
-  }
-
   .banner-container h1 {
     font-size: 4.2rem;
     color: #d08f44;
@@ -189,9 +184,6 @@ position: relative;
     font-size: 3rem;
   }
 
-  .banner-content a {
-    margin-top: 3rem;
-  }
 
   .banner-points {
     width: 80%;
@@ -540,7 +532,6 @@ position: relative;
 .process-point {
   list-style-type: disc;
   margin-top: 0.5rem;
-  /* background-color: red; */
 }
 
 @media screen and (min-width: 768px) {
@@ -703,7 +694,6 @@ p {
 
 .footer-instagram {
   height: 100px;
-  /* background-color: red; */
 }
 
 .footer-instagram img {
