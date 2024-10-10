@@ -580,8 +580,6 @@ position: relative;
 figure {
   height: 110px;
   width: 110px;
-  /* border-radius: 50%; */
-  /* background: var(--text-color); */
   margin: 0px 0px;
   /* padding: 2px; */
 }
