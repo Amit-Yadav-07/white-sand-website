@@ -125,14 +125,15 @@ position: relative;
   font-family: 'Abril Fatface', serif;
   font-weight: 400;
   text-align: center;
+  width: 70%;
 }
 
 .banner-container h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #d08f44;
   padding: 0rem 0.5rem;
+  /* -webkit-text-stroke: 2px #85490a; */
 }
-
 
 .banner-container h2 {
   font-size: 2.5rem;
@@ -145,7 +146,6 @@ position: relative;
   font-size: 1.1rem;
   letter-spacing: 2px;
 }
-
 
 .banner-points {
   display: flex;
@@ -164,7 +164,7 @@ position: relative;
 }
 
 .banner-points em {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.2rem;
 }
 
@@ -183,7 +183,6 @@ position: relative;
   .banner-container h2 {
     font-size: 3rem;
   }
-
 
   .banner-points {
     width: 80%;
@@ -643,12 +642,10 @@ p {
 
 /*** Footer Start ***/
 .footer-container {
-  /* background-color: white; */
   background-image: url('./images/footer-bg-img.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
   color: var(--main-color);
   box-shadow: 0px 0px 10px var(--text-color);
 }
@@ -721,7 +718,6 @@ p {
 }
 
 .copyright-section {
-  background-color: #FCF8EF;
   letter-spacing: 2px;
   color: var(--main-color);
   text-align: center;
@@ -907,10 +903,46 @@ p {
   padding-bottom: 1rem;
 }
 
+.leader-section {
+  /* background-color: var(--secondary-color); */
+  min-height: 300px;
+  height: auto;
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .leader-section {
+    width: 70%;
+  }
+}
+
+.leader-img-section {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  margin: 1rem auto;
+  padding: 0.3rem;
+  box-shadow: 0px 0px 10px black;
+}
+
+.leader-img-section img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .our-team-parent {
   height: auto;
   padding: 1rem;
   position: relative;
+  /* background-color: var(--secondary-color); */
 }
 
 .card-container {
@@ -921,7 +953,7 @@ p {
 
 .card-img-top {
   height: auto;
-  width: 100%;
+  width: auto;
   object-fit: contain;
   border-radius: 12px;
   padding: 0.5rem;

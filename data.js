@@ -3,16 +3,17 @@ export let reviews = [
     {
         id: 1,
         name: 'Oxford electronics',
-        designation: 'Social media marketing',
-        img: './oxford logo (1).png',
-        about: "The team at The White Sand is incredibly supportive and very talented. They guided us through the entire process, making it easy to implement new strategies. Highly recommend it!"
+        designation: 'Web development , Social media marketing',
+        img: './oxford-logo.png',
+        about: "The team at The White Sand is incredibly supportive and very talented.They guided us through the entire process of our website as well as social media marketing, making it easy to implement new strategies.Highly recommend it!"
+
 
     },
 
     {
         id: 2,
         name: 'Our Squad Group',
-        designation: 'Social media marketing',
+        designation: 'HR service , Social media marketing , Accounting',
         img: './squad LOGO.png',
         about: "Thanks to The White Sand, we’ve expanded our client base significantly. Their marketing techniques and graphic designs are spot on, allowing us to target the right audience effectively. If you are looking for a company that will help you grow then The White Sand is your go to partner."
     },
@@ -20,33 +21,40 @@ export let reviews = [
     {
         id: 3,
         name: 'Versatile Chikankari',
-        designation: 'Social media marketing',
-        img: './kargari_ logo green (1).png',
-        about: "Our partnership with The White Sand has been a game-changer. Their team has provided proactive support to grow my business and has helped us with other business related issues too. I would highly recommend them."
+        designation: 'Social Media Marketing',
+        img: './KARIGARI_logo.png',
+        about: "Our partnership with The White Sand has been a game-changer. Their team has provided proactive support in social media marketing to grow my business and has helped us with other business related issues too. I would highly recommend them."
     },
 
-    // {
-    //     id: 4,
-    //     name: 'shaurya enterprises',
-    //     designation: 'HR service',
-    //     img: 'https://cdn.pixabay.com/photo/2016/11/18/14/08/jetty-1834801_1280.jpg',
-    //     about: "The White Sand offers great HR and social media marketing services. For my company, they delivered exceptional strategies and impactful campaigns. I am very pleased with the results."
-    // },
+    {
+        id: 4,
+        name: 'Phool Pati',
+        designation: 'HR service , Social Media Marketing',
+        img: './PHOOL PATTI LOGO.png',
+        about: "The White Sand offers great HR and social media marketing services. For my company, they delivered exceptional strategies and impactful campaigns. I am very pleased with the results."
+    },
+    {
+        id: 5,
+        name: 'Surya Enterprises',
+        designation: 'Website Development , Social Media Marketing',
+        img: './surya-logo.png',
+        about: "The White Sand offers great HR and social media marketing services. For my company, they delivered exceptional strategies and impactful campaigns. I am very pleased with the results."
+    },
 ];
 
 
 
 export const OurTeam = [
-    {
-        image: './images/team-pics/aditya-pathak.png',
-        name: 'Aditya pathak',
-        designation: 'Founder',
-    },
-    {
-        image: './images/team-pics/divya-singh.png',
-        name: 'Divya singh',
-        designation: 'Managing director',
-    },
+    // {
+    //     image: './images/team-pics/aditya-pathak.png',
+    //     name: 'Aditya pathak',
+    //     designation: 'Founder',
+    // },
+    // {
+    //     image: './images/team-pics/divya-singh.png',
+    //     name: 'Divya singh',
+    //     designation: 'Managing director',
+    // },
     {
         image: './images/team-pics/Amit-Yadav.png',
         name: 'Amit Yadav',

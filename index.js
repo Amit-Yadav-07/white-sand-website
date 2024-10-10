@@ -59,7 +59,7 @@ const serviceContainer = document.querySelector('.service-box-container');
 serviceContainer.innerHTML = ourServices.map((service) => {
     const { img, heading, para, anchor } = service;
     // console.log(anchor);
-    return `<a href="${anchor}" class="text-decoration-none" data-aos="zoom-in" data-aos-duration="1500">
+    return `<a href="${anchor}" class="text-decoration-none" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="service-box">
                         <div style="height:180px";><img class='h-100 w-100' src="${img}" alt='${heading}' style="object-fit:contain";/></div>
                         <h5>${heading}</h5>
@@ -139,24 +139,6 @@ items.forEach((counter) => {
     updateCount(counter)
 })
 
-
-//process
-// const processParent = document.querySelector('#process');
-// processParent.innerHTML = processSection.map((process) => {
-//     // console.log(process);
-//     const { icon, points, head } = process;
-//     console.log(points);
-
-//     return `  
-// <div class="col-xl-3 col-sm-6 col-12 my-4" data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
-// <div class="process text-center">
-//         <div class="process-icon"><i class="fa-solid ${icon}"></i></div>
-//         <strong>${head}</strong>
-//         <p>${points}</p>
-//     </div>
-// </div>
-//     `
-// }).join('')
 
 
 // review slides

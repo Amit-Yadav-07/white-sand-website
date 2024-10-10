@@ -13,16 +13,17 @@ Head.innerHTML = header;
 const ourTeamParent = document.querySelector('.our-team-parent');
 ourTeamParent.innerHTML = OurTeam.map((card) => {
     const { image, name, designation, } = card;
-    return `<div class="card-container" data-aos="fade-up" data-aos-duration="2000">
-                    <div class="card">
-                        <img src=${image}
-                            class="card-img-top" alt=${name}>
-                        <div class="card-body">
-                            <h5 class="card-title text-center font-bold text-capitalize">${name}</h5>
-                            <h6 class="card-text text-center">${designation}</h6>
+    return `<div class="card-container">
+                        <div class="car">
+                            <figure class="leader-img-section">
+                                <img src=${image} class="" alt="">
+                            </figure>
+                            <div class="card-body">
+                                <h5 class="card-title text-center font-bold text-capitalize">${name}</h5>
+                                <h6 class="card-text text-center">${designation}</h6>
+                            </div>
                         </div>
-                    </div>
-                </div>`
+                    </div>`
 })
 
 
@@ -75,7 +76,7 @@ $('.our-team-parent').slick({
 
 const faqs = document.querySelector('.accordion');
 faqs.innerHTML = Faqs.map((faq) => {
-    const {openid, questions, answers } = faq
+    const { openid, questions, answers } = faq
     console.log();
 
     return `<div class="accordion-item my-2" data-aos="fade-up" data-aos-duration="2000">
