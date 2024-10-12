@@ -60,12 +60,6 @@ export const OurTeam = [
         name: 'Amit Yadav',
         designation: 'Web Developer',
     },
-    {
-        image: './images/team-pics/vishakhapahariya-2.png',
-        name: 'vishakha pahariya',
-        designation: 'Graphic Designer',
-
-    },
 
     {
         image: './images/team-pics/priyanka.png',
@@ -77,6 +71,12 @@ export const OurTeam = [
         image: './images/team-pics/shubhankar.png',
         name: 'Subhanakar shukla',
         designation: 'Social Media Manager',
+
+    },
+    {
+        image: './images/team-pics/vishakhapahariya-2.png',
+        name: 'vishakha pahariya',
+        designation: 'Graphic Designer',
 
     },
 ]
@@ -142,13 +142,13 @@ export const ourServices = [
         anchor: './accounting.html',
         img: './images/service-account-img.png',
         heading: 'Accounting',
-        para: "The expert legal guidance at The White Sand helps you navigate the complexities of business law. We specialize in employment law and other legal matters, providing expert advice."
+        para: "The White Sand offers accounting solutions for your business to expand effortlessly. We handle bookkeeping, payroll, tax preparation, and financial reporting ."
     },
     {
         anchor: './legal.html',
         img: './images/service-legal-img.png',
         heading: 'legal adviser',
-        para: "The White Sand provides expert legal guidance in business and employment law, helping you navigate complex legal matters."
+        para: "The expert legal guidance at The White Sand helps you navigate the complexities of business law. We specialize in handling legal matters and provide expert advice."
     }
 ]
 
@@ -281,7 +281,7 @@ export const Faqs = [
     {
         openid: 'collapseOne',
         questions: "What is the white sand ?",
-        answers: "The White Sand is a business development company. We offer comprehensive services , including Human Resources management, social media marketing, web development, accounting, and legal advising. We help you expand your reach, strengthen your brand, and unlock new opportunities in the market."
+        answers: "The White Sand is a business development company. We help you grow your reach, strengthen your brand, and unlock new opportunities in the market."
     },
 
     {
@@ -289,28 +289,30 @@ export const Faqs = [
         questions: "What services do We offer ?",
         answers: "We offer comprehensive services including Human Resources services, social media marketing, web development, accounting , and legal advising.Check our Services section to learn more about our services."
     },
+
+    {
+        openid: 'collapseSix',
+        questions: "How can social media marketing help my business grow ?",
+        answers: "Our Social media marketing help your business by increasing brand awareness, improving customer engagement, generating leads, conducting market research, promotion of your company on various platforms and more."
+    },
+
     {
         openid: 'collapseThree',
         questions: " What HR services do We offer ?",
-        answers: "We offer recruitment, onboarding, performance management, payroll, compliance, and many other services.Please look into our HR services on the website."
+        answers: "We offer recruitment, onboarding, performance management, payroll, compliance, and many other services. Please look into our HR services on the website."
     },
 
     {
         openid: 'collapseFour',
         questions: "What types of websites do We specialize in ?",
-        answers: "We specialize in landing pages, corporate, portfolio, and e-commerce websites. We create responsive, user- friendly websites designed for optimal performance and a seamless user experience."
+        answers: "We specialize in landing pages, corporate portfolio, and e-commerce websites. We create responsive, user- friendly websites designed for optimal performance and a seamless user experience."
     },
-    {
-        openid: 'collapseFive',
-        questions: "What legal services do We offer ?",
-        answers: " We offer contract drafting, Legal Consultation, Income Tax Law, Business Incorporation & Formation and Labor law."
-    },
+    // {
+    //     openid: 'collapseFive',
+    //     questions: "What legal services do We offer ?",
+    //     answers: " We offer contract drafting, Legal Consultation, Income Tax Law, Business Incorporation & Formation and Labor law."
+    // },
 
-    {
-        openid: 'collapseSix',
-        questions: "How can social media marketing help my business grow ?",
-        answers: " Social media marketing can increase brand awareness, drive website traffic, generate leads, and foster customer engagement."
-    },
 
 
 ]

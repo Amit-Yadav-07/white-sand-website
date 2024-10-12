@@ -12,7 +12,7 @@ export const footer = `<div class="footer-container">
                                        </a>
                                     </div>
 
-                                    <div class="footer-btn ms-md-0 ms-5 p-1">
+                                    <div class="footer-btn ms-md-0 ms-5 p-1 d-flex justify-content-between">
                                         <a class="btn btn-md-square contact-facebook shadow-lg px-3" target="_blank" href=" https://www.facebook.com/profile.php?id=61564436977440&mibextid=ZbWKwL
 "><i
                                                 class="fab fa-facebook-f"></i></a>
@@ -36,9 +36,9 @@ export const footer = `<div class="footer-container">
                                     <a href="about.html" class="text-dark text-decoration-none"><i class="fas fa-angle-right me-2"></i>
                                         About Us</a>
                                     <a href="service.html" class="text-dark text-decoration-none"><i class="fas fa-angle-right me-2"></i> Services</a>
-                                    <a href="blog.html" class="text-dark text-decoration-none"><i class="fas fa-angle-right me-2"></i>portfolio</a>
+                                    <a href="blog.html" class="text-dark text-decoration-none"><i class="fas fa-angle-right me-2"></i>Portfolio</a>
                                     <a href="contact.html" class="text-dark text-decoration-none"><i class="fas fa-angle-right me-2"></i>
-                                        Contact</a>
+                                        Contact Us</a>
                                 </div>
                             </div>
 

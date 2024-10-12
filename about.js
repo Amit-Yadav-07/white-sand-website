@@ -14,16 +14,16 @@ const ourTeamParent = document.querySelector('.our-team-parent');
 ourTeamParent.innerHTML = OurTeam.map((card) => {
     const { image, name, designation, } = card;
     return `<div class="card-container">
-                        <div class="car">
+                    <div class="car">
                             <figure class="leader-img-section">
                                 <img src=${image} class="" alt="">
                             </figure>
                             <div class="card-body">
                                 <h5 class="card-title text-center font-bold text-capitalize">${name}</h5>
-                                <h6 class="card-text text-center">${designation}</h6>
+                                <h6 class="card-text text-center fw-bold pt-3">${designation}</h6>
                             </div>
-                        </div>
-                    </div>`
+                    </div>
+            </div>`
 })
 
 
