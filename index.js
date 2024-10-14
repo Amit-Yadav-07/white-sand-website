@@ -1,4 +1,4 @@
-import { reviews, Slides, ourServices, processSection } from "./data.js";
+import { reviews, ourServices } from "./data.js";
 import { footer } from "./footer.js";
 const Head = document.querySelector('.header');
 import { GetFullYear } from "./date.js";
@@ -16,7 +16,6 @@ Head.innerHTML = header;
 const serviceContainer = document.querySelector('.service-box-container');
 serviceContainer.innerHTML = ourServices.map((service) => {
     const { img, heading, para, anchor } = service;
-    // console.log(anchor);
     return `<a href="${anchor}" class="text-decoration-none" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="service-box">
                         <div style="height:180px";><img class='h-100 w-100' src="${img}" alt='${heading}' style="object-fit:contain";/></div>

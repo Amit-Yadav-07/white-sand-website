@@ -4,17 +4,15 @@ export let reviews = [
         id: 1,
         name: 'Oxford Electronics',
         designation: 'Web Development , Social Media Marketing',
-        img: './oxford-logo.png',
+        img: './images/logos/oxford-logo.png',
         about: "The team at The White Sand is incredibly supportive and very talented.They guided us through the entire process of our website as well as social media marketing, making it easy to implement new strategies.Highly recommend it!"
-
-
     },
 
     {
         id: 2,
         name: 'Our Squad Group',
         designation: 'HR service , Social Media Marketing',
-        img: './squad LOGO.png',
+        img: './images/logos/squad LOGO.png',
         about: "Thanks to The White Sand, we’ve expanded our client base significantly. Their marketing techniques and graphic designs are spot on, allowing us to target the right audience effectively. If you are looking for a company that will help you grow then The White Sand is your go to partner."
     },
 
@@ -22,7 +20,7 @@ export let reviews = [
         id: 3,
         name: 'Versatile Chikankari',
         designation: 'Social Media Marketing',
-        img: './KARIGARI_logo.png',
+        img: './images/logos/KARIGARI_logo.png',
         about: "Our partnership with The White Sand has been a game-changer. Their team has provided proactive support in social media marketing to grow my business and has helped us with other business related issues too. I would highly recommend them."
     },
 
@@ -30,21 +28,21 @@ export let reviews = [
         id: 4,
         name: 'Phool Pati',
         designation: 'HR service , Social Media Marketing',
-        img: './PHOOL PATTI LOGO.png',
+        img: './images/logos/PHOOL PATTI LOGO.png',
         about: "The White Sand offers great HR and social media marketing services. For my company, they delivered exceptional strategies and impactful campaigns. I am very pleased with the results."
     },
     {
         id: 5,
         name: 'Surya Enterprises',
         designation: 'Website Development , Social Media Marketing',
-        img: './surya-logo.png',
+        img: './images/logos/surya-logo.png',
         about: "The White Sand offers great HR and social media marketing services. For my company, they delivered exceptional strategies and impactful campaigns. I am very pleased with the results."
     },
     {
         id: 6,
         name: 'RG Lite',
         designation: 'Social Media Marketing',
-        img: './rg-lite-logo.png',
+        img: './images/logos/rg-lite-logo.png',
         about: "I am happy with the social media marketing services provided by The White Sand. Their strategies have significantly increased the visibility of my electronics business, helping us reach a much broader audience. Their expertise has truly made a difference in our online presence. I highly recommend The White Sand to anyone looking to grow their business through social media marketing."
     },
 ];
@@ -73,39 +71,6 @@ export const OurTeam = [
 ]
 
 
-export const Slides = [
-    {
-        id: 1,
-        image: './Resume-amico.svg',
-        heading: 'HR services',
-        para: 'Empower Your Workforce Unleash Your Potential'
-    },
-    {
-        id: 2,
-        image: './images/Social-share-pana.svg',
-        heading: 'Social Media Marketing',
-        para: 'Grow Your Audience. create social awareness'
-    },
-    {
-        id: 3,
-        image: './Development-pana.svg',
-        heading: 'Web development',
-        para: 'Craft a Website that Converts. Attract Your Ideal Clients'
-    },
-    {
-        id: 4,
-        image: './Finance-app-rafiki.svg',
-        heading: 'Accounting',
-        para: 'Simplify Your Finances Focus on What Matters'
-    },
-    {
-        id: 5,
-        image: './Lawyer-rafiki.svg',
-        heading: 'Legal Adviser',
-        para: 'Navigate with Confidence.Mitigate Risk, Maximize Success'
-    },
-
-]
 
 
 export const ourServices = [
@@ -144,37 +109,37 @@ export const ourServices = [
 ]
 
 
-export const processSection = [
-    {
-        icon: 'fa-magnifying-glass-chart',
-        head: 'Analyze',
-        points: 'Ideas are the first step toward growth. We put all the effort into making your idea into reality. This involves analyzing market, competitor activities and identifying areas where your company can expand.'
+// export const processSection = [
+//     {
+//         icon: 'fa-magnifying-glass-chart',
+//         head: 'Analyze',
+//         points: 'Ideas are the first step toward growth. We put all the effort into making your idea into reality. This involves analyzing market, competitor activities and identifying areas where your company can expand.'
 
-    },
-    {
-        icon: 'fa-wrench',
-        head: 'Preparation',
-        points: "Once the goal is identified it's time to prepare a strategic plan. This includes developing a clear business strategy performing deep market analysis and finding potential financial solutions."
+//     },
+//     {
+//         icon: 'fa-wrench',
+//         head: 'Preparation',
+//         points: "Once the goal is identified it's time to prepare a strategic plan. This includes developing a clear business strategy performing deep market analysis and finding potential financial solutions."
 
-    },
+//     },
 
-    {
-        icon: 'fa-sliders',
-        head: 'Implementation',
-        points: "It's time to put the plan into action. We break into unexplored markets  and conduct  Project assessments for effective implementation."
+//     {
+//         icon: 'fa-sliders',
+//         head: 'Implementation',
+//         points: "It's time to put the plan into action. We break into unexplored markets  and conduct  Project assessments for effective implementation."
 
-    },
+//     },
 
-    {
-        icon: 'fa-hand-holding-heart',
-        head: 'Execution',
-        points: "After implementation, we will focus on smooth operations for better results. We monitor progress, make adjustments, and ensure systematic workflow. Continuous evaluation is conducted for optimized growth."
+//     {
+//         icon: 'fa-hand-holding-heart',
+//         head: 'Execution',
+//         points: "After implementation, we will focus on smooth operations for better results. We monitor progress, make adjustments, and ensure systematic workflow. Continuous evaluation is conducted for optimized growth."
 
-    },
+//     },
 
 
 
-]
+// ]
 
 
 export const serviceDetails = [
@@ -296,7 +261,7 @@ export const Faqs = [
     {
         openid: 'collapseFour',
         questions: "What types of websites do We specialize in ?",
-        answers: "We specialize in landing pages, corporate portfolio and e-commerce websites. We create responsive, user- friendly websites designed for optimal performance and a seamless user experience."
+        answers: "We specialize in landing pages, corporate portfolio, and e-commerce websites. We create responsive, user- friendly websites designed for optimal performance and a seamless user experience."
     },
     // {
     //     openid: 'collapseFive',
