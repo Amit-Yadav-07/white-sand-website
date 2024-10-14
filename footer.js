@@ -35,7 +35,7 @@ export const footer = `<div class="footer-container">
                                         Home</a>
                                     <a href="about.html" class="text-dark text-decoration-none"><i class="fas fa-angle-right me-2"></i>
                                         About Us</a>
-                                    <a href="service.html" class="text-dark text-decoration-none"><i class="fas fa-angle-right me-2"></i> Services</a>
+                                    <a href="" class="text-dark text-decoration-none"><i class="fas fa-angle-right me-2"></i> Services</a>
                                     <a href="blog.html" class="text-dark text-decoration-none"><i class="fas fa-angle-right me-2"></i>Portfolio</a>
                                     <a href="contact.html" class="text-dark text-decoration-none"><i class="fas fa-angle-right me-2"></i>
                                         Contact Us</a>
@@ -94,32 +94,35 @@ export const footer = `<div class="footer-container">
                     </div>
                     <!-- --------------------------------------------------- -->
 
-                    <div class=" d-flex align-items-center justify-content-center my-lg-5 p-4 mt-md-0 mb-4 mt-5 rounded-5 shadow-lg">
+                    <div class=" d-flex align-items-center justify-content-center my-lg-5 p-4 mt-md-0 mb-4 mt-5 rounded-5">
                         <div class="row">
                             <div class="col-12">
-                                <div class="row">
+                                <div class="row rounded-3">
                                     <div class="col-lg-6 col-xl-4">
                                         <div class="d-flex">
                                             <div
-                                                class="btn-xl-square footer-icon text-dark rounded p-3 me-4 align-self-start">
+                                                class="btn-xl-square footer-icon align-self-center text-dark rounded p-3 me-4">
                                                 <i class="fas fa-map-marker-alt fa-2x text-white"></i>
                                             </div>
 
                                             <div class="text-start">
                                                 <h4 class="text-dark">Address</h4>
-                                                <em class="text-dark">8 , tilak Marg Dalibagh road,
-                                                    Lucknow Uttar
-                                                    pradesh 226001</em>
+                                                <em class="text-dark">8 , Tilak Marg Dalibagh road,
+                                                    Lucknow , Uttar
+                                                    Pradesh , 226001</em>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-6 col-xl-4 my-lg-0 my-2">
+                                    <div class="col-lg-6 col-xl-4 my-lg-0 my-2 d-flex align-items-center justify-content-center">
                                         <div class="d-flex">
+
+                                            <a href="mailto: sandwhite021@gmail.com">
                                             <div
-                                                class="btn-xl-square footer-icon text-dark rounded p-3 me-4 align-self-start">
+                                                class="btn-xl-square footer-icon text-dark rounded p-3 me-4">
                                                 <i class="fas fa-envelope fa-2x text-white"></i>
                                             </div>
+                                            </a>
 
                                             <div class="text-start">
                                                 <h4 class="text-dark">Mail Us</h4>
@@ -128,11 +131,13 @@ export const footer = `<div class="footer-container">
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-6 col-xl-4">
+                                    <div class="col-lg-6 col-xl-4 d-flex align-items-center justify-content-center">
                                         <div class="d-flex">
-                                            <div class="btn-xl-square footer-icon text-dark rounded p-3 me-4">
+                                            <a href="tel: +91-9511117798">
+                                              <div class="btn-xl-square footer-icon text-dark rounded p-3 me-4">
                                                 <i class="fa fa-phone-alt fa-2x text-white"></i>
-                                            </div>
+                                              </div>
+                                            </a>
 
                                             <div class="text-dark text-start">
                                                 <h4 class="text-dark">Telephone</h4>
@@ -148,6 +153,6 @@ export const footer = `<div class="footer-container">
                 </div>
             </div>
         </div>
-        <div class='copyright-section'><em>Copyright © The White Sand <span class='date text-dark'></span>. All Rights Reserved</em></div>
+        <div class='copyright-section fw-bold'><em>Copyright © The White Sand <span class='date text-dark fw-bold'></span>. All Rights Reserved</em></div>
     </div>
     `

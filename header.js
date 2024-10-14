@@ -29,8 +29,8 @@ export const header = `<nav class="navbar center navbar-expand-lg">
                                 <li><a class="dropdown-item" href="human_resource.html">HR Services</a></li>
                                 <li><a class="dropdown-item" href="accounting.html">Accounting</a></li>
                                 <li><a class="dropdown-item" href="legal.html">Legal Adviser</a></li>
-                                <li><a class="dropdown-item" href="web_developement.html">Web development</a></li>
-                                <li><a class="dropdown-item" href="social_media.html">social media Marketing</a></li>
+                                <li><a class="dropdown-item" href="web_developement.html">Web Development</a></li>
+                                <li><a class="dropdown-item" href="social_media.html">Social Media Marketing</a></li>
                             </ul>
 
                         </li>

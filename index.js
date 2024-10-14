@@ -11,48 +11,6 @@ import { header } from "./header.js";
 Head.innerHTML = header;
 
 
-// sliders 
-// const slide = document.querySelector('.carousel-inner');
-
-// const text = slide.innerHTML = Slides.map((slide, index) => {
-//     const { image, para, heading, id } = slide
-//     if (index == 0) {
-//         return `<div class="carousel-item active" data-bs-interval="3000">
-//                     <div class="row carousel-parent">
-//                         <div class="col-md-6 col-12 my-3">
-//                             <div class='carousel-content-container'>
-//                                <h1 class=''>${heading}</h1>
-//                                <em class=''>${para}</em>
-//                             </div>
-//                         </div>
-
-//                         <div class="col-md-6 col-12">
-//                             <div class='carousel-img-container'>
-//                               <img src=${image} alt="" />
-//                             </div>
-//                         </div>
-//                     </div>
-//                 </div>`
-//     } else {
-//         return `<div class="carousel-item" data-bs-interval="3000">
-//                     <div class="row carousel-parent">
-//                         <div class="col-md-6 col-12 my-3">
-//                             <div class='carousel-content-container'>
-//                                <h1 class=''>${heading}</h1>
-//                                <em class=''>${para}</em>
-//                             </div>
-//                         </div>
-
-//                         <div class="col-md-6 col-12">
-//                             <div class='carousel-img-container'>
-//                               <img src=${image} alt="" />
-//                             </div>
-//                         </div>
-//                     </div>
-//                 </div>`
-//     }
-// }).join('')
-
 // ourService
 
 const serviceContainer = document.querySelector('.service-box-container');
@@ -113,31 +71,51 @@ $('.service-box-container').slick({
 });
 
 
+
 // number counter
-const items = [...document.querySelectorAll('.count-num')];
 
-const updateCount = (element) => {
-    let value = parseInt(element.dataset.value);
-    // let increment = Math.ceil(value / 1000);
-    let initialValue = 0;
+const workSection = document.querySelector(".counters");
+const workObserver = new IntersectionObserver(
+    (entries, observer) => {
+        const [entry] = entries;
+        console.log(entry);
 
-    let incrementCount = setInterval(() => {
+        if (!entry.isIntersecting) return;
 
-        initialValue += incrementCount
+        // animate number counter
 
-        if (initialValue > value) {
-            element.textContent = `${value}+`
-            clearInterval(incrementCount);
-            return
-        }
-        element.textContent = `${initialValue}+`
-    }, 1)
-}
+        const counterNum = document.querySelectorAll(".counter-numbers");
 
+        const speed = 150;
 
-items.forEach((counter) => {
-    updateCount(counter)
-})
+        counterNum.forEach((curElem) => {
+            const updateNumber = () => {
+                const targetNumber = parseInt(curElem.dataset.number);
+                // console.log(targetNumber);
+                const initialNum = parseInt(curElem.innerText);
+                // console.log(initialNum);
+
+                const incrementNumber = Math.trunc(targetNumber / speed);
+                // console.log(incrementNumber);
+
+                if (initialNum < targetNumber) {
+                    curElem.innerText = `${initialNum + incrementNumber}+`;
+                    setTimeout(updateNumber, 10);
+                }
+            };
+
+            updateNumber();
+        });
+
+        observer.unobserve(workSection);
+    },
+    {
+        root: null,
+        threshold: 0,
+    }
+);
+
+workObserver.observe(workSection);
 
 
 
@@ -188,7 +166,7 @@ setInterval(() => {
     if (initialValue > reviews.length - 1) {
         initialValue = 0;
     }
-}, 3000)
+}, 5000)
 
 
 // footer

@@ -192,7 +192,7 @@ position: relative;
   }
 
   .banner-points {
-    width: 80%;
+    width: 85%;
     flex-direction: row;
   }
 }
@@ -607,7 +607,7 @@ figure > img {
   cursor: pointer;
   padding: 5px;
   border-radius: 20px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 /* .fa-quote-right {
@@ -1327,6 +1327,7 @@ p {
   margin: 1.3rem 0px;
   cursor: pointer;
   transition: all 0.4s linear;
+   text-transform: capitalize;
 }
 
 .num:hover {

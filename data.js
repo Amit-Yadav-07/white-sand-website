@@ -2,8 +2,8 @@ export let reviews = [
 
     {
         id: 1,
-        name: 'Oxford electronics',
-        designation: 'Web development , Social media marketing',
+        name: 'Oxford Electronics',
+        designation: 'Web Development , Social Media Marketing',
         img: './oxford-logo.png',
         about: "The team at The White Sand is incredibly supportive and very talented.They guided us through the entire process of our website as well as social media marketing, making it easy to implement new strategies.Highly recommend it!"
 
@@ -13,7 +13,7 @@ export let reviews = [
     {
         id: 2,
         name: 'Our Squad Group',
-        designation: 'HR service , Social media marketing , Accounting',
+        designation: 'HR service , Social Media Marketing',
         img: './squad LOGO.png',
         about: "Thanks to The White Sand, we’ve expanded our client base significantly. Their marketing techniques and graphic designs are spot on, allowing us to target the right audience effectively. If you are looking for a company that will help you grow then The White Sand is your go to partner."
     },
@@ -40,21 +40,18 @@ export let reviews = [
         img: './surya-logo.png',
         about: "The White Sand offers great HR and social media marketing services. For my company, they delivered exceptional strategies and impactful campaigns. I am very pleased with the results."
     },
+    {
+        id: 6,
+        name: 'RG Lite',
+        designation: 'Social Media Marketing',
+        img: './rg-lite-logo.png',
+        about: "I am happy with the social media marketing services provided by The White Sand. Their strategies have significantly increased the visibility of my electronics business, helping us reach a much broader audience. Their expertise has truly made a difference in our online presence. I highly recommend The White Sand to anyone looking to grow their business through social media marketing."
+    },
 ];
 
 
 
 export const OurTeam = [
-    // {
-    //     image: './images/team-pics/aditya-pathak.png',
-    //     name: 'Aditya pathak',
-    //     designation: 'Founder',
-    // },
-    // {
-    //     image: './images/team-pics/divya-singh.png',
-    //     name: 'Divya singh',
-    //     designation: 'Managing director',
-    // },
     {
         image: './images/team-pics/Amit-Yadav.png',
         name: 'Amit Yadav',
@@ -65,12 +62,6 @@ export const OurTeam = [
         image: './images/team-pics/priyanka.png',
         name: 'Priyanka rajbhar',
         designation: 'Content Writer',
-
-    },
-    {
-        image: './images/team-pics/shubhankar.png',
-        name: 'Subhanakar shukla',
-        designation: 'Social Media Manager',
 
     },
     {
@@ -128,7 +119,7 @@ export const ourServices = [
     {
         anchor: './social_media.html',
         img: './images/service-social-img.png',
-        heading: 'social media Management',
+        heading: 'social media Marketing',
         para: "White Sand takes your social media presence to the next level. We develop strategic social media campaigns that attract and engage target audiences."
     },
     {
@@ -305,7 +296,7 @@ export const Faqs = [
     {
         openid: 'collapseFour',
         questions: "What types of websites do We specialize in ?",
-        answers: "We specialize in landing pages, corporate portfolio, and e-commerce websites. We create responsive, user- friendly websites designed for optimal performance and a seamless user experience."
+        answers: "We specialize in landing pages, corporate portfolio and e-commerce websites. We create responsive, user- friendly websites designed for optimal performance and a seamless user experience."
     },
     // {
     //     openid: 'collapseFive',
