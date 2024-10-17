@@ -98,7 +98,7 @@ export const footer = `<div class="footer-container">
                         <div class="row">
                             <div class="col-12">
                                 <div class="row rounded-3">
-                                    <div class="col-xl-4 col-12">
+                                    <div class="col-xl-4 col-12 mb-2">
                                         <div class="d-flex">
                                             <div
                                                 class="btn-xl-square footer-icon align-self-center text-dark rounded p-3 me-4">
