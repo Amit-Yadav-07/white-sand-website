@@ -77,7 +77,7 @@ const workSection = document.querySelector(".counters");
 const workObserver = new IntersectionObserver(
     (entries, observer) => {
         const [entry] = entries;
-        console.log(entry);
+        // console.log(entry);
 
         if (!entry.isIntersecting) return;
 

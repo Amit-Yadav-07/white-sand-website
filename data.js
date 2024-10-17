@@ -79,7 +79,7 @@ export const ourServices = [
         anchor: './human_resource.html',
         img: './images/service-hr-img.png',
         heading: 'HR Service',
-        para: "Unlock your employees' potential with HR solutions, including recruitment, onboarding, performance management, and legal compliance."
+        para: "Unlock your employees potential with HR solutions, including recruitment, onboarding, performance management, and legal compliance."
     },
     {
         anchor: './social_media.html',

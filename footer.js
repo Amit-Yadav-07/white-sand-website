@@ -4,7 +4,7 @@ export const footer = `<div class="footer-container">
                 <div class="col-xl-12">
                     <div class="mt-lg-5 footer mb-lg-0 mb-3">
                         <div class="row g-5">
-                            <div class="col-md-4 pt-lg-0 pt-2">
+                            <div class="col-lg-4 col-12 pt-lg-0 pt-2">
                                 <div class="footer-item text-center">
                                     <div class='ms-md-0 ms-5 p-1'>
                                        <a href="index.html" class="p-0 mb-4 ">
@@ -28,7 +28,7 @@ export const footer = `<div class="footer-container">
                                 </div>
                             </div>
 
-                            <div class="col-md-3 pt-lg-0 pt-2">
+                            <div class="col-lg-3 col-md-4 col-12  pt-lg-0 pt-2">
                                 <div class="footer-item">
                                     <h4 class="text-dark mb-4">Useful Links</h4>
                                     <a href="index.html" class="text-dark text-decoration-none"><i class="fas fa-angle-right me-2"></i>
@@ -42,7 +42,7 @@ export const footer = `<div class="footer-container">
                                 </div>
                             </div>
 
-                            <div class="col-md-5 pt-lg-0 pt-2">
+                            <div class="col-lg-5 col-md-8 col-12 pt-lg-0 pt-2">
                                 
                             <div class="footer-item">
                                         <h4 class="mb-4 text-dark">Instagram</h4>
@@ -98,7 +98,7 @@ export const footer = `<div class="footer-container">
                         <div class="row">
                             <div class="col-12">
                                 <div class="row rounded-3">
-                                    <div class="col-lg-6 col-xl-4">
+                                    <div class="col-xl-4 col-12">
                                         <div class="d-flex">
                                             <div
                                                 class="btn-xl-square footer-icon align-self-center text-dark rounded p-3 me-4">
@@ -114,7 +114,7 @@ export const footer = `<div class="footer-container">
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-6 col-xl-4 my-lg-0 my-2">
+                                    <div class="col-xl-4 col-12 my-lg-0 my-2">
                                         <div class="d-flex">
 
                                             <a href="mailto: sandwhite021@gmail.com">
@@ -131,7 +131,7 @@ export const footer = `<div class="footer-container">
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-6 col-xl-4">
+                                    <div class="col-xl-4 col-12">
                                         <div class="d-flex">
                                             <a href="tel: +91-9511117798">
                                               <div class="btn-xl-square footer-icon text-dark rounded p-3 me-4">
