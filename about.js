@@ -16,7 +16,7 @@ ourTeamParent.innerHTML = OurTeam.map((card) => {
     return `<div class="card-container">
                     <div class="car">
                             <figure class="leader-img-section">
-                                <img src=${image} class="" alt="">
+                                <img src=${image} alt=${name}>
                             </figure>
                             <div class="card-body">
                                 <h5 class="card-title text-center font-bold text-capitalize">${name}</h5>

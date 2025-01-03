@@ -1,4 +1,4 @@
-import { reviews, ourServices } from "./data.js";
+import { reviews, ourServices, brandLogo } from "./data.js";
 import { footer } from "./footer.js";
 const Head = document.querySelector('.header');
 import { GetFullYear } from "./date.js";
@@ -70,6 +70,15 @@ $('.service-box-container').slick({
 });
 
 
+// logo slider
+
+const brands = document.querySelector('.brands');
+brands.innerHTML = brandLogo.map((brand) => {
+
+    return `<li class="brand-logo"><img src=${brand.image} alt="" loading="lazy"></li>`
+}).join('')
+
+
 
 // number counter
 
@@ -116,57 +125,36 @@ const workObserver = new IntersectionObserver(
 
 workObserver.observe(workSection);
 
+// review start 
 
 
-// review slides
-const user_img = document.getElementById('user-img');
-const user_name = document.getElementById('user-name');
-const user_designation = document.getElementById('user-designation');
-const about_user = document.getElementById('about-user');
-const leftBtn = document.querySelector('.fa-angle-left');
-const rightBtn = document.querySelector('.fa-angle-right');
+const testimonial = document.querySelector('.testimonial-container');
+testimonial.innerHTML = reviews.map((review) => {
+    const { id, name, designation, img, about } = review
 
-let initialValue = 0;
+    return `
+        <div class='speech-bubble'>
+        <img class='avatar' src=${img} />
+        <h6 class='author'>${name}</h6>
+        <strong class=''>${designation}</strong>
+        <p class='testimonial-text'>${about}</p><i class="fa-solid fa-2x fa-quote-right"></i>
+        </div>
+    `
+}).join('')
 
-window.addEventListener('DOMContentLoaded', function () {
+$('.testimonial-container').slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    fade: true,
+    cssEase: 'linear',
+    arrows: false,
+    pauseOnHover: true
 
-    CurrentUser(initialValue)
-})
+});
 
-
-rightBtn.addEventListener('click', function () {
-    initialValue++;
-    if (initialValue > reviews.length - 1) {
-        initialValue = 0;
-
-    }
-    CurrentUser(initialValue);
-})
-
-leftBtn.addEventListener('click', function () {
-    initialValue--;
-    if (initialValue < 0) {
-        initialValue = reviews.length - 1
-    }
-    CurrentUser(initialValue);
-})
-
-
-function CurrentUser(person) {
-    let item = reviews[person];
-    user_img.src = item.img;
-    user_name.textContent = item.name;
-    user_designation.textContent = item.designation;
-    about_user.textContent = item.about;
-}
-
-setInterval(() => {
-    CurrentUser(initialValue++);
-    if (initialValue > reviews.length - 1) {
-        initialValue = 0;
-    }
-}, 5000)
-
+// review end
 
 // footer
 const foot = document.querySelector('#foot');

@@ -19,24 +19,25 @@ export const header = `<nav class="navbar center navbar-expand-lg">
                             <a href="about.html" class="nav-link text-dark">About us</a>
                         </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                services
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="human_resource.html">HR Services</a></li>
-                                <li><a class="dropdown-item" href="accounting.html">Accounting</a></li>
-                                <li><a class="dropdown-item" href="legal.html">Legal Adviser</a></li>
-                                <li><a class="dropdown-item" href="web_developement.html">Web Development</a></li>
-                                <li><a class="dropdown-item" href="social_media.html">Social Media Marketing</a></li>
-                            </ul>
+                    <li class="menu-item nav-item">
+                             <a class="nav-link text-dark">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="./human_resource.html">Human Resource</a></li>
+                            <li><a href="./social_media.html">Social Media Marketing</a></li>
+                            <li><a href="./web_developement.html">Web Development</a></li>
+                            <li><a href="./accounting.html">Accounting</a></li>
+                            <li><a href="./legal.html">Legal Associate</a></li>
+                        </ul>
+                    </li>
 
                         </li>
 
                         <li class="nav-item">
-                            <a href="blog.html" class="nav-link text-dark">Portfolio</a>
+                            <a href="portfolio.html" class="nav-link text-dark">Portfolio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="blog.html" class="nav-link text-dark">Blog</a>
                         </li>
 
                         <li class="nav-item">

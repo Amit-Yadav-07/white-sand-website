@@ -1,27 +1,15 @@
-import { header } from './header.js'
-import { footer } from './footer.js'
-import { blogItems } from './data.js'
-import { GetFullYear } from "./date.js";
+import { footer } from "./footer.js";
+import { header } from "./header.js";
+// console.log(footer);
 
 
-AOS.init();
+const head = document.querySelector('.header')
+head.innerHTML = header;
 
-const Head = document.querySelector('.header');
-// const blogContainer = document.querySelector('.blog-project-parent');
+
+// const blogContainer = document.querySelector('.blog-container');
+// console.log(blogContainer);
+
+
 const foot = document.querySelector('#foot');
-Head.innerHTML = header;
 foot.innerHTML = footer;
-
-// blogContainer.innerHTML = blogItems.map((blog) => {
-//     return `<div class="card blog-project-box">
-//                     <div class="blog-img-parent">
-//                         <img src=${blog.img} class="card-img-top" alt=${blog.disc}>
-//                     </div>
-//                     <div class="card-body">
-//                         <p class="card-text">${blog.disc}</p>
-//                     </div>
-//                 </div>`
-// }).join('')
-
-
-GetFullYear();

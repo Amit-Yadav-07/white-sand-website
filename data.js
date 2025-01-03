@@ -4,7 +4,7 @@ export let reviews = [
         id: 1,
         name: 'Oxford Electronics',
         designation: 'Web Development , Social Media Marketing',
-        img: './images/logos/oxford-logo.png',
+        img: './images/logos/oxford-logo-removebg-preview.png',
         about: "The team at The White Sand is incredibly supportive and very talented.They guided us through the entire process of our website as well as social media marketing, making it easy to implement new strategies.Highly recommend it!"
     },
 
@@ -12,7 +12,7 @@ export let reviews = [
         id: 2,
         name: 'Our Squad Group',
         designation: 'HR service , Social Media Marketing',
-        img: './images/logos/squad LOGO.png',
+        img: './images/logos/squad-LOGO.png',
         about: "Thanks to The White Sand, we’ve expanded our client base significantly. Their marketing techniques and graphic designs are spot on, allowing us to target the right audience effectively. If you are looking for a company that will help you grow then The White Sand is your go to partner."
     },
 
@@ -20,7 +20,7 @@ export let reviews = [
         id: 3,
         name: 'Versatile Chikankari',
         designation: 'Social Media Marketing',
-        img: './images/logos/KARIGARI_logo.png',
+        img: './images/logos/KARIGARI_logo-removebg-preview.png',
         about: "Our partnership with The White Sand has been a game-changer. Their team has provided proactive support in social media marketing to grow my business and has helped us with other business related issues too. I would highly recommend them."
     },
 
@@ -28,7 +28,7 @@ export let reviews = [
         id: 4,
         name: 'Phool Pati',
         designation: 'HR service , Social Media Marketing',
-        img: './images/logos/PHOOL PATTI LOGO.png',
+        img: './images/logos/PHOOL-PATTI-LOGO.png',
         about: "The White Sand offers great HR and social media marketing services. For my company, they delivered exceptional strategies and impactful campaigns. I am very pleased with the results."
     },
     {
@@ -42,10 +42,112 @@ export let reviews = [
         id: 6,
         name: 'RG Lite',
         designation: 'Social Media Marketing',
-        img: './images/logos/rg-lite-logo.png',
-        about: "I am happy with the social media marketing services provided by The White Sand. Their strategies have significantly increased the visibility of my electronics business, helping us reach a much broader audience. Their expertise has truly made a difference in our online presence. I highly recommend The White Sand to anyone looking to grow their business through social media marketing."
+        img: './images/logos/rg-lite-logo-removebg-preview.png',
+        about: "I am happy with the social media marketing services provided by The White Sand. Their strategies have significantly increased the visibility of my electronics business, helping us reach a much broader audience. I highly recommend The White Sand to anyone looking to grow their business through social media marketing."
+    },
+    {
+        id: 7,
+        name: 'Mr FunBun bakers',
+        designation: 'Social Media Marketing',
+        img: './images/logos/Funbun-logo.png',
+        about: "The white sand is handling my Social Media Account.Their service is highly appreciable. The team and their expertise is bringing revenue to my business."
+    },
+    {
+        id: 8,
+        name: 'Candy N Kizzie ',
+        designation: 'Social Media Marketing',
+        img: './images/logos/Candy&Kizzie-logo.png',
+        about: "The white Sand gives excellent social media Marketing services and client satisfactory results.They have a professional team for all your social media services needs.I am very satisfied with their work and will highly recommend them"
     },
 ];
+
+
+export const brandLogo = [
+
+    {
+        id: 1,
+        image: './images/logos/Candy&Kizzie-logo.png'
+    },
+    {
+        id: 2,
+        image: './images/logos/Funbun-logo.png'
+    },
+    {
+        id: 3,
+        image: './images/logos/KARIGARI_logo-removebg-preview.png'
+    },
+    {
+        id: 4,
+        image: './images/logos/National Samosa Compnay AI WITH R.png'
+    },
+    {
+        id: 5,
+        image: './images/logos/oxford-logo-removebg-preview.png'
+    },
+    {
+        id: 6,
+        image: './images/logos/Parambhoj-logo.png'
+    },
+    {
+        id: 7,
+        image: './images/logos/Paratha-Gallery-logo.png'
+    },
+    {
+        id: 8,
+        image: './images/logos/PHOOL-PATTI-LOGO.png'
+    },
+    {
+        id: 9,
+        image: './images/logos/rg-lite-logo-removebg-preview.png'
+    },
+    {
+        id: 10,
+        image: './images/logos/squad-LOGO.png'
+    },
+    {
+        id: 11,
+        image: './images/logos/Funbun-logo.png'
+    },
+    {
+        id: 12,
+        image: './images/logos/surya-logo.png'
+    },
+    {
+        id: 13,
+        image: './images/logos/National-Samosa-Compnay.png'
+    },
+    {
+        id: 14,
+        image: './images/logos/KARIGARI_logo-removebg-preview.png'
+    },
+    {
+        id: 15,
+        image: './images/logos/Funbun-logo.png'
+    },
+    {
+        id: 16,
+        image: './images/logos/oxford-logo-removebg-preview.png'
+    },
+    {
+        id: 17,
+        image: './images/logos/Candy&Kizzie-logo.png'
+    },
+    {
+        id: 18,
+        image: './images/logos/Funbun-logo.png'
+    },
+    {
+        id: 19,
+        image: './images/logos/KARIGARI_logo-removebg-preview.png'
+    },
+    {
+        id: 20,
+        image: './images/logos/Paratha-Gallery-logo.png'
+    },
+
+]
+
+
 
 
 
@@ -68,10 +170,24 @@ export const OurTeam = [
         designation: 'Graphic Designer',
 
     },
+    {
+        image: './images/team-pics/janahavi.jpg',
+        name: 'Janhavi Singh',
+        designation: 'Social Media Manager',
+
+    },
+    {
+        image: './images/team-pics/ankita-maurya.jpeg',
+        name: 'Ankita maurya',
+        designation: 'Accountant',
+    },
+    {
+        image: './images/team-pics/Mantasha.png',
+        name: 'Mantasha Noor',
+        designation: 'Sales Executive',
+
+    },
 ]
-
-
-
 
 export const ourServices = [
 
@@ -109,37 +225,6 @@ export const ourServices = [
 ]
 
 
-// export const processSection = [
-//     {
-//         icon: 'fa-magnifying-glass-chart',
-//         head: 'Analyze',
-//         points: 'Ideas are the first step toward growth. We put all the effort into making your idea into reality. This involves analyzing market, competitor activities and identifying areas where your company can expand.'
-
-//     },
-//     {
-//         icon: 'fa-wrench',
-//         head: 'Preparation',
-//         points: "Once the goal is identified it's time to prepare a strategic plan. This includes developing a clear business strategy performing deep market analysis and finding potential financial solutions."
-
-//     },
-
-//     {
-//         icon: 'fa-sliders',
-//         head: 'Implementation',
-//         points: "It's time to put the plan into action. We break into unexplored markets  and conduct  Project assessments for effective implementation."
-
-//     },
-
-//     {
-//         icon: 'fa-hand-holding-heart',
-//         head: 'Execution',
-//         points: "After implementation, we will focus on smooth operations for better results. We monitor progress, make adjustments, and ensure systematic workflow. Continuous evaluation is conducted for optimized growth."
-
-//     },
-
-
-
-// ]
 
 
 export const serviceDetails = [
@@ -263,12 +348,13 @@ export const Faqs = [
         questions: "What types of websites do We specialize in ?",
         answers: "We specialize in landing pages, corporate portfolio, and e-commerce websites. We create responsive, user- friendly websites designed for optimal performance and a seamless user experience."
     },
-    // {
-    //     openid: 'collapseFive',
-    //     questions: "What legal services do We offer ?",
-    //     answers: " We offer contract drafting, Legal Consultation, Income Tax Law, Business Incorporation & Formation and Labor law."
-    // },
-
-
 
 ]
+
+    // .blogContent = [
+    //     {
+    //         id: 1,
+    //         img: 'https://images.pexels.com/photos/19319998/pexels-photo-19319998/free-photo-of-rooftops-in-snow-at-dawn.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
+
+    //     }
+    // ]
